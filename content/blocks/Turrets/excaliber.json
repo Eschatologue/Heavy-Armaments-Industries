@@ -1,0 +1,53 @@
+{
+	"type": "ItemTurret",
+	"name": "Excaliber",
+	"description": "Named for its long barrel and sword-like shape ,this powerful rapid fire cannon can fire either Armor Piercing or High-Explosives, it is indeed a kingmaker.",
+	
+	"size": 2,
+	"health": 1000,
+	"reload": 40,
+	"recoil" : 5,
+	"restitution" : 0.5,
+	"range": 170,
+	"maxAmmo": 5,
+	"shootSound" : "bigshot",
+	"ammoUseEffect": "shellEjectBig",
+	"buildCostMultiplier" : 1.5,
+	"lifetime": 5,
+	"inaccuracy": 2,
+	"rotatespeed": 10,
+	
+	"ammo":	{
+		"blast-compound": {
+			"type" : "FlakBulletType",
+			"speed": 10.0,
+			"damage": 65,
+			"BulletHeight" : 20,
+			"splashDamageRadius" : 50,
+			"splashDamage" : 55,
+			"hitEffect": "blastExplosion"
+			"shootEffect": "producesmoke",
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4,
+			}
+		"titanium": {
+			"type" : "BasicBulletType",
+			"speed": 15.0,
+			"damage": 70,
+			"bulletHeight" : 30,
+			"hitEffect": "blastExplosion"
+			"shootEffect": "producesmoke",
+			"pierce": true,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 3,
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "graphite", "amount": 350 },
+		{ "item": "surge-alloy", "amount": 50 },
+        { "item": "titanium", "amount": 250 },
+	],
+	"category": "turret",
+	"research": "ripple"
+}

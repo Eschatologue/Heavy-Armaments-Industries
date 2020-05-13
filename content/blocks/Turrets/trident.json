@@ -1,0 +1,43 @@
+{
+	"type": "ItemTurret",
+	"name": "Trident",
+	"description": "Named for its 3 barreled setup, this cannon is capable of delivering 3 depeleted thorium shell to its target simutaniously. It is said to have been manufactured by the cyclopes",
+	
+	"size": 3,
+	"health": 1200,
+	"range": 220,
+	"shots" : 3,
+	"recoil" : 5,
+	"reload": 45,
+	"restitution" : 0.5, 
+	"buildCostMultiplier" : 1.5,
+	"shootSound" : "bigshot",
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 0,
+	"rotatespeed": 20,
+	
+	"ammo": {
+		"thorium": {
+			"type" : "BasicBulletType",
+			"speed": 15.0,
+			"damage": 60,
+			"bulletHeight" : 30,
+			"hitEffect": "blastExplosion"
+			"shootEffect": "producesmoke",
+			"pierce": true,
+			"splashDamageRadius" : 50,
+			"splashDamage" : 55,
+			"hitEffect": "blastExplosion"
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 3,
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 750 },
+		{ "item": "graphite", "amount": 550 },
+		{ "item": "thorium", "amount": 250 },
+        { "item": "titanium", "amount": 350 },
+	],
+	"category": "turret",
+	"research": "excaliber"
+}

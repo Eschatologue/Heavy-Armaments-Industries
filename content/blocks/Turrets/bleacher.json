@@ -1,0 +1,65 @@
+{
+	"type": "ItemTurret",
+	"name": "Bleacher",
+	"description": "Fires streams of bullets at targets with a terrifying rate of fire, consumes a lot of ammo",
+	
+	"size": 3,
+	"health": 900,
+	"range": 220,
+	"shots" : 2
+	"recoil" : 4,
+	"reload": 0.25,
+	"restitution" : 0.8, 
+	"burstspacing": 2,
+	"buildCostMultiplier" : 1.5,
+	"xRand" : 3,
+	"ammoUseEffect": "shootBig",
+	"inaccuracy": 5,
+	"rotatespeed": 20,
+	
+	"ammo": {
+		"silicon": {
+			"type" : "MissileBulletType",
+			"speed": 10.0,
+			"cone" : 30,
+			"damage": 12,
+			"reload": 0.3,
+			"bulletHeight": 10,
+			"shootEffect": "shellEjectSmall",
+			"smokeEffect": "mineHuge",
+			"homingPower": 0.5,
+			"ammoMultiplier": 10, 
+			}
+		"titanium": { 
+			"type" : "BasicBulletType",
+			"speed": 12.0,
+			"damage": 8,
+			"reload": 0.2,
+			"bulletHeight": 15,
+			"shootEffect": "shellEjectSmall",
+			"pierce": true,
+			"smokeEffect": "mineHuge",
+			"ammoMultiplier": 8, 
+			}	
+		"plastanium": { 
+			"type" : "FlakBulletType",
+			"splashDamageRadius" : 4,
+			"splashDamage" : 4,
+			"speed": 8.0,
+			"damage": 5,
+			"reload": 0.2,
+			"bulletWidth": 5,
+			"bulletHeight": 12,
+			"shootEffect": "shellEjectBig",
+			"smokeEffect": "mineHuge",
+			"ammoMultiplier": 10, 
+			}	
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 300 },
+		{ "item": "plastanium", "amount": 400 },
+		{ "item": "graphite", "amount": 250 },
+	],
+	"category": "turret",
+	"research": "cyclone"
+}
