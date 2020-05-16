@@ -18,7 +18,7 @@
 	"restitution" : 0.8, 
 	"rotatespeed": 15,
 //Build Cost	
-	"buildCostMultiplier" : 1.5,
+	"buildCostMultiplier" : 0.5,
 //Misc	
 	"xRand" : 3,
 //Ammo	
