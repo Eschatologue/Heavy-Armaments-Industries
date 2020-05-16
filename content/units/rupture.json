@@ -1,0 +1,41 @@
+{
+	"type": "flyingUnit",
+	"name": "Rupture",
+	"description": "Flying fast suicide unit, basically a flying crawler.",
+	
+	"health": 120,
+	"maxVelocity": 2.5,
+	"speed": 4,
+	"drag": 0.05,
+	"mass": 5,
+	"rotatespeed": 1,
+	
+	"flying" : true,
+
+	"hitsize": 25,
+	"shootCone": 360,
+	
+	"engineOffset": 14,
+	"engineSize": 4,
+	
+	"range": 20,
+	"weapon": {
+	"name": "yes",
+	"range": 20,
+		"length": 15, 
+		"shootcone": 360,
+		"width": 0.1,
+		"reload": 10,
+		"alternate": true,
+		"shootSound": "shootBig",
+		"bullet":{
+             "instantDisappear": true,
+             "killShooter": true,
+             "speed": 1.5,
+             "splashDamageRadius": 50,
+             "splashDamage": 105,
+             "hitEffect": "commandSend",
+             "despawnEffect": "commandSend"   
+		}
+	}
+}

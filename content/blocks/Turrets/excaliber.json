@@ -2,24 +2,27 @@
 	"type": "ItemTurret",
 	"name": "Excaliber",
 	"description": "Named for its long barrel and sword-like shape ,this powerful rapid fire cannon can fire either Armor Piercing or High-Explosives, it is indeed a kingmaker.",
-	
+//Basic	
 	"size": 2,
 	"health": 1000,
 	"reload": 40,
-	"range": 170,
+	"range": 180,
 	"maxAmmo": 10,
 	"lifetime": 5,
 	"inaccuracy": 2,
-	
+//Targeting	
+	"targetAir" : true, 
+	"targetGround" : true, 
+//Recoil	
 	"recoil" : 5,
 	"restitution" : 0.5,
 	"rotatespeed": 10,
-	
+//Sound	
 	"shootSound" : "bigshot",
 	"ammoUseEffect": "shellEjectBig",
-	
+//Build Cost	
 	"buildCostMultiplier" : 1.5,
-	
+//Ammo 	
 	"ammo":	{
 		"blast-compound": {
 			"type" : "FlakBulletType",
@@ -47,7 +50,7 @@
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 250 },
-		{ "item": "graphite", "amount": 350 },
+		{ "item": "graphite", "amount": 550 },
 		{ "item": "surge-alloy", "amount": 50 },
         { "item": "titanium", "amount": 250 },
 	],

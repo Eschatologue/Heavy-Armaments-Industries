@@ -1,0 +1,24 @@
+{
+	"type": "unitFactory",
+	"name": "Rupture Factory",
+	"description": "Constructs Ruptures, a fast anti-building flying suicide units.",
+	"unitType": "rupture",
+	"produceTime": 350,
+	"size": 2,
+	"maxSpawn": 6,
+	"consumes": {
+		"power": 2,
+		"items": {
+		"items": [
+            {"item": "blast-compound", "amount": 30},
+			{"item": "graphite", "amount": 25},
+      ]
+		}
+  },
+	"requirements": [
+		{"item": "lead", "amount": 130},
+		{"item": "silicon", "amount" : 140}
+	],
+	"category": "units",
+	"research": "ghoul-factory"
+}

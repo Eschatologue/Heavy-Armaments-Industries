@@ -1,22 +1,28 @@
 {
 	"type": "ItemTurret",
 	"name": "Deadeye",
-	"description": "Ferociously accurate long range turret, capable of devastating most enemy in a single shot. Highly experimental and VERY expensive",
-	
+	"description": "Ferociously accurate long range turret, capable of devastating most ground unit in a single shot. Highly experimental and VERY expensive",
+//Basic	
 	"size": 3,
 	"health": 650,
 	"reload": 250,
-	"buildCostMultiplier" : 0.5,
-	"recoil" : 18,
-	"restitution" : 0.1,
 	"range": 700,
 	"maxAmmo": 3,
-	"shootSound" : "DeadeyeShoot",
-	"ammoUseEffect": "shellEjectBig",
 	"lifetime": 5,
 	"inaccuracy": 0,
+//Targett	
+	"targetAir" : false, 
+	"targetGround" : true, 
+//Recoil	
+	"recoil" : 18,
+	"restitution" : 0.1,
 	"rotatespeed": 0.5,
-	
+//Sound	
+	"shootSound" : "DeadeyeShoot",
+	"ammoUseEffect": "shellEjectBig",
+//Build Cost
+	"buildCostMultiplier" : 0.5,	
+//Ammo	
 	"ammo":	{
 		"titanium": {
 			"type" : "BasicBulletType",
@@ -26,7 +32,7 @@
 			"bulletHeight" : 65,
 			"hitEffect": "blastExplosion"
 			"shootEffect": "producesmoke",
-			"splashDamageRadius" : 6,
+			"splashDamageRadius" : 10,
 			"pierce": true,
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 2,
@@ -39,5 +45,5 @@
         { "item": "titanium", "amount": 2000 },
 	],
 	"category": "turret",
-	"research": "excaliber"
+	"research": "trident"
 }

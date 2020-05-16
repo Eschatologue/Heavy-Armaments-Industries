@@ -1,34 +1,39 @@
 {
 	"type": "ItemTurret",
 	"name": "Bleacher",
-	"description": "Bleaches the sky with streams of bullets at target with a terrifying rate of fire, consumes a lot of ammo",
-	
+	"description": "Fires streams of bullets at target with a terrifying rate of fire, consumes a lot of ammo. The sky will be bleached with bullets",
+//Basic	
 	"size": 3,
 	"health": 900,
-	"range": 220,
-	"shots" : 2
-	"recoil" : 4,
 	"reload": 0.25,
-	"restitution" : 0.8, 
-	"burstspacing": 5,
-	"buildCostMultiplier" : 1.5,
-	"xRand" : 3,
-	"ammoUseEffect": "shootBig",
+	"range": 220,
+	"lifetime": 5,
 	"inaccuracy": 6,
-	"rotatespeed": 20,
-	
+	"shots" : 2
+//Targeting	
+	"targetAir" : true, 
+	"targetGround" : true, 
+//Recoil	
+	"recoil" : 4,
+	"restitution" : 0.8, 
+	"rotatespeed": 15,
+//Build Cost	
+	"buildCostMultiplier" : 1.5,
+//Misc	
+	"xRand" : 3,
+//Ammo	
 	"ammo": {
 		"silicon": {
 			"type" : "MissileBulletType",
 			"speed": 10.0,
-			"cone" : 30,
+			"cone" : 120,
 			"damage": 12,
 			"reload": 0.3,
 			"bulletHeight": 10,
 			"shootEffect": "shellEjectSmall",
 			"smokeEffect": "mineHuge",
-			"homingPower": 0.5,
-			"ammoMultiplier": 10, 
+			"homingPower": 0.3,
+			"ammoMultiplier": 15, 
 			}
 		"titanium": { 
 			"type" : "BasicBulletType",
@@ -39,20 +44,19 @@
 			"shootEffect": "shellEjectSmall",
 			"pierce": true,
 			"smokeEffect": "mineHuge",
-			"ammoMultiplier": 8, 
+			"ammoMultiplier": 12, 
 			}	
-		"plastanium": { 
-			"type" : "FlakBulletType",
-			"splashDamageRadius" : 4,
-			"splashDamage" : 4,
+		"blast-compound": { 
+			"type" : "ArtilleryBulletType",
+			"splashDamageRadius" : 8,
+			"splashDamage" : 10,
 			"speed": 8.0,
-			"damage": 5,
+			"damage": 12,
 			"reload": 0.2,
-			"bulletWidth": 5,
-			"bulletHeight": 12,
+			"bulletHeight": 8,
 			"shootEffect": "shellEjectBig",
 			"smokeEffect": "mineHuge",
-			"ammoMultiplier": 10, 
+			"ammoMultiplier": 15, 
 			}	
 	},
 	"requirements": [

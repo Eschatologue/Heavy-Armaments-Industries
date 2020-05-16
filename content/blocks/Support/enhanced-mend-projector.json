@@ -1,27 +1,27 @@
 {
 	"name": "Enhanced Mend Projector",
-	"description": "Enhanced version of mend projector, heals most blocks almost instantly",
+	"description": "Enhanced version of mend projector, heals most blocks almost instantly, cannot be boosted",
 	"type": "MendProjector"
-	"health": 1500,
+	"health": 1000,
 	"size": 3,
 	"range": 150,
-	"reload": 200
+	"reload": 150
 	"phase": "#720874",
 	"color": "#17C50B",
 	"healPercent": 60,
 	"consumes": {
-		"power": 9.5
+		"power": 20,
 		"items": {
-			"items": [ { "amount": 1, "item": "thorium" } ],
-			"booster": true,
-			"optional": true
+			"items": [ { "amount": 5, "item": "phase-fabric" } ],
+			"optional": false
 		}
 	},
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 200 },
-		{ "item": "silicon", "amount": 600 },
-		{ "item": "titanium", "amount": 900 }
+		{ "item": "phase-fabric", "amount": 600 },
+		{ "item": "silicon", "amount": 1200 },
+		{ "item": "titanium", "amount": 1500 }
 	],
 	"category": "effect"
 	"research": "mend-projector"
+
 }
