@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Bleacher",
-	"description": "Fires streams of bullets at targets with a terrifying rate of fire, consumes a lot of ammo",
+	"description": "Bleaches the sky with streams of bullets at target with a terrifying rate of fire, consumes a lot of ammo",
 	
 	"size": 3,
 	"health": 900,
@@ -10,11 +10,11 @@
 	"recoil" : 4,
 	"reload": 0.25,
 	"restitution" : 0.8, 
-	"burstspacing": 2,
+	"burstspacing": 5,
 	"buildCostMultiplier" : 1.5,
 	"xRand" : 3,
 	"ammoUseEffect": "shootBig",
-	"inaccuracy": 5,
+	"inaccuracy": 6,
 	"rotatespeed": 20,
 	
 	"ammo": {
@@ -56,9 +56,9 @@
 			}	
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 300 },
-		{ "item": "plastanium", "amount": 400 },
-		{ "item": "graphite", "amount": 250 },
+		{ "item": "titanium", "amount": 1300 },
+		{ "item": "plastanium", "amount": 1400 },
+		{ "item": "graphite", "amount": 1200 },
 	],
 	"category": "turret",
 	"research": "cyclone"

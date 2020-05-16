@@ -6,16 +6,19 @@
 	"size": 2,
 	"health": 1000,
 	"reload": 40,
-	"recoil" : 5,
-	"restitution" : 0.5,
 	"range": 170,
-	"maxAmmo": 5,
-	"shootSound" : "bigshot",
-	"ammoUseEffect": "shellEjectBig",
-	"buildCostMultiplier" : 1.5,
+	"maxAmmo": 10,
 	"lifetime": 5,
 	"inaccuracy": 2,
+	
+	"recoil" : 5,
+	"restitution" : 0.5,
 	"rotatespeed": 10,
+	
+	"shootSound" : "bigshot",
+	"ammoUseEffect": "shellEjectBig",
+	
+	"buildCostMultiplier" : 1.5,
 	
 	"ammo":	{
 		"blast-compound": {

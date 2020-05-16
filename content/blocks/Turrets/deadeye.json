@@ -9,7 +9,7 @@
 	"buildCostMultiplier" : 0.5,
 	"recoil" : 18,
 	"restitution" : 0.1,
-	"range": 650,
+	"range": 700,
 	"maxAmmo": 3,
 	"shootSound" : "DeadeyeShoot",
 	"ammoUseEffect": "shellEjectBig",
@@ -20,7 +20,7 @@
 	"ammo":	{
 		"titanium": {
 			"type" : "BasicBulletType",
-			"speed": 55.0,
+			"speed": 50.0,
 			"damage": 2500,
 			"splashDamage" : 2000
 			"bulletHeight" : 65,
@@ -33,10 +33,10 @@
 		}
 	},
 	"requirements": [
-		{ "item": "thorium", "amount": 1050 },
-		{ "item": "graphite", "amount": 1250 },
-		{ "item": "surge-alloy", "amount": 1100 },
-        { "item": "titanium", "amount": 1000 },
+		{ "item": "thorium", "amount": 1550 },
+		{ "item": "graphite", "amount": 1350 },
+		{ "item": "surge-alloy", "amount": 1500 },
+        { "item": "titanium", "amount": 2000 },
 	],
 	"category": "turret",
 	"research": "excaliber"
