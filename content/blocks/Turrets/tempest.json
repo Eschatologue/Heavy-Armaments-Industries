@@ -1,0 +1,67 @@
+{
+	"type": "ItemTurret",
+	"name": "Tempest",
+	"description": "Shotgun shells, shot at gatling speed to ensure inevetable devastation upon the receiving end",
+
+	"size": 3,
+	"health": 1500,
+	"reload": 4,
+	"range": 200,
+	"maxAmmo": 20,
+	"lifetime": 2,
+	"inaccuracy": 5,
+	"shots" : 8,
+	
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 0.08,
+	"spread" : 1,
+
+	"recoil" : 8,
+	"restitution" : 0.6, 
+	"rotatespeed": 4,
+
+	"shootSound" : "shotgun",
+	"ammoUseEffect": "shellEjectBig",
+
+	"xRand" : 3,
+	"ammoPerShot" : 2,
+
+	"ammo": {
+		"titanium": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"speed": 8.0,
+			"damage": 10,
+			"bulletHeight" : 12,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4,
+			"knockback" : 2
+		},
+		"blast-compound": {
+			"type": "BasicBulletType",
+			"trailEffect" :"artilleryTrail",
+			"speed": 9.0,
+			"damage": 15,
+			"bulletHeight" : 12,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4,
+			"splashDamageRadius" : 30,
+			"splashDamage" : 3
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 265 },
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "graphite", "amount": 240},
+		{ "item": "titanium", "amount": 225}
+	],
+	"category": "turret",
+	"research": "breachlock"
+}
