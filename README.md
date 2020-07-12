@@ -7,7 +7,7 @@ That said, without adding new materials or resource, this mod pretty much works 
 This is a ***Prototype*** version of **Heavy Armaments**, I will constantly make changes within these, so be careful with updating as it might ruin your savefiles. 
 You can get the fully furnished mod at steam workshops.
 
-Click the here!
+Click here!
 
 [<img src="https://github.com/ItzAlen/Heavy-Armaments/blob/master/Icons/Steam-Workshop%20200px.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2089324405)
 
