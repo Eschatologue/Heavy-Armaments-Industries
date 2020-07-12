@@ -8,7 +8,7 @@ This is a ***Prototype*** version of **Heavy Armaments**, I will constantly make
 You can get the fully furnished mod at steam workshops.
 
 [<img src="https://github.com/ItzAlen/Heavy-Armaments/blob/master/Icons/Steam-Workshop%20200px.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2089324405)
-### Software Used
+## Software Used
 - **Inkscape** (For logo)
 - **Visual Studio Code** (Editing JSON)
 - **Piskel** (Making Sprites)
