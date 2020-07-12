@@ -1,0 +1,51 @@
+{
+	"type": "ItemTurret",
+	"name": "Blockhouse",
+	"description": "Sometimes all you is a bigger barrel. A direct upgrade from its predecessor, slower rate of fire, but double the pellet count",
+
+	"size": 2,
+	"health": 280,
+	"reload": 75,
+	"range": 150,
+	"maxAmmo": 12,
+	"lifetime": 2,
+	"inaccuracy": 5,
+	"shots" : 32,
+	
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 0.08,
+	"spread" : 1,
+
+	"recoil" : 8,
+	"restitution" : 0.6, 
+	"rotatespeed": 4,
+
+	"shootSound" : "shotgun",
+	"ammoUseEffect": "shellEjectBig",
+
+	"xRand" : 1,
+	"ammoPerShot" : 4,
+
+	"ammo": {
+		"lead": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"speed": 8.0,
+			"damage": 8,
+			"bulletHeight" : 12,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 55 },
+		{ "item": "copper", "amount": 50 },
+		{ "item": "graphite", "amount": 25}
+	],
+	"category": "turret",
+	"research": "trenchgrade"
+}

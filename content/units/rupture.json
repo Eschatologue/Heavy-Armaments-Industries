@@ -4,7 +4,7 @@
 	"description": "Flying fast suicide unit, basically a flying crawler.",
 	
 	"health": 120,
-	"maxVelocity": 2.5,
+	"maxVelocity": 3,
 	"speed": 4,
 	"drag": 0.05,
 	"mass": 5,
@@ -18,10 +18,10 @@
 	"engineOffset": 14,
 	"engineSize": 4,
 	
-	"range": 20,
+	"range": 5,
 	"weapon": {
 	"name": "yes",
-	"range": 20,
+	"range": 5,
 		"length": 15, 
 		"shootcone": 360,
 		"width": 0.1,
@@ -32,8 +32,8 @@
              "instantDisappear": true,
              "killShooter": true,
              "speed": 1.5,
-             "splashDamageRadius": 50,
-             "splashDamage": 105,
+             "splashDamageRadius": 55,
+             "splashDamage": 155,
              "hitEffect": "commandSend",
              "despawnEffect": "commandSend"   
 		}

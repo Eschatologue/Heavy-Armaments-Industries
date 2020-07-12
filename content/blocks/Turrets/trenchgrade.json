@@ -1,0 +1,49 @@
+{
+	"type": "ItemTurret",
+	"name": "Trenchgrade",
+	"description": "Don,t let the looks fool you, despite its age, this old dog still pack some serious punch. Fires oversized shotgun shells that wrecks havoc upon close enemies",
+
+	"size": 1,
+	"health": 140,
+	"reload": 50,
+	"range": 120,
+	"maxAmmo": 5,
+	"lifetime": 3,
+	"inaccuracy": 8,
+	"shots" : 16,
+	
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 0.08,
+	"spread" : 1,
+	
+	"recoil" : 3,
+	"restitution" : 0.5, 
+	"rotatespeed": 5,
+	
+	"shootSound" : "shotgun",
+	"ammoUseEffect": "shellEjectBig",
+
+	"xRand" : 1,
+
+	"ammo": {
+		"lead": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"speed": 6.0,
+			"damage": 5,
+			"bulletHeight" : 10,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 45 },
+		{ "item": "copper", "amount": 10 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

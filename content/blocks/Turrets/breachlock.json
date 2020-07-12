@@ -1,0 +1,51 @@
+{
+	"type": "ItemTurret",
+	"name": "Breachlock",
+	"description": "Slighly more modern version of its predecessor, its reduction in pellet counts allow it to operate at higher rate of fire and longer range ",
+
+	"size": 2,
+	"health": 240,
+	"reload": 25,
+	"range": 200,
+	"maxAmmo": 20,
+	"lifetime": 2,
+	"inaccuracy": 5,
+	"shots" : 12,
+	
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 0.08,
+	"spread" : 1,
+
+	"recoil" : 8,
+	"restitution" : 0.6, 
+	"rotatespeed": 4,
+
+	"shootSound" : "shotgun",
+	"ammoUseEffect": "shellEjectBig",
+
+	"xRand" : 1,
+	"ammoPerShot" : 2,
+
+	"ammo": {
+		"lead": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"speed": 8.0,
+			"damage": 8,
+			"bulletHeight" : 12,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 65 },
+		{ "item": "copper", "amount": 50 },
+		{ "item": "graphite", "amount": 40}
+	],
+	"category": "turret",
+	"research": "trenchgrade"
+}

@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Trio",
-	"description": "Upgraded version of Duo, with an extra barrel for increased firepower!"
+	"description": "Upgraded version of Duo, with an extra barrel for increased firepower!",
 	
 	"size": 1,
 	"health": 250,
@@ -18,12 +18,12 @@
 		"copper": "standardCopper",
 		"graphite": "standardDense",
 		"pyratite": "standardIncendiary",
-		"silicon": "standardHoming",
+		"silicon": "standardHoming"
 		},
 		
 	"requirements": [
 		{ "item": "copper", "amount": 35 },
-		{ "item": "lead", "amount": 15 },
+		{ "item": "lead", "amount": 15 }
 	],
 	"category": "turret",
 	"research": "duo"

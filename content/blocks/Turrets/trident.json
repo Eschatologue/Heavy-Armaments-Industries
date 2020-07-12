@@ -1,50 +1,54 @@
 {
-	"type": "ItemTurret",
+	"type": "BurstTurret",
 	"name": "Trident",
-	"description": "Named for its 3 barreled setup, this cannon is capable of delivering 3 penetrating thorium shell to its target simutaniously. It is said to have been manufactured by the cyclopes",
-//Basic	
+	"description": "Named after its 3 barrel, this turret fires 3 thorium shells at a short burst to ensure its target demise. The Cyclopes finest engineering yet",
+
 	"size": 3,
 	"health": 1200,
-	"reload": 55,
-	"range": 220,
-	"maxAmmo": 5,
+	"burstSpacing": 7,
+	"reload" : 70,
+	"range": 200,
+	"maxAmmo": 30,
 	"lifetime": 5,
-	"inaccuracy": 2,
+	"inaccuracy": 5,
 	"shots" : 3,
-//Targeting
+
 	"targetAir" : true, 
-	"targetGround" : true, 
-//Recoil	
-	"recoil" : 5,
+	"targetGround" : true,
+	
+	"recoil" : 3,
 	"restitution" : 0.5, 
-	"rotatespeed": 8,
-//Sound	
+	"rotatespeed": 7,
+
 	"shootSound" : "bigshot",
 	"ammoUseEffect": "shellEjectBig",
-//Build Cost	
+
 	"buildCostMultiplier" : 1.5,
-//Ammo	
+	
+	"xRand" : 3,
+	"ammoPerShot" : 6,
+	"length" : 30,
+
 	"ammo": {
 		"thorium": {
 			"type" : "BasicBulletType",
 			"speed": 15.0,
-			"damage": 40,
+			"damage": 45,
 			"bulletHeight" : 30,
-			"hitEffect": "blastExplosion"
+			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"pierce": true,
-			"splashDamageRadius" : 30,
-			"splashDamage" : 45,
-			"hitEffect": "blastExplosion"
+			"splashDamageRadius" : 40,
+			"splashDamage" : 35,
 			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 3,
+			"ammoMultiplier": 3
 		}
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 750 },
 		{ "item": "graphite", "amount": 550 },
 		{ "item": "thorium", "amount": 250 },
-        { "item": "titanium", "amount": 350 },
+        { "item": "titanium", "amount": 350 }
 	],
 	"category": "turret",
 	"research": "excaliber"
