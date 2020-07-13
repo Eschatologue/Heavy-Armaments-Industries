@@ -44,7 +44,7 @@
 
 ## [1.3 Build 2] ##
 - The Heavy Armaments Logo is changed
-**- I forgotten what other changes I made due to not taking notes and busy online college schedule**
+- I forgotten what other changes I made due to not taking notes and busy online college schedule
 
 ## [1.3 Build 0] ##
 **1. Added a new 2 turrets!**
