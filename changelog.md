@@ -48,11 +48,11 @@
 
 ## [1.3 Build 0] ##
 **1. Added a new 2 turrets!**
-	- Trident, A triple barreled turret that fires 3 piercing thorium shells, can be researched from "excaliber" 
-	- Quadra, An upgraded version of trio, Firepower of 2 duo turrets in 1 package, can be researched from "trio" 
+- Trident, A triple barreled turret that fires 3 piercing thorium shells, can be researched from "excaliber" 
+- Quadra, An upgraded version of trio, Firepower of 2 duo turrets in 1 package, can be researched from "trio" 
 
 **2. Added a new unit & factory!**
-	- Rupture, A fast flying suicide unit, basically a faster crawler that flies. Use this with command center for a deadly results can be researched from "ghoul bomber" 
+- Rupture, A fast flying suicide unit, basically a faster crawler that flies. Use this with command center for a deadly results can be researched from "ghoul bomber" 
 
 **3. Turret Changes :**
 - Bleacher : 
@@ -95,10 +95,10 @@
 
 ***Changed the mod description on steam workshop***
 
-## [1.1 Build 1] ## 9-5-2020
+## [1.1 Build 1] ## 
 1. Added a new turret : **Deadeye**
 	- **Deadeye** is a VERY expensive turret that has a very long range and incredible accuracy, the embodiment of a "sniper"
 2. Balancing some of the turret
 
-## [1.0] ## 8-5-2020
+## [1.0] ## 
 Heavy Armaments mod is released with only 2 turret and 1 mender
