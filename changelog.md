@@ -1,4 +1,8 @@
 ## Changelog ##
+### [1.4 Build 1]
+**New Turret**
+- Tempest
+	- An upgrade from breachlock with increase ROF and reduced pellets count
 ### [1.4] ###
 **1. Misc changes**
 
@@ -27,9 +31,9 @@
     - Rotate speed is increased to compensate for the reduction in bullet velocity
 
 **3. New Turrets**
-    - Trenchgrade : Shotgun stlyed close range turret that fires multiple pellets 
-    - Blockhouse : Direct upgrade from trenchgrade with increased pellet counts
-    - Breachlock : Direct upgrade from trenchgrade with increased rate of fire
+- Trenchgrade : Shotgun stlyed close range turret that fires multiple pellets 
+- Blockhouse : Direct upgrade from trenchgrade with increased pellet counts
+- Breachlock : Direct upgrade from trenchgrade with increased rate of fire
 
 ### [1.3 Build 3] ###
 **Turret Changes**
@@ -91,10 +95,10 @@
 
 ***Changed the mod description on steam workshop***
 
-### [1.1 Build 1] ### 
+### [1.1 Build 1] ### 9-5-2020
 1. Added a new turret : **Deadeye**
 	- **Deadeye** is a VERY expensive turret that has a very long range and incredible accuracy, the embodiment of a "sniper"
 2. Balancing some of the turret
 
-### [1.0] ### 
+### [1.0] ### 8-5-2020
 Heavy Armaments mod is released with only 2 turret and 1 mender
