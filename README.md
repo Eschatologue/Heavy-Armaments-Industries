@@ -9,7 +9,7 @@ You can get the fully furnished mod at steam workshops.
 
 See [Changelog](https://github.com/ItzAlen/Heavy-Armaments/blob/master/changelog.md) for more details
 
-Click here!
+  ↓ Click down here ↓
 
 [<img src="https://github.com/ItzAlen/Heavy-Armaments/blob/master/Icons/Steam-Workshop%20200px.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2089324405)
 
@@ -17,7 +17,7 @@ Click here!
 - **Inkscape** (For logo)
 - **Visual Studio Code** (Editing JSON)
 - **Piskel** (Making Sprites)
-- **Mindustry** (duh)
+
 
 
 
