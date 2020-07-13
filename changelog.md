@@ -20,7 +20,7 @@
 **New Turret**
 - Tempest
 	- An upgrade from breachlock with increase ROF and reduced pellets count
-## [1.4] 
+## [1.3 Build 4] 
 **1. Misc changes**
 
 - Tidied up the code, the mod will run better. Probably.... dunno, im still learning
