@@ -83,8 +83,8 @@
 	- Trio is an upgraded version of Duo with an extra barrel for more firepower! Cheap and gets the work done
 
 **2. Other Changes :**
-	- Deadeye now does a little bit more area damage to increase its piercing power
-	- Bleacher ammo multiplier is reduced
+- Deadeye now does a little bit more area damage to increase its piercing power
+- Bleacher ammo multiplier is reduced
 ## [1.1 Build 3] ## 
 1. Reduces Deadeye bullet speed from 65 b/s to 55b/s
 ## [1.1 Build 2] ## 
