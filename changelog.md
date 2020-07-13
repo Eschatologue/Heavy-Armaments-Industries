@@ -26,7 +26,7 @@
     - Ammo consumption is massively increased, now it'll consume 50 item instead of 1
     - Rotate speed is increased to compensate for the reduction in bullet velocity
 
-**1. New Turrets**
+**3. New Turrets**
     - Trenchgrade : Shotgun stlyed close range turret that fires multiple pellets 
     - Blockhouse : Direct upgrade from trenchgrade with increased pellet counts
     - Breachlock : Direct upgrade from trenchgrade with increased rate of fire
@@ -35,17 +35,18 @@
 **Turret Changes**
 - Excaliber 
     - Sprite has been changed
-    - New sfx
-    - Surge Alloy Cost is reduced from 50 > 10
+    - New **sfx**
+    - Surge Alloy Cost is reduced from **50 > 10**
 
 ### [1.3 Build 2] ###
 - The Heavy Armaments Logo is changed
-- I forgotten what other changes I made due to not taking notes and busy online college schedule
+**- I forgotten what other changes I made due to not taking notes and busy online college schedule**
 
 ### [1.3 Build 0] ###
 **1. Added a new 2 turrets!**
 	- Trident, A triple barreled turret that fires 3 piercing thorium shells, can be researched from "excaliber" 
 	- Quadra, An upgraded version of trio, Firepower of 2 duo turrets in 1 package, can be researched from "trio" 
+
 **2. Added a new unit & factory!**
 	- Rupture, A fast flying suicide unit, basically a faster crawler that flies. Use this with command center for a deadly results can be researched from "ghoul bomber" 
 
@@ -73,11 +74,11 @@
 	- Its power use massively increased
 
 ### [1.2 Build 0] ###
-1. New Turret:
+**1. New Turret:**
 - Trio
 	- Trio is an upgraded version of Duo with an extra barrel for more firepower! Cheap and gets the work done
 
-2. Other Changes :
+**2. Other Changes :**
 	- Deadeye now does a little bit more area damage to increase its piercing power
 	- Bleacher ammo multiplier is reduced
 ### [1.1 Build 3] ### 
@@ -91,8 +92,8 @@
 ***Changed the mod description on steam workshop***
 
 ### [1.1 Build 1] ### 
-1. Added a new turret : Deadeye
-	- Deadeye is a VERY expensive turret that has a very long range and incredible accuracy, the embodiment of a "sniper"
+1. Added a new turret : **Deadeye**
+	- **Deadeye** is a VERY expensive turret that has a very long range and incredible accuracy, the embodiment of a "sniper"
 2. Balancing some of the turret
 
 ### [1.0] ### 
