@@ -11,7 +11,7 @@
 		"items": {
 		"items": [
             {"item": "coal", "amount": 8},
-			{"item": "graphite", "amount": 5},
+			{"item": "graphite", "amount": 5}
       ]
 		}
   },

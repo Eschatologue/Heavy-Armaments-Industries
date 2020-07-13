@@ -1,5 +1,5 @@
 {
-	"type": "flyingUnit",
+	"type": "HoverUnit",
 	"name": "Rupture",
 	"description": "Flying fast suicide unit, basically a flying crawler.",
 	
@@ -27,15 +27,15 @@
 		"width": 0.1,
 		"reload": 10,
 		"alternate": true,
-		"shootSound": "shootBig",
+		"shootSound": "explosionbig",
 		"bullet":{
              "instantDisappear": true,
              "killShooter": true,
              "speed": 1.5,
              "splashDamageRadius": 55,
              "splashDamage": 155,
-             "hitEffect": "commandSend",
-             "despawnEffect": "commandSend"   
+             "hitEffect": "blastExplosion",
+             "despawnEffect": "blastsmoke "   
 		}
 	}
 }
