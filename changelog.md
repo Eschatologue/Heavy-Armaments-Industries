@@ -2,7 +2,7 @@
 ### [1.4 Build 1]
 **New Turret**
 - Tempest
-	- An upgrade from breachlock with increase ROF and reduced pellets count
+	- An upgrade from Breachlock with increase ROF and reduced pellets count
 ### [1.4] ###
 **1. Misc changes**
 
@@ -44,7 +44,7 @@
 
 ### [1.3 Build 2] ###
 - The Heavy Armaments Logo is changed
-**- I forgotten what other changes I made due to not taking notes and busy online college schedule**
+- I forgotten what other changes I made due to not taking notes and busy online college schedule
 
 ### [1.3 Build 0] ###
 **1. Added a new 2 turrets!**
@@ -95,10 +95,10 @@
 
 ***Changed the mod description on steam workshop***
 
-### [1.1 Build 1] ### 9-5-2020
+### [1.1 Build 1] ### 
 1. Added a new turret : **Deadeye**
 	- **Deadeye** is a VERY expensive turret that has a very long range and incredible accuracy, the embodiment of a "sniper"
 2. Balancing some of the turret
 
-### [1.0] ### 8-5-2020
+### [1.0] ### 
 Heavy Armaments mod is released with only 2 turret and 1 mender
