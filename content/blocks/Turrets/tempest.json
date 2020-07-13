@@ -4,17 +4,17 @@
 	"description": "Shotgun shells, shot at gatling speed to ensure inevetable devastation upon the receiving end",
 
 	"size": 3,
-	"health": 1500,
+	"health": 1200,
 	"reload": 4,
-	"range": 200,
-	"maxAmmo": 20,
-	"lifetime": 2,
+	"range": 220,
+	"maxAmmo": 40,
+	"lifetime": 1,
 	"inaccuracy": 5,
 	"shots" : 8,
 	
-	"targetAir" : false, 
+	"targetAir" : true, 
 	"targetGround" : true,
-	"shootCone" : 0.08,
+	"shootCone" : 1,
 	"spread" : 1,
 
 	"recoil" : 8,
@@ -25,35 +25,34 @@
 	"ammoUseEffect": "shellEjectBig",
 
 	"xRand" : 3,
-	"ammoPerShot" : 2,
+	"ammoPerShot" : 4,
 
 	"ammo": {
 		"titanium": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
 			"speed": 8.0,
 			"damage": 10,
 			"bulletHeight" : 12,
-			"hitEffect": "blastExplosion",
+			"hitEffect": "mineHuge",
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 4,
-			"knockback" : 2
+			"knockback" : 10
 		},
 		"blast-compound": {
 			"type": "BasicBulletType",
 			"trailEffect" :"artilleryTrail",
 			"speed": 9.0,
 			"damage": 15,
+			"splashDamage" : 10,
 			"bulletHeight" : 12,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 4,
-			"splashDamageRadius" : 30,
-			"splashDamage" : 3
+			"splashDamageRadius" : 32
 		}
 	},
 	"requirements": [

@@ -1,5 +1,22 @@
 # Changelog 
-## [1.4 Build 1]
+## [1.4 Build 0.2]
+**Balance Changes**
+- Tempest
+	- HP is reduced from 1500 > 1200
+	- Range is increased from 200 > 220
+	- Now Target Air
+	- Effects is changed
+	- Shootcone is increased from 0.08 > 1
+	- Ammo per-shot is increased from 2 > 4
+	- Max Ammo is increased from 20 > 40
+	- Titanium ammo Knockback is increased from 2 > 10
+	- Titanium ammo Damage is increased from 8 > 10
+	- Blast Compound splash radius is increased
+- Bleacher 
+	- Ammo per shot is increased to 15
+	- Titanium ammo damage is increased from 8 > 10
+	- Range is reduced 
+## [1.4 Build 0.1]
 **New Turret**
 - Tempest
 	- An upgrade from breachlock with increase ROF and reduced pellets count

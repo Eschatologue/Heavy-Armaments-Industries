@@ -6,7 +6,7 @@
 	"size": 3,
 	"health": 900,
 	"reload": 0.20,
-	"range": 220,
+	"range": 200,
 	"maxAmmo": 600,
 	"lifetime": 5,
 	"inaccuracy": 7,
@@ -22,7 +22,7 @@
 	"buildCostMultiplier" : 0.5,
 
 	"xRand" : 4,
-	"ammoPerShot" : 10,
+	"ammoPerShot" : 15,
 
 	"ammo": {
 		"silicon": {
@@ -33,6 +33,7 @@
 			"bulletHeight": 10,
 			"splashDamageRadius" : 20,
 			"splashDamage" : 20,
+			"hitEffect": "blastExplosion",
 			"shootEffect": "shellEjectSmall",
 			"smokeEffect": "mineHuge",
 			"homingPower": 0.3,
@@ -41,7 +42,7 @@
 		"titanium": { 
 			"type" : "BasicBulletType",
 			"speed": 12.0,
-			"damage": 8,
+			"damage": 10,
 			"bulletHeight": 15,
 			"shootEffect": "shellEjectSmall",
 			"pierce": true,
