@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Excaliber",
-	"description": "Got its name from its long barrel and sword-like shape, This powerful rapid fire cannon has proven itself to be indeed a kingmaker.",
+	"description": "Named after its long barrel and sword-like shape, This powerful rapid fire cannon has proven itself to be indeed a 'kingmaker'.",
 
 	"size": 2,
 	"health": 900,

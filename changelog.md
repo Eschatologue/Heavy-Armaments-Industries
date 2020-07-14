@@ -1,4 +1,10 @@
 # Changelog 
+## [1.4 Build 0.3]
+**New Turret**
+- Strikeforce
+	- An upgrade from 'Blockhouse', specialized in thermal damage (Freezing & Burning)
+
+With the addition of Strikeforce the 'Trenchgrade' tech tree is now completed
 ## [1.4 Build 0.2]
 **Balance Changes**
 - Tempest
@@ -16,10 +22,12 @@
 	- Ammo per shot is increased to 15
 	- Titanium ammo damage is increased from 8 > 10
 	- Range is reduced 
+
 ## [1.4 Build 0.1]
 **New Turret**
 - Tempest
 	- An upgrade from breachlock with increase ROF and reduced pellets count
+	
 ## [1.4] 
 **1. Misc changes**
 

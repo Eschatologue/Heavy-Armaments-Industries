@@ -1,0 +1,88 @@
+{
+	"type": "ItemTurret",
+	"name": "Strikeforce",
+	"description": "Equipped with thicker reinforced barrel than its predecessor, allow the Strikeforce to dish out thermal compounds at fearsome quantity",
+
+	"size": 3,
+	"health": 1500,
+	"reload": 45,
+	"range": 170,
+	"maxAmmo": 256,
+	"lifetime": 2,
+	"inaccuracy": 5,
+	"shots" : 48,
+
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 0.08,
+	"spread" : 1,
+
+	"recoil" : 8,
+	"restitution" : 0.6, 
+	"rotatespeed": 4,
+
+	"shootSound" : "shotgun",
+	"ammoUseEffect": "shellEjectBig",
+
+	"xRand" : 1,
+	"ammoPerShot" : 48,
+
+	"ammo": {
+		"pyratite": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"speed": 10.0,
+			"status" : "burning",
+			"statusDuration": "6969",
+			"damage": 12,
+			"splashDamage" : 5,
+			"bulletHeight" : 40,
+			"splashDamageRadius" : 50,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"fragBullets": 20,
+			"fragBullet": {
+				"type": "LiquidBulletType",
+				"liquid": "slag",
+				"status": "melting",
+				"lifetime": 120,
+				"speed": 1,
+				"damage" : 5
+			}
+		},
+		"titanium": {
+			"type" : "BasicBulletType",
+			"speed" : 12.0,
+			"status": "freezing", 
+			"statusDuration": "6969",
+			"damage": 16,
+			"splashDamage" : 5,
+			"bulletHeight" : 15,
+			"splashDamageRadius" : 50,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"fragBullets": 48,
+			"fragBullet": {
+				"type": "LiquidBulletType",
+				"liquid": "cryofluid",
+				"status" : "corroded",
+				"lifetime": 125,
+				"speed": 1,
+				"damage": 5
+			}
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 300 },
+		{ "item": "silicon", "amount": 350 },
+		{ "item": "thorium", "amount": 240},
+		{ "item": "plastanium", "amount": 150},
+		{ "item": "titanium", "amount": 225}
+	],
+	"category": "turret",
+	"research": "blockhouse"
+}

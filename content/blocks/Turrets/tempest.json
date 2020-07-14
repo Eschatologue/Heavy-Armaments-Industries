@@ -11,7 +11,7 @@
 	"lifetime": 1,
 	"inaccuracy": 5,
 	"shots" : 8,
-	
+
 	"targetAir" : true, 
 	"targetGround" : true,
 	"shootCone" : 1,
@@ -38,7 +38,7 @@
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 4,
-			"knockback" : 10
+			"knockback" : 15
 		},
 		"blast-compound": {
 			"type": "BasicBulletType",
@@ -58,6 +58,7 @@
 	"requirements": [
 		{ "item": "metaglass", "amount": 265 },
 		{ "item": "silicon", "amount": 250 },
+		{ "item": "thorium", "amount": 150 },
 		{ "item": "graphite", "amount": 240},
 		{ "item": "titanium", "amount": 225}
 	],

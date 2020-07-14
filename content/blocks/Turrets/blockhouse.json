@@ -5,7 +5,7 @@
 
 	"size": 2,
 	"health": 280,
-	"reload": 75,
+	"reload": 60,
 	"range": 150,
 	"maxAmmo": 12,
 	"lifetime": 2,

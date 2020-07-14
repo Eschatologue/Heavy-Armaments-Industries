@@ -18,12 +18,14 @@
 	"engineOffset": 14,
 	"engineSize": 4,
 	
-	"range": 5,
+	"range": 20,
 	"weapon": {
-	"name": "yes",
+	"name": "sakurablossom",
 	"range": 5,
 		"length": 15, 
 		"shootcone": 360,
+		"targetAir" : true,
+		"targetGround"  : true, 
 		"width": 0.1,
 		"reload": 10,
 		"alternate": true,
@@ -35,7 +37,7 @@
              "splashDamageRadius": 55,
              "splashDamage": 155,
              "hitEffect": "blastExplosion",
-             "despawnEffect": "blastsmoke "   
+             "despawnEffect": "commandSend"   
 		}
 	}
 }
