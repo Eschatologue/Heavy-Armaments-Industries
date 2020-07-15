@@ -28,7 +28,7 @@
 		"titanium": {
 			"type" : "BasicBulletType",
 			"speed": 45.0,
-			"damage": 2500,
+			"damage": 3500,
 			"splashDamage" : 2500,
 			"bulletHeight" : 65,
 			"hitEffect": "blastExplosion",

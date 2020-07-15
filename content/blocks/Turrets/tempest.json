@@ -38,7 +38,7 @@
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 4,
-			"knockback" : 15
+			"knockback" : 25
 		},
 		"blast-compound": {
 			"type": "BasicBulletType",
@@ -53,6 +53,20 @@
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 4,
 			"splashDamageRadius" : 32
+		},
+		"phase-fabric": {
+			"type": "BasicBulletType",
+			"trailEffect" :"artilleryTrail",
+			"speed": 9.0,
+			"damage": 105,
+			"status": "corroded", 
+			"bulletHeight" : 12,
+			"hitEffect": "dooropen",
+			"shootEffect": "producesmoke",
+			"pierce": true,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 2,
+			"frontColor": "f4ba6e"
 		}
 	},
 	"requirements": [
