@@ -1,10 +1,21 @@
 # Changelog 
+## [1.4 Build 0.4]
+**Turret Changes**
+- Strikeforce 
+	- a sudden FPS drop always happen when this thing fired because of how many things this turret does, so everything has been toned down to prevent low-end devices becoming the next thorium reactor 
+	- 'Titanium' freeze status effect has been removed and replaced with 'corroding' as the cryofluid already pretty much slows enemy down. Corroding wont appear in the description unfortunately
+	- Splash Area Radius also been reduced
+- Deadeye
+	- Damage is increased from 2500 > 3500
+- **I forgotten some other minor changes that I did**
+
 ## [1.4 Build 0.3]
 **New Turret**
 - Strikeforce
 	- An upgrade from 'Blockhouse', specialized in thermal damage (Freezing & Burning)
 
 With the addition of Strikeforce the 'Trenchgrade' tech tree is now completed
+
 ## [1.4 Build 0.2]
 **Balance Changes**
 - Tempest
