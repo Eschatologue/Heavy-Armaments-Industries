@@ -1,7 +1,7 @@
 # Changelog 
 ## [1.4 Build 0.5]
 **Turret Changes** 
-- **All 'Trenchgrade-class' turrets bullet lifetime has been drastically reduced
+- **All 'Trenchgrade-class' turrets bullet lifetime has been drastically reduced**
 - Trenchgrade
 	- Now fire pellet count reduced from 16 > 12
 	- Now can be researched from core instead of Duo
