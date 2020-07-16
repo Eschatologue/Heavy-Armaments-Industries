@@ -19,6 +19,9 @@
 	- Build cost requirement for 'graphite' is reduced from 550 > 350
 	- Silicon is now required
 	- Build Time is slightly reduced
+- Trident
+	- Trident now fire corrosive shells
+	- Damage is reduced 
 ## [1.4 Build 0.4]
 **Turret Changes**
 - Strikeforce 

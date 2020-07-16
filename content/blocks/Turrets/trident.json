@@ -33,14 +33,14 @@
 		"thorium": {
 			"type" : "BasicBulletType",
 			"speed": 15.0,
-			"damage": 45,
+			"damage": 25,
 			"bulletHeight" : 30,
 			"status": "corroded", 
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"pierce": true,
 			"splashDamageRadius" : 40,
-			"splashDamage" : 35,
+			"splashDamage" : 20,
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 3
 		}
