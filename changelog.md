@@ -1,4 +1,24 @@
 # Changelog 
+## [1.4 Build 0.5]
+**Turret Changes** 
+- **All 'Trenchgrade-class' turrets bullet lifetime has been drastically reduced
+- Trenchgrade
+	- Now fire pellet count reduced from 16 > 12
+	- Now can be researched from core instead of Duo
+	- Build cost requirement for 'copper' is increased from 10 > 20
+	- Spread is slightly increased
+- Breachlock
+	- Firerate is reduced
+- Blockhouse
+	- Damage is increased from 8 > 9
+	- Now can fire pyratite!
+- Trio & Quadra
+	- Firerate is increased
+	- Capacity is increased
+- Excaliber
+	- Build cost requirement for 'graphite' is reduced from 550 > 350
+	- Silicon is now required
+	- Build Time is slightly reduced
 ## [1.4 Build 0.4]
 **Turret Changes**
 - Strikeforce 

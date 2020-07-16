@@ -7,7 +7,7 @@
 	"health": 280,
 	"reload": 60,
 	"range": 150,
-	"maxAmmo": 12,
+	"maxAmmo": 24,
 	"lifetime": 2,
 	"inaccuracy": 5,
 	"shots" : 32,
@@ -25,16 +25,32 @@
 	"ammoUseEffect": "shellEjectBig",
 
 	"xRand" : 1,
-	"ammoPerShot" : 4,
+	"ammoPerShot" : 8,
 
 	"ammo": {
 		"lead": {
 			"type" : "BasicBulletType",
 			"trailEffect" : "artilleryTrail",
 			"speed": 8.0,
-			"damage": 8,
+			"lifetime" : 19,
+			"damage": 9,
 			"bulletHeight" : 12,
 			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4
+		},
+		"pyratite": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"status" : "burning",
+			"speed": 6.0,
+			"lifetime" : 30,
+			"damage": 4,
+			"bulletHeight" : 12,
+			"hitEffect": "fuelburn",
+			"frontColor": "ffd54f",
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",

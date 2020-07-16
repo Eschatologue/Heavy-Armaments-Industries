@@ -8,7 +8,6 @@
 	"reload": 4,
 	"range": 220,
 	"maxAmmo": 40,
-	"lifetime": 1,
 	"inaccuracy": 5,
 	"shots" : 8,
 
@@ -31,6 +30,7 @@
 		"titanium": {
 			"type" : "BasicBulletType",
 			"speed": 8.0,
+			"lifetime" : 28,
 			"damage": 10,
 			"bulletHeight" : 12,
 			"hitEffect": "mineHuge",
@@ -43,8 +43,9 @@
 		"blast-compound": {
 			"type": "BasicBulletType",
 			"trailEffect" :"artilleryTrail",
-			"speed": 9.0,
+			"speed": 7.0,
 			"damage": 15,
+			"lifetime" : 30,
 			"splashDamage" : 10,
 			"bulletHeight" : 12,
 			"hitEffect": "blastExplosion",
@@ -52,13 +53,15 @@
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 4,
-			"splashDamageRadius" : 32
+			"splashDamageRadius" : 32,
+			"frontColor": "ff795e"
 		},
 		"phase-fabric": {
 			"type": "BasicBulletType",
 			"trailEffect" :"artilleryTrail",
 			"speed": 9.0,
-			"damage": 105,
+			"lifetime" : 30,
+			"damage": 8,
 			"status": "corroded", 
 			"bulletHeight" : 12,
 			"hitEffect": "dooropen",

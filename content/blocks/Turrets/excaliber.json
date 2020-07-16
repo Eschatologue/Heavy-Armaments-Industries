@@ -21,7 +21,7 @@
 	"shootSound" : "ExcaliberShoot",
 	"ammoUseEffect": "shellEjectBig",
 
-	"buildCostMultiplier" : 1.5,
+	"buildCostMultiplier" : 1.6,
 
 	"length" : 15,
 
@@ -52,7 +52,8 @@
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 250 },
-		{ "item": "graphite", "amount": 550 },
+		{ "item": "graphite", "amount": 350 },
+		{ "item": "silicon", "amount": 150 },
 		{ "item": "surge-alloy", "amount": 10 },
         { "item": "titanium", "amount": 250 }
 	],

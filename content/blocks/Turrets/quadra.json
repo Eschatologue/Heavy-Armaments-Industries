@@ -5,8 +5,10 @@
 	
 	"size": 1,
 	"health": 280,
-	"reload": 8,
+	"reload": 4,
 	"xRand": 4,
+	"shot" : 1,
+	"maxAmmo": 100,
 	"range": 140,
 	"shootSound" : "shoot",
 	"ammoUseEffect": "shellEjectSmall",

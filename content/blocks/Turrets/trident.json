@@ -1,7 +1,7 @@
 {
 	"type": "BurstTurret",
 	"name": "Trident",
-	"description": "Named after its 3 barrel, this turret fires 3 thorium shells at a short burst to ensure its target demise. The Cyclopes finest engineering yet",
+	"description": "Named after its 3 barrel, this turret fires 3 corrosive thorium shells at a short burst to ensure its target demise. The Cyclopes finest engineering yet",
 
 	"size": 3,
 	"health": 1200,
@@ -35,6 +35,7 @@
 			"speed": 15.0,
 			"damage": 45,
 			"bulletHeight" : 30,
+			"status": "corroded", 
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"pierce": true,

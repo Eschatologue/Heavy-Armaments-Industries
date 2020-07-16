@@ -8,13 +8,12 @@
 	"reload": 50,
 	"range": 120,
 	"maxAmmo": 5,
-	"lifetime": 3,
 	"inaccuracy": 8,
-	"shots" : 16,
+	"shots" : 12,
 	
 	"targetAir" : false, 
 	"targetGround" : true,
-	"shootCone" : 0.08,
+	"shootCone" : 0.09,
 	"spread" : 1,
 	
 	"recoil" : 3,
@@ -31,6 +30,7 @@
 			"type" : "BasicBulletType",
 			"trailEffect" : "artilleryTrail",
 			"speed": 6.0,
+			"lifetime" : 19,
 			"damage": 5,
 			"bulletHeight" : 10,
 			"hitEffect": "blastExplosion",
@@ -42,8 +42,8 @@
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 45 },
-		{ "item": "copper", "amount": 10 }
+		{ "item": "copper", "amount": 20 }
 	],
 	"category": "turret",
-	"research": "duo"
+	"research": "core-shard"
 }
