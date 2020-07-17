@@ -1,4 +1,6 @@
 # Changelog 
+## [1.4 Build 0.6]
+- **Rupture** is removed from the mod, its innevective and serve no purpose
 ## [1.4 Build 0.5]
 **Turret Changes** 
 - **All 'Trenchgrade-class' turrets bullet lifetime has been drastically reduced**
