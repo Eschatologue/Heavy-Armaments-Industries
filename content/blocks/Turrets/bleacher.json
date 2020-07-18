@@ -19,7 +19,7 @@
 	"restitution" : 0.8, 
 	"rotatespeed": 15,
 
-	"buildCostMultiplier" : 0.5,
+	"buildCostMultiplier" : 0.4,
 
 	"xRand" : 4,
 	"ammoPerShot" : 15,
@@ -36,7 +36,7 @@
 			"hitEffect": "blastExplosion",
 			"shootEffect": "shellEjectSmall",
 			"smokeEffect": "mineHuge",
-			"homingPower": 0.3,
+			"homingPower": 0.5,
 			"ammoMultiplier": 15
 			},
 		"titanium": { 
@@ -51,9 +51,11 @@
 			}	
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 1300 },
-		{ "item": "plastanium", "amount": 1400 },
-		{ "item": "graphite", "amount": 1200 }
+		{ "item": "titanium", "amount": 900 },
+		{ "item": "plastanium", "amount": 1000 },
+		{ "item": "surge-alloy", "amount" : 250},
+		{ "item": "metaglass", "amount" : 550},
+		{ "item": "graphite", "amount": 900 }
 	],
 	"category": "turret",
 	"research": "cyclone"

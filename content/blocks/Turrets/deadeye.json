@@ -16,7 +16,7 @@
 
 	"recoil" : 18,
 	"restitution" : 0.1,
-	"rotatespeed": 0.6,
+	"rotatespeed": 0.7,
 
 	"shootSound" : "DeadeyeShoot",
 	"ammoUseEffect": "shellEjectBig",

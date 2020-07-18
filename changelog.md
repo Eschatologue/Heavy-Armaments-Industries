@@ -1,6 +1,13 @@
 # Changelog 
 ## [1.4 Build 0.6]
 - **Rupture** is removed from the mod, its innevective and serve no purpose
+**Turret Changes**
+- Bleacher
+	- Build Cost Changes
+		- Now requires 250 surge alloy to build
+		- Now requires 550 Metaglass 
+		- All other required resources has been reduced 
+	- Silicon Homing power was increased
 ## [1.4 Build 0.5]
 **Turret Changes** 
 - **All 'Trenchgrade-class' turrets bullet lifetime has been drastically reduced**
@@ -58,6 +65,8 @@ With the addition of Strikeforce the 'Trenchgrade' tech tree is now completed
 	- Ammo per shot is increased to 15
 	- Titanium ammo damage is increased from 8 > 10
 	- Range is reduced 
+- Deadeye
+	- Build Time is reduced
 
 ## [1.4 Build 0.1]
 **New Turret**
