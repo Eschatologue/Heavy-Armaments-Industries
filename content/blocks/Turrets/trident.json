@@ -8,7 +8,7 @@
 	"burstSpacing": 7,
 	"reload" : 70,
 	"range": 200,
-	"maxAmmo": 30,
+	"maxAmmo": 60,
 	"lifetime": 5,
 	"inaccuracy": 5,
 	"shots" : 3,
@@ -26,12 +26,13 @@
 	"buildCostMultiplier" : 1.5,
 	
 	"xRand" : 3,
-	"ammoPerShot" : 6,
+	"ammoPerShot" : 12,
 	"length" : 30,
 
 	"ammo": {
 		"thorium": {
 			"type" : "BasicBulletType",
+			"trailEffect" : "incendTrail",
 			"speed": 15.0,
 			"damage": 25,
 			"bulletHeight" : 30,
@@ -42,14 +43,17 @@
 			"splashDamageRadius" : 40,
 			"splashDamage" : 20,
 			"smokeEffect": "hitBulletBig",
+			"frontColor": "f9a3c7",
 			"ammoMultiplier": 3
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 750 },
-		{ "item": "graphite", "amount": 550 },
-		{ "item": "thorium", "amount": 250 },
-        { "item": "titanium", "amount": 350 }
+		{ "item": "lead", "amount": 550 },
+		{ "item": "graphite", "amount": 250 },
+		{ "item": "metaglass", "amount": 125 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "surge-alloy", "amount": 50 },
+        { "item": "titanium", "amount": 250 }
 	],
 	"category": "turret",
 	"research": "excaliber"

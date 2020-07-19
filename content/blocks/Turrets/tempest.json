@@ -7,52 +7,52 @@
 	"health": 1200,
 	"reload": 4,
 	"range": 220,
-	"maxAmmo": 40,
+	"maxAmmo": 96,
 	"inaccuracy": 5,
-	"shots" : 8,
+	"shots" : 6,
 
 	"targetAir" : true, 
 	"targetGround" : true,
 	"shootCone" : 1,
 	"spread" : 1,
 
-	"recoil" : 8,
+	"recoil" : 5,
 	"restitution" : 0.6, 
 	"rotatespeed": 4,
 
 	"shootSound" : "shotgun",
 	"ammoUseEffect": "shellEjectBig",
 
+	"buildCostMultiplier" : 0.4,
+
 	"xRand" : 3,
-	"ammoPerShot" : 4,
+	"ammoPerShot" : 6,
 
 	"ammo": {
 		"titanium": {
 			"type" : "BasicBulletType",
 			"speed": 8.0,
 			"lifetime" : 28,
-			"damage": 10,
+			"damage": 15,
 			"bulletHeight" : 12,
 			"hitEffect": "mineHuge",
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 4,
-			"knockback" : 25
+			"knockback" : 50
 		},
 		"blast-compound": {
 			"type": "BasicBulletType",
 			"trailEffect" :"artilleryTrail",
 			"speed": 7.0,
-			"damage": 15,
+			"damage": 10,
 			"lifetime" : 30,
-			"splashDamage" : 10,
+			"splashDamage" : 8,
 			"bulletHeight" : 12,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 4,
 			"splashDamageRadius" : 32,
 			"frontColor": "ff795e"
 		},
@@ -61,14 +61,13 @@
 			"trailEffect" :"artilleryTrail",
 			"speed": 9.0,
 			"lifetime" : 30,
-			"damage": 8,
+			"damage": 5,
 			"status": "corroded", 
 			"bulletHeight" : 12,
 			"hitEffect": "dooropen",
 			"shootEffect": "producesmoke",
 			"pierce": true,
 			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 2,
 			"frontColor": "f4ba6e"
 		}
 	},

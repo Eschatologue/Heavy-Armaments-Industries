@@ -7,7 +7,7 @@
 	"health": 140,
 	"reload": 50,
 	"range": 120,
-	"maxAmmo": 5,
+	"maxAmmo": 12,
 	"inaccuracy": 8,
 	"shots" : 12,
 	
@@ -24,6 +24,7 @@
 	"ammoUseEffect": "shellEjectBig",
 
 	"xRand" : 1,
+	"ammoPerShot" : 4,
 
 	"ammo": {
 		"lead": {
@@ -36,8 +37,7 @@
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 4
+			"smokeEffect": "hitBulletBig"
 		}
 	},
 	"requirements": [

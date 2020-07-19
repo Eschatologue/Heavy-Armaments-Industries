@@ -1,4 +1,24 @@
 # Changelog 
+## [1.5 Build 0]
+**Comming soon on steam**
+
+**Turret Changes**
+- Strikeforce
+	- Pyratite damage reduced from 12 > 6
+	- Titanium damage reduced from 16 > 12
+- Tempest
+	- Max Ammo Capacity is increased
+	- Ammo Consumption is increased 
+	- Blast Compound damage is reduced from 15 > 10
+	- Phase Fabric damage is reduced from 8 > 5
+	- Titanium damage is increased from 10 > 15
+	- Pellet count is reduced from 8 > 6
+- Breachlock
+	- Pellet count is reduced from 12 > 8
+- Deadeye
+	- Ammo Consumption is increased 
+	- Ammo Capacity is increased
+
 ## [1.4 Build 0.6]
 - **Rupture** is removed from the mod, its innevective and serve no purpose
 **Turret Changes**
@@ -18,6 +38,7 @@
 	- Spread is slightly increased
 - Breachlock
 	- Firerate is reduced
+	- Ammo consumption is increased
 - Blockhouse
 	- Damage is increased from 8 > 9
 	- Now can fire pyratite!

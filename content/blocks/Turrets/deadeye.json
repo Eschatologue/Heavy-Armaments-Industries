@@ -7,7 +7,7 @@
 	"health": 650,
 	"reload": 250,
 	"range": 700,
-	"maxAmmo": 150,
+	"maxAmmo": 200,
 	"lifetime": 5,
 	"inaccuracy": 0,
 
@@ -21,8 +21,8 @@
 	"shootSound" : "DeadeyeShoot",
 	"ammoUseEffect": "shellEjectBig",
 
-	"buildCostMultiplier" : 0.5,	
-	"ammoPerShot" : 50,
+	"buildCostMultiplier" : 1,	
+	"ammoPerShot" : 100,
 
 	"ammo":	{
 		"titanium": {
@@ -42,6 +42,7 @@
 	"requirements": [
 		{ "item": "thorium", "amount": 1550 },
 		{ "item": "graphite", "amount": 1350 },
+		{ "item": "silicon", "amount": 1150 },
 		{ "item": "surge-alloy", "amount": 1500 },
         { "item": "titanium", "amount": 2000 }
 	],
