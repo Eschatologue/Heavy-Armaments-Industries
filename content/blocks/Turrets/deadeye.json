@@ -21,7 +21,7 @@
 	"shootSound" : "DeadeyeShoot",
 	"ammoUseEffect": "shellEjectBig",
 
-	"buildCostMultiplier" : 1,	
+	"buildCostMultiplier" : 0.5,	
 	"ammoPerShot" : 100,
 
 	"ammo":	{
@@ -29,7 +29,7 @@
 			"type" : "BasicBulletType",
 			"speed": 45.0,
 			"damage": 3500,
-			"splashDamage" : 2500,
+			"splashDamage" : 1500,
 			"bulletHeight" : 65,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",

@@ -13,7 +13,7 @@
 
 	"targetAir" : true, 
 	"targetGround" : true,
-	"shootCone" : 1,
+	"shootCone" : 1.2,
 	"spread" : 1,
 
 	"recoil" : 5,
@@ -39,7 +39,8 @@
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
-			"knockback" : 50
+			"knockback" : 50,
+			"ammoMultiplier": 4
 		},
 		"blast-compound": {
 			"type": "BasicBulletType",
@@ -54,7 +55,8 @@
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"splashDamageRadius" : 32,
-			"frontColor": "ff795e"
+			"frontColor": "ff795e",
+			"ammoMultiplier": 4
 		},
 		"phase-fabric": {
 			"type": "BasicBulletType",
@@ -68,7 +70,8 @@
 			"shootEffect": "producesmoke",
 			"pierce": true,
 			"smokeEffect": "hitBulletBig",
-			"frontColor": "f4ba6e"
+			"frontColor": "f4ba6e",
+			"ammoMultiplier": 4
 		}
 	},
 	"requirements": [

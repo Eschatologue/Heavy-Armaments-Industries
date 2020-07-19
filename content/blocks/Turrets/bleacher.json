@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Bleacher",
-	"description": "Fires stream of bullets at target with a terrifying rate of fire, consumes a lot of ammo. The sky will be bleached with bullets",
+	"description": "The skies shall be bleached by bullets. May requires multiple ammo input",
 
 	"size": 3,
 	"health": 900,
@@ -15,39 +15,41 @@
 	"targetAir" : false, 
 	"targetGround" : true, 
 
-	"recoil" : 4,
+	"recoil" : 2,
 	"restitution" : 0.8, 
-	"rotatespeed": 15,
+	"rotatespeed": 8,
 
 	"buildCostMultiplier" : 0.4,
 
 	"xRand" : 4,
-	"ammoPerShot" : 15,
+	"ammoPerShot" : 12,
 
 	"ammo": {
-		"silicon": {
+		"blast-compound": {
 			"type" : "MissileBulletType",
-			"speed": 10.0,
-			"cone" : 120,
-			"damage": 25,
+			"speed": 8.0,
+			"damage": 35,
 			"bulletHeight": 10,
-			"splashDamageRadius" : 20,
-			"splashDamage" : 20,
+			"bulletWidth" : 5,
+			"splashDamageRadius" : 40,
+			"splashDamage" : 30,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "shellEjectSmall",
 			"smokeEffect": "mineHuge",
 			"homingPower": 0.5,
-			"ammoMultiplier": 15
+			"ammoMultiplier": 5
 			},
 		"titanium": { 
 			"type" : "BasicBulletType",
-			"speed": 12.0,
+			"speed": 10.0,
 			"damage": 10,
 			"bulletHeight": 15,
-			"shootEffect": "shellEjectSmall",
+			"bulletWidth" : 5,
 			"pierce": true,
+			"shootEffect": "shellEjectSmall",		
 			"smokeEffect": "mineHuge",
-			"ammoMultiplier": 10
+			"hitEffect": "hitBulletBig",
+			"ammoMultiplier": 3
 			}	
 	},
 	"requirements": [

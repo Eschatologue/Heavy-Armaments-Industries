@@ -14,7 +14,7 @@
 
 	"targetAir" : false, 
 	"targetGround" : true,
-	"shootCone" : 0.05,
+	"shootCone" : 0.04,
 	"spread" : 1,
 
 	"recoil" : 8,
@@ -37,7 +37,7 @@
 			"statusDuration": "1200",
 			"damage": 6,
 			"splashDamage" : 5,
-			"bulletHeight" : 12,
+			"bulletHeight" : 20,
 			"bulletWidth" : 8,
 			"splashDamageRadius" : 38,
 			"hitEffect": "blastExplosion",
@@ -45,7 +45,7 @@
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"frontColor": "ffd54f",
-			"fragBullets": 52,
+			"fragBullets": 8,
 			"fragBullet": {
 				"type": "LiquidBulletType",
 				"liquid": "slag",

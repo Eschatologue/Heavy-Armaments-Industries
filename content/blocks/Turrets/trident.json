@@ -5,7 +5,7 @@
 
 	"size": 3,
 	"health": 1200,
-	"burstSpacing": 7,
+	"burstSpacing": 6,
 	"reload" : 70,
 	"range": 200,
 	"maxAmmo": 60,
@@ -33,7 +33,7 @@
 		"thorium": {
 			"type" : "BasicBulletType",
 			"trailEffect" : "incendTrail",
-			"speed": 15.0,
+			"speed": 10.0,
 			"damage": 25,
 			"bulletHeight" : 30,
 			"status": "corroded", 

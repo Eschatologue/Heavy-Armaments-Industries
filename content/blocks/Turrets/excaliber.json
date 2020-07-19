@@ -7,7 +7,7 @@
 	"health": 900,
 	"reload": 40,
 	"range": 180,
-	"maxAmmo": 10,
+	"maxAmmo": 25,
 	"lifetime": 3,
 	"inaccuracy": 2,
 
@@ -27,23 +27,26 @@
 
 	"ammo":	{
 		"blast-compound": {
-			"type" : "FlakBulletType",
-			"speed": 10.0,
-			"damage": 65,
+			"type" : "BasicBulletType",
+			"bulletSprite": "shell",
+			"trailEffect" : "artilleryTrail",
+			"speed": 8.0,
+			"damage": 55,
 			"BulletHeight" : 35,
-			"splashDamageRadius" : 50,
+			"splashDamageRadius" : 40,
 			"splashDamage" : 55,
-			"hitEffect": "blastExplosion",
+			"hitEffect": "blockExplosion",
 			"shootEffect": "producesmoke",
 			"smokeEffect": "hitBulletBig",
 			"ammoMultiplier": 4
 			},
 		"titanium": {
 			"type" : "BasicBulletType",
-			"speed": 15.0,
-			"damage": 65,
+			"trailEffect" : "artilleryTrail",
+			"speed": 10.0,
+			"damage": 45,
 			"bulletHeight" : 30,
-			"hitEffect": "blastExplosion",
+			"hitEffect": "generatespark",
 			"shootEffect": "producesmoke",
 			"pierce": true,
 			"smokeEffect": "hitBulletBig",

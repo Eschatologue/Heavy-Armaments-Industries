@@ -18,6 +18,8 @@
 - Deadeye
 	- Ammo Consumption is increased 
 	- Ammo Capacity is increased
+- Bleacher
+	- Silicon is replaced with blast compound
 
 ## [1.4 Build 0.6]
 - **Rupture** is removed from the mod, its innevective and serve no purpose
