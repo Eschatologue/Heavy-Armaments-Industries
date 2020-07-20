@@ -1,4 +1,6 @@
 # Changelog 
+## 1.5.1 
+Fixed some mistake I did, the file size is now smaller
 ## 1.5.0
 **Turret Changes**
 - Strikeforce
