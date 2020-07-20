@@ -1,6 +1,5 @@
 # Changelog 
 ## [1.5 Build 0]
-**Comming soon on steam**
 
 **Turret Changes**
 - Strikeforce
