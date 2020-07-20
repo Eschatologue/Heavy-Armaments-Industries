@@ -1,7 +1,5 @@
 # Changelog 
-## [1.5 Build 0]
-**Comming soon on steam**
-
+## 1.5.0
 **Turret Changes**
 - Strikeforce
 	- Pyratite damage reduced from 12 > 6
