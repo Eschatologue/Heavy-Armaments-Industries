@@ -1,0 +1,49 @@
+{
+	"type": "PowerTurret",
+	"name": "Heavylight",
+	"description": "An ancient and fragile yet still usable beam turret. Fires bolts of energy at enemy",
+
+	"size": 1,
+	"health": 120,
+	"reload": 30,
+	"range": 120,
+	"inaccuracy": 5,
+	"shots" : 1,
+	
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 1,
+	"spread" : 1,
+	
+	"recoil" : 2,
+	"restitution" : 0.5, 
+	"rotatespeed": 5,
+	
+	"shootSound" : "laser",
+	"ammoUseEffect": "smelt",
+
+    "powerUse" : 1.1,
+	"hasPower" : true,
+	"shootType" : {
+		"type" : "BasicBulletType",
+		"trailEffect" : "artilleryTrail",
+		"speed": 6.5,
+		"lifetime" : 50,
+		"damage": 20,
+		"bulletHeight" : 30,
+		"hitEffect": "hitLaser",
+		"shootEffect": "smelt",
+		"pierce": true,
+		"smokeEffect": "smelt",
+		"frontColor": "#67daff"
+	},
+	"consumes": {
+		"power": 20
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 55 },
+		{ "item": "graphite", "amount": 20 }
+	],
+	"category": "turret",
+	"research": "core-shard"
+}
