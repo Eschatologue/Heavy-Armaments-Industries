@@ -1,4 +1,8 @@
 # Changelog 
+## 1.5.2
+**New Turret**
+- Heavylight
+	- An Electric turret that fires piercing beams
 ## 1.5.1 
 Fixed some mistake I did, the file size is now smaller
 ## 1.5.0
