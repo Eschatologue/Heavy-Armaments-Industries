@@ -21,7 +21,7 @@
 	"shootSound" : "ExcaliberShoot",
 	"ammoUseEffect": "shellEjectBig",
 
-	"buildCostMultiplier" : 1.6,
+	"buildCostMultiplier" : 0.5,
 
 	"length" : 15,
 

@@ -21,7 +21,7 @@
 	"shootSound" : "DeadeyeShoot",
 	"ammoUseEffect": "shellEjectBig",
 
-	"buildCostMultiplier" : 0.5,	
+	"buildCostMultiplier" : 0.2,	
 	"ammoPerShot" : 100,
 
 	"ammo":	{

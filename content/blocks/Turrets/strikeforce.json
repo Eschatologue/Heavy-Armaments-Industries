@@ -23,6 +23,7 @@
 
 	"shootSound" : "shotgun",
 	"ammoUseEffect": "shellEjectBig",
+	"buildCostMultiplier" : 0.4,
 
 	"xRand" : 1,
 	"ammoPerShot" : 48,

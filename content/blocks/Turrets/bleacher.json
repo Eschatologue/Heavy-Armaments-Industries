@@ -19,7 +19,7 @@
 	"restitution" : 0.8, 
 	"rotatespeed": 8,
 
-	"buildCostMultiplier" : 0.4,
+	"buildCostMultiplier" : 0.2,
 
 	"xRand" : 4,
 	"ammoPerShot" : 12,

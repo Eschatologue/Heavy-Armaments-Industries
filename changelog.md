@@ -3,6 +3,12 @@
 **New Turret**
 - Heavylight
 	- An Electric turret that fires piercing beams
+- Multithreat
+	- Upgrade from 'Heavylight', less damage but triple the rate of fire
+**Turret Changes**
+- Excaliber, Strikeforce, Trident, Deadeye, & Bleacher
+	- Build time has been massively reduced
+
 ## 1.5.1 
 Fixed some mistake I did, the file size is now smaller
 ## 1.5.0
