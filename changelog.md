@@ -1,4 +1,12 @@
 # Changelog 
+## 1.5.3
+**Turret Changes**
+- Excaliber
+	- Changed the bullet sprites
+	- Titanium damage is increased from 45 > 50
+**New Support Block**
+	- Regenerator
+		- Rapidly repairs blocks in its vicinity. Very good for keeping blocks constantly healed under heavy fire
 ## 1.5.2
 **New Turret**
 - Heavylight

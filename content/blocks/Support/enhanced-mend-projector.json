@@ -8,12 +8,16 @@
 	"range": 150,
 	"reload": 150,
 	"phase": "#720874",
+	"phaseBoost" : 12,
 	"color": "#17C50B",
+	"buildCostMultiplier" : 0.5,
 	"healPercent": 60,
 	"consumes": {
 		"power": 20,
 		"items": {
-			"items": [ { "amount": 5, "item": "phase-fabric" } ],
+			"items": [ 
+				{ "amount": 5, "item": "phase-fabric" } 
+						],
 			"optional": false
 		}
 	},
