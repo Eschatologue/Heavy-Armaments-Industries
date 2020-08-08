@@ -39,9 +39,9 @@
 	},
 
 	"requirements": [
-		{ "item": "lead", "amount": 65 },
-		{ "item": "graphite", "amount": 40 },
-		{ "item": "silicon", "amount": 60}
+		{ "item": "lead", "amount": 45 },
+		{ "item": "graphite", "amount": 30 },
+		{ "item": "silicon", "amount": 45}
 	],
 	"category": "turret",
 	"research": "heavylight"
