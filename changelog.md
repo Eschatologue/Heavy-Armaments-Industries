@@ -1,4 +1,11 @@
 # Changelog 
+## 1.5.4
+**New Turret**
+- Pulsar
+	- A turrett that fires slow moving, scorching, hard hitting energy beam. Can be researched from 'Multithreat'.
+**Turret Changes**
+- Multithreat
+	- Build cost has been reduced
 ## 1.5.3
 **Turret Changes**
 - Excaliber
