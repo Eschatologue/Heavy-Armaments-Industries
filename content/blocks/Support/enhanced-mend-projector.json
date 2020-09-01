@@ -5,20 +5,18 @@
 	"type": "MendProjector",
 	"health": 1000,
 	"size": 3,
+	"itemCapacity": 50,
 	"range": 150,
-	"reload": 150,
-	"phase": "#720874",
-	"phaseBoost" : 12,
+	"reload": 120,
 	"color": "#17C50B",
 	"buildCostMultiplier" : 0.5,
-	"healPercent": 60,
+	"healPercent": 55,
 	"consumes": {
 		"power": 20,
 		"items": {
 			"items": [ 
-				{ "amount": 5, "item": "phase-fabric" } 
-						],
-			"optional": false
+				{ "amount": 25, "item": "plastanium" } 
+						]
 		}
 	},
 	"requirements": [
