@@ -20,7 +20,7 @@
 	"restitution" : 0.6, 
 	"rotatespeed": 4,
 
-	"shootSound" : "shotgun",
+	"shootSound" : "Trenchgrade-class_Auto_",
 	"ammoUseEffect": "shellEjectBig",
 
 	"buildCostMultiplier" : 0.4,
