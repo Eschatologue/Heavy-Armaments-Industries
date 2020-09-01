@@ -16,7 +16,7 @@
 
 	"recoil" : 5,
 	"restitution" : 0.5,
-	"rotatespeed": 10,
+	"rotatespeed": 8,
 	
 	"shootSound" : "ExcaliberShoot",
 	"ammoUseEffect": "shellEjectBig",
