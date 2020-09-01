@@ -1,7 +1,7 @@
 {
 	"type": "ChargeTurret",
 	"name": "Pulsar",
-	"description": "Fires slow, scorching, hard-hitting energy beams. Consumes a lot of power",
+	"description": "Fires slow, scorching, hard-hitting energy beams. Much more powerful than the 'Lancer', despite  ",
 
 	"size": 2,
 	"health": 360,
@@ -37,7 +37,7 @@
 		"trailEffect" : "incendTrail",
 		"speed": 3.8,
 		"lifetime" : 80,
-		"damage": 80,
+		"damage": 70,
 		"status" : "melting",
 		"bulletHeight" : 40,
 		"bulletWidth" : 10,
