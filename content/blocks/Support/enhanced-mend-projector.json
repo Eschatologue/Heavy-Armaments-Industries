@@ -1,6 +1,6 @@
 {
-	"name": "Enhanced Mend Projector",
-	"description": "Enhanced version of mend projector, heals most blocks almost instantly, cannot be boosted",
+	"name": "Übermender",
+	"description": "The ultimate mender, Heals blocks almost instantly",
 
 	"type": "MendProjector",
 	"health": 1000,
@@ -15,13 +15,14 @@
 		"power": 20,
 		"items": {
 			"items": [ 
-				{ "amount": 25, "item": "plastanium" } 
+				{ "amount": 35, "item": "plastanium" } 
 						]
 		}
 	},
 	"requirements": [
 		{ "item": "phase-fabric", "amount": 600 },
 		{ "item": "silicon", "amount": 1200 },
+		{ "item" :"plastanium", "amount": 900}
 		{ "item": "titanium", "amount": 1500 }
 	],
 	"category": "effect",
