@@ -1,6 +1,6 @@
 ![Logo](https://github.com/ItzAlen/Heavy-Armaments/blob/master/Icons/Heavy-Armaments%20250x250%20-%20New.png)
 # Heavy Armaments
-**Heavy Armaments** is a mod for Mindustry aimed at expanding its arsenals of weaponry, offering more selection from early-game to endgame, while trying to ruin the vanilla taste of the base game
+**Heavy Armaments** is a mod for Mindustry aimed at expanding its arsenals of weaponry, offering more selection from early-game to endgame, while trying keep the vanilla taste of the base game
 
 Get it on :
 
