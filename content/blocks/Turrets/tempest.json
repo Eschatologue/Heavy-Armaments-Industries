@@ -29,17 +29,17 @@
 	"ammoPerShot" : 6,
 
 	"ammo": {
-		"titanium": {
+		"graphite": {
 			"type" : "BasicBulletType",
 			"speed": 8.0,
 			"lifetime" : 28,
-			"damage": 15,
+			"damage": 10,
 			"bulletHeight" : 12,
 			"hitEffect": "mineHuge",
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
-			"knockback" : 50,
+			"knockback" : 15,
 			"ammoMultiplier": 4
 		},
 		"blast-compound": {
@@ -55,7 +55,6 @@
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"splashDamageRadius" : 32,
-			"frontColor": "ff795e",
 			"ammoMultiplier": 4
 		},
 		"phase-fabric": {
@@ -63,7 +62,7 @@
 			"trailEffect" :"artilleryTrail",
 			"speed": 9.0,
 			"lifetime" : 30,
-			"damage": 5,
+			"damage": 15,
 			"status": "corroded", 
 			"bulletHeight" : 12,
 			"hitEffect": "dooropen",
@@ -77,7 +76,7 @@
 	"requirements": [
 		{ "item": "metaglass", "amount": 265 },
 		{ "item": "silicon", "amount": 250 },
-		{ "item": "thorium", "amount": 150 },
+		{ "item": "surge-alloy", "amount": 80 },
 		{ "item": "graphite", "amount": 240},
 		{ "item": "titanium", "amount": 225}
 	],

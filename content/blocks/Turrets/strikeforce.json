@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Strikeforce",
-	"description": "Equipped with thicker reinforced barrel than its predecessor, allow the Strikeforce to dish out thermal compounds at fearsome quantity",
+	"description": "A very brutal weapon, capable of sending your foes flying or completely annihilate them with concentrated explosion",
 
 	"size": 3,
 	"health": 1500,
@@ -14,8 +14,8 @@
 
 	"targetAir" : false, 
 	"targetGround" : true,
-	"shootCone" : 0.04,
-	"spread" : 1,
+	"shootCone" : 0.01,
+	"spread" : 0.5,
 
 	"recoil" : 8,
 	"restitution" : 0.6, 
@@ -26,22 +26,20 @@
 	"buildCostMultiplier" : 0.4,
 
 	"xRand" : 1,
-	"ammoPerShot" : 48,
+	"ammoPerShot" : 24,
 
 	"ammo": {
-		"pyratite": {
+		"blast-compound": {
 			"type" : "BasicBulletType",
-			"bulletSprite" : "shell",
-			"trailEffect" : "artilleryTrail",
-			"speed": 10.0,
+			"speed": 8.0,
 			"status" : "burning",
 			"statusDuration": "1200",
-			"damage": 6,
-			"splashDamage" : 5,
-			"bulletHeight" : 20,
-			"bulletWidth" : 8,
+			"damage": 15,
+			"splashDamage" : 12,
+			"bulletHeight" : 40,
+			"bulletWidth" : 9,
 			"splashDamageRadius" : 38,
-			"hitEffect": "blastExplosion",
+			"hitEffect": "blastsmoke",
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
@@ -53,35 +51,23 @@
 				"status": "melting",
 				"lifetime": 120,
 				"speed": 1,
-				"damage" : 5
+				"damage" : 4
 			}
 		},
 		"titanium": {
 			"type" : "BasicBulletType",
-			"speed" : 12.0,
-			"bulletSprite" : "shell",
-			"status": "corroded", 
+			"speed" : 8.0,
 			"statusDuration": "1200",
 			"damage": 12,
-			"splashDamage" : 5,
+			"splashDamage" : 10,
+			"knockback" : 1500,
 			"bulletHeight" : 12,
 			"bulletWidth" : 8,
 			"splashDamageRadius" : 38,
-			"hitEffect": "freezing",
+			"hitEffect": "mineHuge",
 			"shootEffect": "producesmoke",
 			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"frontColor": "4fc3f7",
-			"backColor": "4fc3f7",
-			"fragBullets": 8,
-			"fragBullet": {
-				"type": "LiquidBulletType",
-				"liquid": "cryofluid",
-				"status" : "corroded",
-				"lifetime": 125,
-				"speed": 1,
-				"damage": 5
-			}
+			"smokeEffect": "hitBulletBig"
 		}
 	},
 	"requirements": [
