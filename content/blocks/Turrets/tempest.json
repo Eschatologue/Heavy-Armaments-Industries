@@ -16,7 +16,7 @@
 	"shootCone" : 1.2,
 	"spread" : 1,
 
-	"recoil" : 5,
+	"recoil" : 2,
 	"restitution" : 0.6, 
 	"rotatespeed": 4,
 
@@ -39,7 +39,7 @@
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
-			"knockback" : 15,
+			"knockback" : 5,
 			"ammoMultiplier": 4
 		},
 		"blast-compound": {
