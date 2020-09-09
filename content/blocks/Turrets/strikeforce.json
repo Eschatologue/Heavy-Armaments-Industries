@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Strikeforce",
-	"description": "A very brutal weapon, capable of shooting piercing shells or completely annihilate them with concentrated explosion",
+	"description": "A very brutal weapon, capable of shooting cold piercing shells or completely annihilate them with concentrated explosion",
 
 	"size": 3,
 	"health": 1500,
@@ -53,8 +53,9 @@
 				"damage" : 4
 			}
 		},
-		"titanium": {
+		"cryogel": {
 			"type" : "BasicBulletType",
+			"status" : "freezing",
 			"speed" : 8.0,
 			"damage": 15,
 			"knockback" : 3000,
