@@ -1,0 +1,8 @@
+{
+	"type": "resource",
+	"name": "Cyrogel",
+	"description": "An extremely cold compound, synthesized from mixing cyroliquid and sand. despite its temperature, it is very gelatinous.",
+	"cost": 0.5,
+	"color": "87ceeb",
+	"hardness": 0
+}
