@@ -40,9 +40,11 @@
 			"bulletWidth" : 10,
 			"splashDamageRadius" : 38,
 			"hitEffect": "blastsmoke",
-			"shootEffect": "producesmoke",
+			"shootEffect": "shootBig2",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
+			"frontColor": "FEB380",
+			"backColor": "EA8878",
 			"fragBullets": 4,
 			"fragBullet": {
 				"type": "LiquidBulletType",
@@ -56,15 +58,29 @@
 		"cryogel": {
 			"type" : "BasicBulletType",
 			"status" : "freezing",
+			"statusDuration": "1200",
 			"speed" : 8.0,
 			"damage": 15,
-			"knockback" : 3000,
+			"splashDamage" : 12,
+			"splashDamageRadius" : 38,
+			"knockback" : 250,
 			"bulletHeight" : 25,
 			"bulletWidth" : 10,
-			"hitEffect": "generatespark",
+			"pierce": false,
+			"frontColor":"C0ECFF" ,
+			"backColor": "87CEEB",
+			"hitEffect": "hitLancer",
 			"shootEffect": "producesmoke",
-			"pierce": true,
-			"smokeEffect": "hitBulletBig"
+			"smokeEffect": "hitBulletBig",
+			"fragBullets": 4,
+			"fragBullet": {
+				"type": "LiquidBulletType",
+				"liquid": "cryofluid",
+				"status" : "corroded",
+				"lifetime": 120,
+				"speed": 1,
+				"damage" : 4
+			}
 		}
 	},
 	"requirements": [
