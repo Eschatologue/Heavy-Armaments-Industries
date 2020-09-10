@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"name": "Gelatinizer",
-	"description": "Rapidly compresses chunks of coals by immense pressure produced by Blast Compound explosive energy. Even the manufacturer isn't sure how that work",
+	"description": "Uses sand to gelatinize cryofluid into an extremely cold and gelatinous compound known as 'Cryogel'",
 	"health" : 140,
 	"size": 2,
 	"flameColor": "C0ECFF",
