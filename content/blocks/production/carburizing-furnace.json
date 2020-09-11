@@ -4,9 +4,9 @@
 	"description": "Produces Titanium Carbide by diffusing coal into the surface of titanium",
 	"health" : 280,
 	"size": 3,
-	"flameColor": "ffaa5f",
+	"flameColor": "FFC999",
 	"hasPower": true,
-	"hasLiquids": true,
+	"hasLiquids": false,
 	"hasItems": true,
 	"craftTime": 90,
 	"itemCapacity": 60,
@@ -18,11 +18,10 @@
 		"power": 3,
 		"items": {
 			"items": [
-				{ "item": "coal", "amount": 5},
-				{ "item": "titanium", "amount": 10}
-
+				{ "item": "coal", "amount": 6},
+				{ "item": "titanium", "amount": 15}
 			]
-		},
+		}
 	},
 	"requirements": [
 		{ "item": "titanium", "amount": 120 },
