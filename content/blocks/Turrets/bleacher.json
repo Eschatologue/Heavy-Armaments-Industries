@@ -5,7 +5,7 @@
 
 	"size": 3,
 	"health": 900,
-	"reload": 0.20,
+	"reload": 0.3,
 	"range": 200,
 	"maxAmmo": 600,
 	"lifetime": 5,
@@ -22,7 +22,7 @@
 	"buildCostMultiplier" : 0.2,
 
 	"xRand" : 4,
-	"ammoPerShot" : 12,
+	"ammoPerShot" : 5,
 
 	"ammo": {
 		"blast-compound": {
@@ -33,13 +33,13 @@
 			"bulletWidth" : 5,
 			"splashDamageRadius" : 40,
 			"splashDamage" : 30,
-			"hitEffect": "blastExplosion",
+			"hitEffect": "plasticExplosion",
 			"shootEffect": "shellEjectSmall",
 			"smokeEffect": "mineHuge",
 			"homingPower": 0.5,
 			"ammoMultiplier": 5
 			},
-		"titanium": { 
+		"titanium-carbide": { 
 			"type" : "BasicBulletType",
 			"speed": 10.0,
 			"damage": 10,
@@ -49,7 +49,7 @@
 			"shootEffect": "shellEjectSmall",		
 			"smokeEffect": "mineHuge",
 			"hitEffect": "hitBulletBig",
-			"ammoMultiplier": 3
+			"ammoMultiplier": 5
 			}	
 	},
 	"requirements": [
