@@ -16,7 +16,7 @@
 	"shootCone" : 1.2,
 	"spread" : 1,
 
-	"recoil" : 2,
+	"recoil" : 1,
 	"restitution" : 0.6, 
 	"rotatespeed": 4,
 
