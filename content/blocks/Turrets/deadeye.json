@@ -7,7 +7,7 @@
 	"health": 650,
 	"reload": 250,
 	"range": 700,
-	"maxAmmo": 200,
+	"maxAmmo": 75,
 	"lifetime": 5,
 	"inaccuracy": 0,
 
@@ -22,15 +22,16 @@
 	"ammoUseEffect": "shellEjectBig",
 
 	"buildCostMultiplier" : 0.2,	
-	"ammoPerShot" : 100,
+	"ammoPerShot" : 25,
 
 	"ammo":	{
-		"titanium": {
+		"titanium-carbide": {
 			"type" : "BasicBulletType",
 			"speed": 45.0,
 			"damage": 3500,
 			"splashDamage" : 1500,
-			"bulletHeight" : 65,
+			"bulletHeight" : 60,
+			"bulletWidth" : 15,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"splashDamageRadius" : 12,

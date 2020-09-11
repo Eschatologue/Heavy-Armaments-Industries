@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Titanium Carbide",
+	"description": "Exremely hard material with excellent thermal and chemical stability. Has many application including piercing turrets ammunition",
+	"cost": 0.5,
+	"color": "7575C8",
+	"hardness": 0
+}

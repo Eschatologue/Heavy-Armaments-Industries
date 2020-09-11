@@ -1,0 +1,37 @@
+{
+	"type": "GenericSmelter",
+	"name": "Carburizing Furnace",
+	"description": "Produces Titanium Carbide by diffusing coal into the surface of titanium",
+	"health" : 280,
+	"size": 3,
+	"flameColor": "ffaa5f",
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 90,
+	"itemCapacity": 60,
+	"buildCostMultiplier" : 0.6,
+	"updateEffect": "shieldBreak",	
+	"craftEffect": "plasticExplosion",
+	"outputItem": {"item": "titanium-carbide", "amount": 1},
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 5},
+				{ "item": "titanium", "amount": 10}
+
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "graphite", "amount": 85 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter"
+}
+
