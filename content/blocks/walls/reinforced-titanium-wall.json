@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Reinforced Titanium Wall",
+  "description": "A wall made of Titanium Carbide, very tough and durable.",
+  "health": 1200,
+  "size": 1,
+  "requirements": [
+          {"item": "titanium-carbide", "amount": 6 },
+          {"item": "thorium", "amount": 2 }
+    ],
+  "category": "defense",
+  "research": "thorium-wall"
+}

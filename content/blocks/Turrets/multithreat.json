@@ -12,7 +12,7 @@
 	
 	"targetAir" : true, 
 	"targetGround" : true,
-	"shootCone" : 1,
+	"shootCone" : 2,
 	"spread" : 4,
 	
 	"recoil" : 1,

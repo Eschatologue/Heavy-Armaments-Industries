@@ -3,7 +3,7 @@
 	"name": "Excaliber",
 	"description": "Named after its long barrel and sword-like shape, This powerful rapid fire cannon has proven itself to be indeed a 'kingmaker'.",
 
-	"size": 3,
+	"size": 2,
 	"health": 900,
 	"reload": 40,
 	"range": 180,

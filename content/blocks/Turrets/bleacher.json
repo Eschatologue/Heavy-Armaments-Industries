@@ -42,7 +42,7 @@
 		"titanium-carbide": { 
 			"type" : "BasicBulletType",
 			"speed": 10.0,
-			"damage": 10,
+			"damage": 45,
 			"bulletHeight": 15,
 			"bulletWidth" : 5,
 			"pierce": true,
