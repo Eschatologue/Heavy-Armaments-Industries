@@ -4,7 +4,7 @@
 	"description": "A simple missile launcher, has very long range. Very fragile and should be placed in the rear",
 	
 	"size": 1,
-	"health": 60,
+	"health": 45,
 	"reload": 160,
 	"range": 500,
 	"maxAmmo": 15,
@@ -12,7 +12,7 @@
 	"shootSound" : "missile",
 	"ammoUseEffect": "generatespark",
 	"inaccuracy": 5,
-	"rotatespeed": 5,
+	"rotatespeed": 3,
 	"ammoPerShot" : 5,
 	
 	"ammo": {
@@ -30,14 +30,34 @@
 			"pierce": false,
 			"smokeEffect": "hitBulletBig",
 			"homingPower": 1,
-			"homingRange": 32	,	
-			"frontColor": "6E7080",
-			"backColor": "B0BAC0"
+			"homingRange": 48,	
+			"frontColor": "B0BAC0",
+			"backColor": "6E7080"
+			},
+		"pyratite":{
+			"type" : "MissileBulletType",
+			"speed": 3.5,
+			"damage": 25,
+			"splashDamage" : 20,
+			"bulletHeight" : 12,
+			"bulletWidth" : 7,
+			"status" : "burning",
+			"statusDuration": "420",
+			"lifetime": 150,
+			"hitEffect": "plasticExplosion",
+			"shootEffect": "producesmoke",
+			"splashDamageRadius" : 16,
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"homingPower": 0.5,
+			"homingRange": 64,	
+			"frontColor": "FEB380",
+			"backColor": "EA8878"
 			}
 		},
 		
 	"requirements": [
-		{ "item": "copper", "amount": 35 },
+		{ "item": "graphite", "amount": 35 },
 		{ "item": "lead", "amount": 15 }
 	],
 	"category": "turret",
