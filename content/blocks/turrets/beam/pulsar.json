@@ -44,8 +44,8 @@
 		"shootEffect": "blockExplosionSmoke",
 		"pierce": true,
 		"smokeEffect": "shootSmall",
-		"frontColor": "#bbdefb",
-		"backColor": "#90caf9"
+		"frontColor": "bbdefb",
+		"backColor": "90caf9"
 	},
 
 	"requirements": [

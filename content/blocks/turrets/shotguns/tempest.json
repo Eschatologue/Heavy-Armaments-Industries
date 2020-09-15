@@ -1,0 +1,86 @@
+{
+	"type": "ItemTurret",
+	"name": "Tempest",
+	"description": "Shotgun shells, shot at gatling speed to ensure inevetable devastation upon the receiving end",
+
+	"size": 3,
+	"health": 1200,
+	"reload": 4,
+	"range": 220,
+	"maxAmmo": 96,
+	"inaccuracy": 5,
+	"shots" : 5,
+
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootCone" : 1.2,
+	"spread" : 1,
+
+	"recoil" : 1,
+	"restitution" : 0.6, 
+	"rotatespeed": 4,
+
+	"shootSound" : "Trenchgrade-class_Auto_",
+	"ammoUseEffect": "shellEjectBig",
+
+	"buildCostMultiplier" : 0.4,
+
+	"xRand" : 3,
+	"ammoPerShot" : 6,
+
+	"ammo": {
+		"graphite": {
+			"type" : "BasicBulletType",
+			"speed": 8.0,
+			"lifetime" : 28,
+			"damage": 12,
+			"bulletHeight" : 12,
+			"hitEffect": "mineHuge",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"knockback" : 5,
+			"ammoMultiplier": 4
+		},
+		"blast-compound": {
+			"type": "BasicBulletType",
+			"trailEffect" :"artilleryTrail",
+			"speed": 7.0,
+			"damage": 9,
+			"lifetime" : 30,
+			"splashDamage" : 8,
+			"bulletHeight" : 12,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"splashDamageRadius" : 32,
+			"frontColor": "FEB380",
+			"backColor": "EA8878",
+			"ammoMultiplier": 4
+		},
+		"titanium-carbide": {
+			"type": "BasicBulletType",
+			"trailEffect" :"artilleryTrail",
+			"speed": 9.0,
+			"lifetime" : 30,
+			"damage": 20,
+			"bulletHeight" : 14,
+			"bulletWidth": 6,
+			"hitEffect": "hitBulletBig", 
+			"shootEffect": "producesmoke",
+			"pierce": true,
+			"smokeEffect": "generatespark",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 265 },
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "surge-alloy", "amount": 80 },
+		{ "item": "graphite", "amount": 240},
+		{ "item": "titanium", "amount": 225}
+	],
+	"category": "turret",
+	"research": "breachlock"
+}

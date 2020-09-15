@@ -1,0 +1,68 @@
+{
+	"type": "ItemTurret",
+	"name": "Excaliber",
+	"description": "Named after its long barrel and sword-like shape, This powerful rapid fire cannon has proven itself to be indeed a 'kingmaker'.",
+
+	"size": 2,
+	"health": 900,
+	"reload": 40,
+	"range": 180,
+	"maxAmmo": 25,
+	"lifetime": 3,
+	"inaccuracy": 2,
+
+	"targetAir" : true, 
+	"targetGround" : true, 
+
+	"recoil" : 5,
+	"restitution" : 0.5,
+	"rotatespeed": 8,
+	
+	"shootSound" : "ExcaliberShoot",
+	"ammoUseEffect": "shellEjectBig",
+
+	"buildCostMultiplier" : 0.5,
+
+	"length" : 15,
+
+	"ammo":	{
+		"blast-compound": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "burning",
+			"frontColor": "ff795e",
+			"backColor":"f9a825",
+			"speed": 8.0,
+			"damage": 45,
+			"bulletHeight" : 35,
+			"bulletWidth" : 8,
+			"splashDamageRadius" : 40,
+			"splashDamage" : 40,
+			"hitEffect": "blockExplosion",
+			"shootEffect": "producesmoke",
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 4
+			},
+		"titanium": {
+			"type" : "BasicBulletType",
+			"trailEffect" : "artilleryTrail",
+			"speed": 10.0,
+			"damage": 50,
+			"bulletHeight" : 35,
+			"bulletWidth" : 8,
+			"hitEffect": "generatespark",
+			"shootEffect": "producesmoke",
+			"pierce": true,
+			"smokeEffect": "hitBulletBig",
+			"ammoMultiplier": 3
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "graphite", "amount": 350 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "surge-alloy", "amount": 10 },
+        { "item": "titanium", "amount": 250 }
+	],
+	"category": "turret",
+	"research": "ripple"
+}

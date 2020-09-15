@@ -1,0 +1,33 @@
+{
+	"type": "ItemTurret",
+	"name": "Quadra",
+	"description": "Upgraded version of Trio, now with 4 barrels for even more firepower! At a cost of slight inaccuracy",
+	
+	"size": 1,
+	"health": 280,
+	"reload": 4,
+	"xRand": 4,
+	"shot" : 1,
+	"maxAmmo": 100,
+	"range": 140,
+	"shootSound" : "shoot",
+	"ammoUseEffect": "shellEjectSmall",
+	"lifetime": 4,
+	"inaccuracy": 4,
+	"rotatespeed": 10,
+	
+	"ammo": {
+		"copper": "standardCopper",
+		"graphite": "standardDense",
+		"pyratite": "standardIncendiary",
+		"silicon": "standardHoming"
+		},
+		
+	"requirements": [
+		{ "item": "copper", "amount": 35 },
+		{ "item": "lead", "amount": 15 },
+		{ "item": "graphite", "amount":5 }
+	],
+	"category": "turret",
+	"research": "trio"
+}
