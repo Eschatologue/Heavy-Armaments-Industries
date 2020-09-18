@@ -1,0 +1,20 @@
+{
+	"name": "Archarios Mining Outpost",
+	"description": "Abandonned mining outpost with high concentration of copper and lead",
+    "startingItems": [
+		{"item": "copper", "amount": 200},
+		{"item": "lead", "amount": 200},
+		{"item": "graphite", "amount": 200}
+    ],
+	"conditionWave": 2,
+	"loadout" : "basicFoundation",
+    "launchPeriod": 2,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "saltFlats", 
+    		"wave": 15
+    	}
+    ],
+    "resources": ["lead","copper"]
+}

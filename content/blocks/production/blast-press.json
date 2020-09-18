@@ -1,0 +1,34 @@
+{
+	"type": "GenericSmelter",
+	"name": "Blast Press",
+	"description": "Rapidly compresses chunks of coals by immense pressure produced by Blast Compound explosive energy. Even the manufacturer isn't sure how that work",
+	"health" : 340,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 55,
+	"itemCapacity": 48,
+	"buildCostMultiplier" : 0.6,
+	"updateEffect": "melting",	
+	"craftEffect": "explosion",
+	"outputItem": {"item": "graphite", "amount": 12},
+	"consumes": {
+		"power": 4.5,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 12},
+				{ "item": "blast-compound", "amount" : 4}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 200 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "graphite", "amount": 350},
+		{ "item": "titanium", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "multi-press"
+}
+

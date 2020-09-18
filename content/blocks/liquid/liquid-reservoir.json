@@ -1,0 +1,18 @@
+{
+	"type": "LiquidTank",
+	"name": "Liquid Reservoir",
+	"health" : 350,
+	"description": "Stores a very large amount of liquid, a little bit more fragile",
+	"size": 4,
+	"hasLiquids": true,
+	"liquidCapacity": 2600,
+
+	"requirements": [
+		{ "item": "metaglass", "amount": 50 },
+		{ "item": "titanium", "amount": 50},
+		{ "item": "thorium", "amount": 25 }
+	],
+	"category": "liquid",
+	"research": "liquid-tank"
+}
+

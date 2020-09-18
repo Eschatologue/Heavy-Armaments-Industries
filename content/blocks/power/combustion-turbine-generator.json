@@ -1,0 +1,24 @@
+{
+	"name": "Combustion Turbine Generator",
+	"description": "Burns oil under pressure to produce hot exhaust gas, which generate power.",
+	
+	"size": 2,
+	"hasLiquids": true,
+	"liquidCapacity": 150,
+	"hasItems": false,
+	"minLiquidEfficiency": 0.9,
+	"maxLiquidGenerate": 0.5,
+	"powerProduction": 8,
+	"generateEffect": "redgeneratespark",
+	"heatColor": "ff9b59",
+
+	"requirements": [
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "metaglass", "amount": 50},
+		{ "item": "lead", "amount": 120 }
+	],
+	"category": "power",
+	"research": "combustion-generator"
+}
+
