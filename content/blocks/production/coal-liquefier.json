@@ -1,0 +1,36 @@
+{
+	"type": "GenericSmelter",
+	"name": "Coal Liquefier",
+	"description": "Liquefies coal to oil by using water and power",
+	"health" : 120,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"itemCapacity": 10,
+	"buildCostMultiplier" : 0.6,
+	"updateEffect": "oily",	
+	"drawLiquidLight" : true,
+	"outputLiquid": {"liquid": "oil", "amount": 4},
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 4}
+			]
+		},
+			"liquid": {
+				"liquid": "water",
+				"amount": 0.4
+			}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 60 },
+		{ "item": "metaglass", "amount": 65 },
+		{ "item": "plastanium", "amount": 30}
+	],
+	"category": "crafting",
+	"research": "multi-press"
+}
+

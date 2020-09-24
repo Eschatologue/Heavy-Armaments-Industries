@@ -1,6 +1,6 @@
 {
     "type": "ThermalGenerator",
-    "name": "Geothermal Generator",
+    "name": "Magmatic Generator",
     "description": "Generate a lot of power when placed in magma vents",
 	"health" : 340,
 	"size": 3,

@@ -1,0 +1,25 @@
+{
+    "type": "Drill",
+    "name": "Precision Drill",
+    "description": "A very compact drill, can be deployed on very tight spaces, capable of drilling titanium despite its size",
+
+    "size": 1,
+    "tier": 3,
+    "drillTime": 55,
+    "liquidBoostIntensity" : 2,
+    "warmupSpeed" : 0.05,
+    "rotateSpeed" : 5,
+    "drawRim" : true,
+	"hasPower": true,
+	"hasLiquids": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+	"updateEffect": "smeltsmoke",
+	"requirements": [
+        { "item": "thorium", "amount": 45},
+        { "item": "metaglass", "amount" : 40}
+	],
+	"category": "production",
+	"research": "laser-drill",
+	"idleSound": "respawning"
+}

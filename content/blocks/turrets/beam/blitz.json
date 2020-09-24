@@ -1,13 +1,13 @@
 {
 	"type": "PowerTurret",
-	"name": "Multithreat",
-	"description": "Operating at lower energy output than its predecessor, enables the 'Multithreat' to rapidly discharge energy beams at a rapid rate. Can target air",
+	"name": "Blitz",
+	"description": "A direct upgrade from 'Multithreat'. Fires energy bolts at a blinding rate of fire",
 
-	"size": 1,
-	"health": 180,
-	"reload": 8,
-	"range": 100,
-	"inaccuracy": 8,
+	"size": 2,
+	"health": 240,
+	"reload": 1,
+	"range": 150,
+	"inaccuracy": 10,
 	"shots" : 1,
 	
 	"targetAir" : true, 
@@ -26,11 +26,11 @@
 	"hasPower" : true,
 	"shootType" : {
 		"type" : "BasicBulletType",
-		"trailEffect" : "artilleryTrail",
 		"speed": 6.0,
-		"lifetime" : 40,
+		"lifetime" : 80,
 		"damage": 8,
-		"bulletHeight" : 25,
+		"bulletWidth" : 5,
+		"bulletHeight" : 10,
 		"hitEffect": "hitLaser",
 		"shootEffect": "smelt",
 		"pierce": true,
@@ -45,5 +45,5 @@
 		{ "item": "silicon", "amount": 45}
 	],
 	"category": "turret",
-	"research": "heavylight"
+	"research": "multithreat"
 }

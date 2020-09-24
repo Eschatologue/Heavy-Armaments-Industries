@@ -35,7 +35,8 @@
 		"shootEffect": "smelt",
 		"pierce": true,
 		"smokeEffect": "smelt",
-		"frontColor": "#67daff"
+		"frontColor": "bbdefb",
+		"backColor": "90caf9"
 	},
 	"consumes": {
 		"power": 20
