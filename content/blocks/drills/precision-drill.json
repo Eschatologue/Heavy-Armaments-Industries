@@ -5,19 +5,17 @@
 
     "size": 1,
     "tier": 3,
-    "drillTime": 55,
-    "liquidBoostIntensity" : 2,
+    "drillTime": 40,
     "warmupSpeed" : 0.05,
     "rotateSpeed" : 5,
-    "drawRim" : true,
 	"hasPower": true,
-	"hasLiquids": true,
+	"hasLiquids": false,
     "hasItems": true,
     "itemCapacity": 10,
 	"updateEffect": "smeltsmoke",
 	"requirements": [
-        { "item": "thorium", "amount": 45},
-        { "item": "metaglass", "amount" : 40}
+        { "item": "thorium", "amount": 8},
+        { "item": "plastanium", "amount" : 4}
 	],
 	"category": "production",
 	"research": "laser-drill",
