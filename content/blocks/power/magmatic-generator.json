@@ -1,0 +1,23 @@
+{
+    "type": "ThermalGenerator",
+ 	"health" : 340,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": false,
+    "buildCostMultiplier" : 0.6,
+    
+    "powerProduction" : 3,
+    "attribute" : "heat",
+    "generateEffect" : "melting",
+
+    "requirements": [
+		{ "item": "lead", "amount": 80 },
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "metaglass", "amount": 80},
+		{ "item": "silicon", "amount": 70},
+		{ "item": "graphite", "amount": 70 }
+	],
+	"category": "power",
+	"research": "differential-generator"
+}
