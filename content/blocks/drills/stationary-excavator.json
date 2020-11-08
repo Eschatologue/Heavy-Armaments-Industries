@@ -1,28 +1,22 @@
 {
     "type": "Drill",
-    "name": "Stationary Excavator",
-    "description": "A specialized 'drill' only capable of gathering only few types of resources, at a mass quantity. Requires water to operate",
-
     "size": 2,
     "tier": 0,
-    "drillTime": 65,
-    "liquidBoostIntensity" : 2,
-    "warmupSpeed" : 0.002,
-    "rotateSpeed" : 5,
+    "drillTime": 48,
+    "liquidBoostIntensity" : 1,
+    "warmupSpeed" : 0.003,
+    "rotateSpeed" : 8,
     "consumes" : {
-        "power" : 1.2,
+        "power" : 1.5,
         "liquid" : {
             "liquid" : "water",
-            "amount" : 0.3
+            "amount" : 0.5
         }
     },
     "drawRim" : true,
 	"hasPower": true,
 	"hasLiquids": true,
     "hasItems": true,
-    "outputItem" : {
-        "sand" : 3
-    },
     "itemCapacity": 64,
 	"updateEffect": "smeltsmoke",
 	"requirements": [
