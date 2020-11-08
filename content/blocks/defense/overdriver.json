@@ -1,7 +1,4 @@
 {
-	"name": "Overdriver",
-	"description": "Moderately increases the speed of nearby building.",
-
 	"type": "OverdriveProjector",
 	"health": 80,
 	"size": 1,
