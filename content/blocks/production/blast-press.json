@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Blast Press",
-	"description": "Rapidly compresses chunks of coals by immense pressure produced by Blast Compound explosive energy. Even the manufacturer isn't sure how that work",
 	"health" : 340,
 	"size": 3,
 	"hasPower": true,
