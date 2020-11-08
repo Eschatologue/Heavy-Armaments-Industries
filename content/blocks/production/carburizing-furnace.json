@@ -18,8 +18,8 @@
 		"power": 3,
 		"items": {
 			"items": [
-				{ "item": "coal", "amount": 6},
-				{ "item": "titanium", "amount": 15}
+				{ "item": "coal", "amount": 10},
+				{ "item": "titanium", "amount": 25}
 			]
 		}
 	},
