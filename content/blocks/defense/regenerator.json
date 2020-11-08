@@ -1,7 +1,4 @@
 {
-	"name": "Regenerator",
-	"description": "Rapidly repairs blocks in its vicinity. Very good for keeping blocks constantly healed under heavy fire",
-
 	"type": "MendProjector",
 	"health": 250,
 	"size": 2,
