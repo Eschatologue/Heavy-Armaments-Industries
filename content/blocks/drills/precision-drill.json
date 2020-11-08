@@ -1,13 +1,11 @@
 {
     "type": "Drill",
-    "name": "Precision Drill",
-    "description": "A very compact drill, can be deployed on very tight spaces, capable of drilling titanium despite its size",
-
     "size": 1,
     "tier": 3,
-    "drillTime": 40,
+    "drillTime": 30,
     "warmupSpeed" : 0.05,
     "rotateSpeed" : 5,
+    "liquidBoostIntensity" : 1,
 	"hasPower": true,
 	"hasLiquids": false,
     "hasItems": true,
@@ -18,6 +16,5 @@
         { "item": "plastanium", "amount" : 4}
 	],
 	"category": "production",
-	"research": "laser-drill",
-	"idleSound": "respawning"
+	"research": "stationary-excavator"
 }
