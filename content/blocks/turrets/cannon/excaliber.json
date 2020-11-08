@@ -1,11 +1,11 @@
 {
 	"type": "ItemTurret",
 	"name": "Excaliber",
-	"description": "Named after its long barrel and sword-like shape, This powerful rapid fire cannon has proven itself to be indeed a 'kingmaker'.",
+	"description": "Named after its sword-like shape, This powerful rapid-fire cannon is capable of firing high explosive or armor piercing",
 
-	"size": 2,
+	"size": 3,
 	"health": 900,
-	"reload": 40,
+	"reloadTime": 40,
 	"range": 180,
 	"maxAmmo": 25,
 	"lifetime": 3,
@@ -19,13 +19,11 @@
 	"rotatespeed": 8,
 	
 	"shootSound" : "ExcaliberShoot",
-	"ammoUseEffect": "shellEjectBig",
+
 
 	"buildCostMultiplier" : 0.5,
 
-	"length" : 15,
-
-	"ammo":	{
+	"ammoTypes":	{
 		"blast-compound": {
 			"type" : "BasicBulletType",
 			"trailEffect" : "burning",
@@ -33,8 +31,8 @@
 			"backColor":"f9a825",
 			"speed": 8.0,
 			"damage": 45,
-			"bulletHeight" : 35,
-			"bulletWidth" : 8,
+			"height" : 35,
+			"width" : 8,
 			"splashDamageRadius" : 40,
 			"splashDamage" : 40,
 			"hitEffect": "blockExplosion",
@@ -44,11 +42,10 @@
 			},
 		"titanium": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
 			"speed": 10.0,
 			"damage": 50,
-			"bulletHeight" : 35,
-			"bulletWidth" : 8,
+			"height" : 35,
+			"width" : 8,
 			"hitEffect": "generatespark",
 			"shootEffect": "producesmoke",
 			"pierce": true,
@@ -60,7 +57,6 @@
 		{ "item": "lead", "amount": 250 },
 		{ "item": "graphite", "amount": 350 },
 		{ "item": "silicon", "amount": 150 },
-		{ "item": "surge-alloy", "amount": 10 },
         { "item": "titanium", "amount": 250 }
 	],
 	"category": "turret",

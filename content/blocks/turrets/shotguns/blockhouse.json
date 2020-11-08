@@ -1,3 +1,4 @@
+
 {
 	"type": "ItemTurret",
 	"name": "Blockhouse",
@@ -5,7 +6,7 @@
 
 	"size": 2,
 	"health": 280,
-	"reload": 60,
+	"reloadTime": 60,
 	"range": 150,
 	"maxAmmo": 24,
 	"lifetime": 2,
@@ -22,12 +23,12 @@
 	"rotatespeed": 4,
 
 	"shootSound" : "shotgun",
-	"ammoUseEffect": "shellEjectBig",
+
 
 	"xRand" : 1,
 	"ammoPerShot" : 8,
 
-	"ammo": {
+	"ammoTypes": {
 		"lead": {
 			"type" : "BasicBulletType",
 			"trailEffect" : "artilleryTrail",

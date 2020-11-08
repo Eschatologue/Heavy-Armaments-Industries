@@ -5,7 +5,7 @@
 
 	"size": 1,
 	"health": 140,
-	"reload": 50,
+	"reloadTime": 50,
 	"range": 120,
 	"maxAmmo": 12,
 	"inaccuracy": 8,
@@ -21,12 +21,12 @@
 	"rotatespeed": 5,
 	
 	"shootSound" : "shotgun",
-	"ammoUseEffect": "shellEjectBig",
+
 
 	"xRand" : 1,
 	"ammoPerShot" : 4,
 
-	"ammo": {
+	"ammoTypes": {
 		"lead": {
 			"type" : "BasicBulletType",
 			"trailEffect" : "artilleryTrail",

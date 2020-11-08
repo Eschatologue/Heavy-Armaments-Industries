@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Coal Liquefier",
-	"description": "Liquefies coal to oil by using water and power",
 	"health" : 120,
 	"size": 2,
 	"hasPower": true,

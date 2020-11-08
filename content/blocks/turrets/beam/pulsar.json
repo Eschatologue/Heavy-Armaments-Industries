@@ -6,7 +6,7 @@
 	"size": 2,
 	"health": 360,
 	"range": 200,
-	"reload" : 70,
+	"reloadTime" : 70,
 	"inaccuracy": 2,
 	"shots" : 1,
 	
@@ -20,7 +20,7 @@
 	"rotatespeed": 4,
 
 	"shootSound" : "laser",
-	"ammoUseEffect": "smelt",
+
 
 	"chargeTime" : 70,
 	"chargeMaxDelay" : 30,

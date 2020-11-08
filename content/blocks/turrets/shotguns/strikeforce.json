@@ -5,7 +5,7 @@
 
 	"size": 3,
 	"health": 1500,
-	"reload": 50,
+	"reloadTime": 50,
 	"range": 170,
 	"maxAmmo": 256,
 	"lifetime": 2,
@@ -17,18 +17,18 @@
 	"shootCone" : 0.01,
 	"spread" : 0.5,
 
-	"recoil" : 8,
+	"recoil" : 16,
 	"restitution" : 0.6, 
 	"rotatespeed": 4,
 
 	"shootSound" : "shotgun",
-	"ammoUseEffect": "shellEjectBig",
+
 	"buildCostMultiplier" : 0.4,
 
 	"xRand" : 1,
 	"ammoPerShot" : 24,
 
-	"ammo": {
+	"ammoTypes": {
 		"blast-compound": {
 			"type" : "BasicBulletType",
 			"speed": 8.0,
@@ -63,9 +63,9 @@
 			"damage": 15,
 			"splashDamage" : 12,
 			"splashDamageRadius" : 38,
-			"knockback" : 250,
-			"bulletHeight" : 25,
-			"bulletWidth" : 10,
+			"knockback" : 15,
+			"height" : 25,
+			"width" : 10,
 			"pierce": false,
 			"frontColor":"C0ECFF" ,
 			"backColor": "87CEEB",

@@ -5,7 +5,7 @@
 
 	"size": 1,
 	"health": 180,
-	"reload": 8,
+	"reloadTime": 8,
 	"range": 100,
 	"inaccuracy": 8,
 	"shots" : 1,
@@ -20,7 +20,7 @@
 	"rotatespeed": 8,
 	
 	"shootSound" : "laser",
-	"ammoUseEffect": "smelt",
+
 
     "powerUse" : 1.6,
 	"hasPower" : true,
@@ -32,9 +32,7 @@
 		"damage": 8,
 		"bulletHeight" : 25,
 		"hitEffect": "hitLaser",
-		"shootEffect": "smelt",
 		"pierce": true,
-		"smokeEffect": "smelt",
 		"frontColor": "bbdefb",
 		"backColor": "90caf9"
 	},

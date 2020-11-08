@@ -1,7 +1,8 @@
 {
   "name": "Heavy Armaments",
-  "displayName": "[gold]Heavy Armaments Industries",
+  "displayName": "Heavy Armaments Industries",
   "author": "ItzAlen",
   "description": "Heavy Industrial Ordnance at your expense",
+  "minGameVersion": "105",
   "version": "2.0"
 }

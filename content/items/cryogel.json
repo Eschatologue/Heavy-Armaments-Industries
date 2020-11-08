@@ -1,8 +1,13 @@
 {
 	"type": "resource",
-	"name": "Cyrogel",
-	"description": "An extremely cold compound, synthesized from mixing cyroliquid and sand. despite its temperature, it is very gelatinous.",
 	"cost": 0.5,
 	"color": "87ceeb",
+	"research": {
+		"parent" : "blast-compound",
+		"requirements":[
+			{ "item": "titanium", "amount": 550 },
+			{ "item": "sand", "amount": 1500 }
+		]
+	},
 	"hardness": 0
 }

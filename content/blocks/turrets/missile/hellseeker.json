@@ -5,12 +5,11 @@
 	
 	"size": 1,
 	"health": 45,
-	"reload": 160,
+	"reloadTime": 160,
 	"range": 500,
 	"maxAmmo": 15,
 	"shot": 1,
 	"shootSound" : "missile",
-	"ammoUseEffect": "generatespark",
 	"inaccuracy": 5,
 	"rotatespeed": 3,
 	"ammoPerShot" : 5,

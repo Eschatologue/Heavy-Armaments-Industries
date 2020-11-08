@@ -5,18 +5,17 @@
 	
 	"size": 1,
 	"health": 280,
-	"reload": 4,
+	"reloadTime": 4,
 	"xRand": 4,
 	"shot" : 1,
 	"maxAmmo": 100,
 	"range": 140,
 	"shootSound" : "shoot",
-	"ammoUseEffect": "shellEjectSmall",
 	"lifetime": 4,
 	"inaccuracy": 4,
 	"rotatespeed": 10,
 	
-	"ammo": {
+	"ammoTypes": {
 		"copper": "standardCopper",
 		"graphite": "standardDense",
 		"pyratite": "standardIncendiary",
