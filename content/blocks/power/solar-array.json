@@ -1,20 +1,18 @@
 {
     "type": "SolarGenerator",
-    "name": "Solar Array",
-    "description": "An extremely efficient solar panel, not very durable unfortunately",
 	"health" : 360,
 	"size": 4,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": false,
     
-    "powerProduction" : 5,
+    "powerProduction" : 6,
 
     "requirements": [
 		{ "item": "titanium", "amount": 150 },
 		{ "item": "metaglass", "amount": 80},
 		{ "item": "silicon", "amount": 80},
-		{ "item": "phase-fabric", "amount": 30 }
+		{ "item": "phase-fabric", "amount": 50 }
 	],
 	"category": "power",
 	"research": "solar-panel-large"
