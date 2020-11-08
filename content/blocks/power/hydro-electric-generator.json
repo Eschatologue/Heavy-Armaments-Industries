@@ -1,0 +1,22 @@
+{
+    "type": "ThermalGenerator",
+   	"health" : 250,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": false,
+    "buildCostMultiplier" : 0.6,
+    
+    "powerProduction" : 5,
+    "attribute" : "water",
+    "generateEffect" : "freezing",
+
+    "requirements": [
+		{ "item": "titanium", "amount": 55 },
+		{ "item": "metaglass", "amount": 220},
+		{ "item": "silicon", "amount": 220},
+		{ "item": "plastanium", "amount": 70 }
+	],
+	"category": "power",
+	"research": "differential-generator"
+}
