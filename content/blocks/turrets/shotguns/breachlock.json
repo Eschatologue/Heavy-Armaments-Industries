@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-	"name": "Breachlock",
-	"description": "Slighly more modern version of its predecessor, its reduction in pellet counts allow it to operate at higher rate of fire and longer range",
-
 	"size": 2,
 	"health": 240,
 	"reloadTime": 30,
