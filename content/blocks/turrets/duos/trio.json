@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-	"name": "Trio",
-	"description": "Upgraded version of Duo, with an extra barrel for increased firepower!",
-	
 	"size": 1,
 	"health": 250,
 	"reloadTime": 8,
