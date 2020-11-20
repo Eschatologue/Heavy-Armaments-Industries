@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Pyra-Electric Kiln",
-	"description": "Uses intense heat of burning pyratite to rapidly produce Metaglass",
 	"health" : 960,
 	"size": 4,
 	"hasPower": true,
