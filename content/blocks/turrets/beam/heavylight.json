@@ -1,8 +1,5 @@
 {
 	"type": "PowerTurret",
-	"name": "Heavylight",
-	"description": "An ancient and fragile yet still usable beam turret. Fires bolts of energy at enemy",
-
 	"size": 1,
 	"health": 120,
 	"reloadTime": 30,
