@@ -1,11 +1,9 @@
 {
 	"type": "ItemTurret",
-	"name": "Deadeye",
-	"description": "Ferociously accurate long range turret that fires projectiles at extreme velocity. Capable of destroying most ground target in a single shot",
 
 	"size": 4,
 	"health": 650,
-	"reloadTime": 320,
+	"reloadTime": 350,
 	"range": 700,
 	"maxAmmo": 150,
 	"lifetime": 5,
@@ -28,24 +26,32 @@
 	"ammoTypes":	{
 		"titanium-carbide": {
 			"type" : "LaserBulletType",
-			"damage": 6500,
+			"damage": 9000,
 			"length" : 3000,
 			"width" : 30,
 			"drawSize": 800,
-			"knockback": 525,
-			"hitEffect": "dynamicExplosion",
+			"knockback": 625,
+			"hitEffect": "blockExplosion",
 			"shootEffect": "lancerLaserShoot",
-			"pierce": true
+			"pierce": true,
+			"fragBullets": 5,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"status" : "melting",
+				"lifetime": 120,
+				"speed": 0.5,
+				"damage" : 1500
 			}
-		},
+		}
+	},
 	"consumes" : {
 			"power": 8
 			},
 	"requirements": [
-		{ "item": "thorium", "amount": 950 },
-		{ "item": "titanium-carbide", "amount": 700 },
-		{ "item": "silicon", "amount": 1150 },
-		{ "item": "surge-alloy", "amount": 600 },
+		{ "item": "thorium", "amount": 2000 },
+		{ "item": "titanium-carbide", "amount": 1500 },
+		{ "item": "silicon", "amount": 1500 },
+		{ "item": "surge-alloy", "amount": 1200 },
 		{ "item": "metaglass", "amount": 1500 }
 	],
 	"category": "turret",
