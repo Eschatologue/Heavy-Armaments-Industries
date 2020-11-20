@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-	"name": "Excaliber",
-	"description": "Named after its sword-like shape, This powerful rapid-fire cannon is capable of firing high explosive or armor piercing",
-
 	"size": 3,
 	"health": 900,
 	"reloadTime": 40,
@@ -26,7 +23,6 @@
 	"ammoTypes":	{
 		"blast-compound": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "burning",
 			"frontColor": "ff795e",
 			"backColor":"f9a825",
 			"speed": 8.0,
