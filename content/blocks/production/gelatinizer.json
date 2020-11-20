@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Gelatinizer",
-	"description": "Uses sand to gelatinize cryofluid into an extremely cold and gelatinous compound known as 'Cryogel'",
 	"health" : 140,
 	"size": 2,
 	"flameColor": "C0ECFF",
