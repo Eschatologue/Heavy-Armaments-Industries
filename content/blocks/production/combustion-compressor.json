@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter",
+	"health" : 1280,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 75,
+	"itemCapacity": 30,
+	"liquidCapacity" : 500,
+	"buildCostMultiplier" : 0.6,	
+	"craftEffect": "formsmoke",
+	"updateEffect" : "plasticburn",
+	"outputItem": {"item": "plastanium", "amount": 6},
+	"consumes": {
+		"power": 6.5,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 8},
+				{ "item": "pyratite", "amount": 2}
+			]
+		},
+		"liquid": 
+			{"liquid": "oil", "amount": 1}
+	},
+	"category": "crafting",
+	"research": {
+		"parent" : "silicon-crucible",
+		"requirements": [
+			{ "item": "thorium", "amount": 220 },
+			{ "item": "silicon", "amount": 150 },
+			{ "item": "plastanium", "amount": 90},
+			{ "item": "graphite", "amount": 240 }
+		]
+	}
+}
+
