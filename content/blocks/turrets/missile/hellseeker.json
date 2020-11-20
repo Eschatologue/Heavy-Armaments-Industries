@@ -1,20 +1,20 @@
 {
 	"type": "ItemTurret",
-	"name": "Hellseeker",
-	"description": "A simple missile launcher, has very long range. Very fragile and should be placed in the rear",
-	
+
 	"size": 1,
 	"health": 45,
 	"reloadTime": 160,
 	"range": 500,
 	"maxAmmo": 15,
 	"shot": 1,
+	"targetAir" : true, 
+	"targetGround" : true,
 	"shootSound" : "missile",
 	"inaccuracy": 5,
 	"rotatespeed": 3,
 	"ammoPerShot" : 5,
 	
-	"ammo": {
+	"ammoType": {
 		"silicon": {
 			"type" : "MissileBulletType",
 			"speed": 3.5,
