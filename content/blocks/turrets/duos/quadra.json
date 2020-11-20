@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-	"name": "Quadra",
-	"description": "Upgraded version of Trio, now with 4 barrels for even more firepower! At a cost of slight inaccuracy",
-	
 	"size": 1,
 	"health": 280,
 	"reloadTime": 4,
