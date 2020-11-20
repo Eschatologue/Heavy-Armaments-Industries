@@ -1,7 +1,5 @@
 {
 	"type": "ItemTurret",
-	"name": "Trenchgrade",
-	"description": "Don,t let the looks fool you, despite its age, this old dog still pack some serious punch. Fires oversized shotgun shells that wrecks havoc upon close enemies",
 
 	"size": 1,
 	"health": 140,
@@ -21,7 +19,6 @@
 	"rotatespeed": 5,
 	
 	"shootSound" : "shotgun",
-
 
 	"xRand" : 1,
 	"ammoPerShot" : 4,
