@@ -1,8 +1,5 @@
 {
 	"type": "PowerTurret",
-	"name": "Multithreat",
-	"description": "Operating at lower energy output than its predecessor, enables the 'Multithreat' to rapidly discharge energy beams at a rapid rate. Can target air",
-
 	"size": 1,
 	"health": 180,
 	"reloadTime": 8,
