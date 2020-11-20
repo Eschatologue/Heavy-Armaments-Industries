@@ -1,9 +1,6 @@
 
 {
 	"type": "ItemTurret",
-	"name": "Blockhouse",
-	"description": "Sometimes all you is a bigger barrel. A direct upgrade from its predecessor, slower rate of fire, but double the pellet count",
-
 	"size": 2,
 	"health": 280,
 	"reloadTime": 60,
