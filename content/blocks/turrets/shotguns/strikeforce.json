@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-	"name": "Strikeforce",
-	"description": "A very brutal weapon, capable of shooting cold piercing shells or completely annihilate them with concentrated explosion",
-
 	"size": 3,
 	"health": 1500,
 	"reloadTime": 50,
