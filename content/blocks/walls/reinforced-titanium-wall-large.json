@@ -1,6 +1,5 @@
 {
   "name": "Large Reinforced Titanium Wall",
-  "description": "A big wall made of Titanium Carbide, very tough and durable. Spans multiple tiles.",
   "type": "Wall",
   "health": 4800,
   "size": 2,
