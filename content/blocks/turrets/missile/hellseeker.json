@@ -14,7 +14,7 @@
 	"rotatespeed": 3,
 	"ammoPerShot" : 5,
 	
-	"ammoType": {
+	"ammoTypes": {
 		"silicon": {
 			"type" : "MissileBulletType",
 			"speed": 3.5,
