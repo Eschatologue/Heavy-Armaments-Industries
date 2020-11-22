@@ -32,7 +32,6 @@
 			"splashDamageRadius" : 40,
 			"splashDamage" : 30,
 			"hitEffect": "plasticExplosion",
-			"shootEffect": "shellEjectSmall",
 			"smokeEffect": "mineHuge",
 			"homingPower": 0.5,
 			"ammoMultiplier": 5
@@ -43,8 +42,7 @@
 			"damage": 45,
 			"bulletHeight": 15,
 			"bulletWidth" : 5,
-			"pierce": true,
-			"shootEffect": "shellEjectSmall",		
+			"pierce": true,	
 			"smokeEffect": "mineHuge",
 			"hitEffect": "hitBulletBig",
 			"ammoMultiplier": 5
