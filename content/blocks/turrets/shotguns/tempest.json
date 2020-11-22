@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-	"name": "Tempest",
-	"description": "Shotgun shells, shot at gatling speed to ensure inevetable devastation upon the receiving end",
-
 	"size": 3,
 	"health": 1200,
 	"reloadTime": 4,
@@ -82,5 +79,5 @@
 		{ "item": "titanium", "amount": 225}
 	],
 	"category": "turret",
-	"research": "breachlock"
+	"research": "hurricane"
 }
