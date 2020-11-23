@@ -3,25 +3,27 @@
 
 	"size": 4,
 	"health": 650,
-	"reloadTime": 350,
-	"range": 700,
+
 	"maxAmmo": 150,
+	"ammoPerShot" : 50,
+	"reloadTime": 350,
+
+	"range": 700,
 	"lifetime": 5,
-	"inaccuracy": 0,
 
 	"targetAir" : false, 
 	"targetGround" : true, 
 
 	"recoilAmount" : 15,
 	"shootShake" : 12,
+	"inaccuracy": 0,
+
 	"restitution" : 0.1,
 	"rotatespeed": 0.6,
 
 	"shootSound" : "DeadeyeShoot",
-	"smokeEffect": "blastExplosion",
 
 	"buildCostMultiplier" : 0.2,	
-	"ammoPerShot" : 50,
 
 	"ammoTypes":	{
 		"titanium-carbide": {
@@ -31,9 +33,10 @@
 			"width" : 30,
 			"drawSize": 800,
 			"knockback": 625,
-			"hitEffect": "blockExplosion",
-			"shootEffect": "lancerLaserShoot",
 			"pierce": true,
+			"hitEffect": "blockExplosion",
+			"smokeEffect": "blastExplosion",
+			"shootEffect": "lancerLaserShoot",
 			"fragBullets": 5,
 			"fragBullet": {
 				"type": "BasicBulletType",
