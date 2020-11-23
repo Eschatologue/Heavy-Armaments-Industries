@@ -41,7 +41,6 @@
 		},
 		"blast-compound": {
 			"type": "BasicBulletType",
-			"trailEffect" :"artilleryTrail",
 			"speed": 7.0,
 			"damage": 9,
 			"lifetime" : 30,
@@ -58,7 +57,6 @@
 		},
 		"titanium-carbide": {
 			"type": "BasicBulletType",
-			"trailEffect" :"artilleryTrail",
 			"speed": 9.0,
 			"lifetime" : 30,
 			"damage": 20,
