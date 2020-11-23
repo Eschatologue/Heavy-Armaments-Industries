@@ -2,51 +2,55 @@
 	"type": "ItemTurret",
 	"size": 3,
 	"health": 900,
-	"reloadTime": 40,
-	"range": 180,
+
 	"maxAmmo": 25,
-	"lifetime": 3,
-	"inaccuracy": 2,
+	"ammoPerShot" : 2,
+	"reloadTime": 40,
+
+	"range": 180,
 
 	"targetAir" : true, 
 	"targetGround" : true, 
 
-	"recoil" : 5,
-	"restitution" : 0.5,
 	"rotatespeed": 8,
-	
-	"shootSound" : "ExcaliberShoot",
+	"inaccuracy": 2,
 
+	"recoilAmount" : 5,	
+	"restitution" : 0.5,
+
+	"shootSound" : "ExcaliberShoot",
 
 	"buildCostMultiplier" : 0.5,
 
 	"ammoTypes":	{
 		"blast-compound": {
 			"type" : "BasicBulletType",
-			"frontColor": "ff795e",
-			"backColor":"f9a825",
-			"speed": 8.0,
 			"damage": 45,
-			"height" : 35,
-			"width" : 8,
 			"splashDamageRadius" : 40,
 			"splashDamage" : 40,
+			"speed": 8.0,	
+			"lifetime": 3,
+			"height" : 35,
+			"width" : 8,
+			"ammoMultiplier": 4,
+			"frontColor": "ff795e",
+			"backColor":"f9a825",
 			"hitEffect": "blockExplosion",
 			"shootEffect": "producesmoke",
-			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 4
+			"smokeEffect": "hitBulletBig"
 			},
 		"titanium": {
 			"type" : "BasicBulletType",
-			"speed": 10.0,
 			"damage": 50,
+			"speed": 10.0,
+			"lifetime": 3,
 			"height" : 35,
 			"width" : 8,
+			"ammoMultiplier": 3,
+			"pierce": true,
 			"hitEffect": "generatespark",
 			"shootEffect": "producesmoke",
-			"pierce": true,
-			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 3
+			"smokeEffect": "hitBulletBig"
 		}
 	},
 	"requirements": [
