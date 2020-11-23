@@ -1,58 +1,61 @@
-
 {
 	"type": "ItemTurret",
 	"size": 2,
 	"health": 280,
+
+	"maxAmmo": 24,	
+	"ammoPerShot" : 8,	
 	"reloadTime": 60,
-	"range": 150,
-	"maxAmmo": 24,
-	"lifetime": 2,
-	"inaccuracy": 5,
 	"shots" : 32,
-	
+
+	"range": 150,
+
 	"targetAir" : false, 
 	"targetGround" : true,
+
+	"rotatespeed": 4,
+	"inaccuracy": 5,
+	
 	"shootCone" : 0.08,
 	"spread" : 1,
 
-	"recoil" : 8,
+	"recoilAmount" : 8,
 	"restitution" : 0.6, 
-	"rotatespeed": 4,
 
 	"shootSound" : "shotgun",
 
-
 	"xRand" : 1,
-	"ammoPerShot" : 8,
 
 	"ammoTypes": {
 		"lead": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
+			"damage": 9,			
 			"speed": 8.0,
 			"lifetime" : 19,
-			"damage": 9,
-			"bulletHeight" : 12,
+			"height" : 12,
+			"width" : 4,
+			"pierce": false,	
+			"ammoMultiplier": 4	,				
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
-			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 4
+			"smokeEffect": "hitBulletBig"
 		},
 		"pyratite": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
-			"status" : "burning",
-			"speed": 6.0,
-			"lifetime" : 30,
 			"damage": 4,
-			"bulletHeight" : 12,
-			"hitEffect": "fuelburn",
-			"frontColor": "ffd54f",
-			"shootEffect": "producesmoke",
+			"height" : 12,
+			"width" : 4,			
+			"speed": 6.0,
+			"lifetime" : 30,			
+			"status" : "burning",
+			"statusDuration": 120,
 			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"ammoMultiplier": 4
+			"ammoMultiplier": 4,		
+			"frontColor": "FEB380",
+			"backColor": "EA8878",
+			"hitEffect": "fuelburn",
+			"shootEffect": "producesmoke",
+			"smokeEffect": "hitBulletBig"
 		}
 	},
 	"requirements": [
