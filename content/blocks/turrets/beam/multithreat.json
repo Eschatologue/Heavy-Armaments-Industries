@@ -40,5 +40,5 @@
 		{ "item": "silicon", "amount": 45}
 	],
 	"category": "turret",
-	"research": "heavylight"
+	"research": "arc"
 }
