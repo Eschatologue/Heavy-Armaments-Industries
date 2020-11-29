@@ -42,5 +42,5 @@
 		{ "item": "copper", "amount": 20 }
 	],
 	"category": "turret",
-	"research": "core-shard"
+	"research": "trio"
 }
