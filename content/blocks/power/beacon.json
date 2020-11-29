@@ -1,0 +1,17 @@
+{
+    "type": "LightBlock",
+    "health" : 250,
+	"size": 2,
+    "brightness": 0.8,
+    "radius": 560 ,  
+    "consumes" : {
+        "power": 0.08
+        },
+    "requirements": [
+		{ "item": "graphite", "amount": 48 },
+        { "item": "silicon", "amount": 24 },
+        { "item": "titanium", "amount": 12 }
+	],
+	"category": "power",
+	"research": "illuminator"
+}
