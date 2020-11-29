@@ -29,6 +29,8 @@
 		"titanium-carbide": {
 			"type" : "LaserBulletType",
 			"damage": 9000,
+			"splashDamageRadius" : 40,
+			"splashDamage" : 8000,
 			"length" : 3000,
 			"width" : 30,
 			"drawSize": 800,
@@ -43,7 +45,9 @@
 				"status" : "melting",
 				"lifetime": 120,
 				"speed": 0.5,
-				"damage" : 1500
+				"damage" : 1500,
+				"frontColor": "bbdefb",
+				"backColor": "90caf9"
 			}
 		}
 	},
