@@ -1,5 +1,5 @@
 {
-	"type": "ChargeTurret",
+	"type": "PowerTurret",
 	
 	"size": 2,
 	"health": 360,
@@ -19,19 +19,17 @@
 
 	"shootSound" : "laser",
 
-
 	"chargeTime" : 70,
 	"chargeMaxDelay" : 30,
 	"chargeEffects" : 7,
 	
 	"chargeEffect" : "lightningCharge",
-	"chargeBeginEffect" : "redgeneratespark",
+	"chargeBeginEffect" : "lancerLaserChargeBegin",
 
     "powerUse" : 3,
 	"hasPower" : true,
 	"shootType" : {
 		"type" : "BasicBulletType",
-		"trailEffect" : "incendTrail",
 		"speed": 3.0,
 		"lifetime" : 80,
 		"damage": 70,
