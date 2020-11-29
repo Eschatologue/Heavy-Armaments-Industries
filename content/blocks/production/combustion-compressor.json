@@ -23,21 +23,13 @@
 		"liquid": 
 			{"liquid": "oil", "amount": 1}
 	},
-	"category": "crafting",
 	"requirements": [
 		{ "item": "thorium", "amount": 220 },
 		{ "item": "silicon", "amount": 150 },
 		{ "item": "plastanium", "amount": 90},
 		{ "item": "graphite", "amount": 240 }
 	],
-	"research": {
-		"parent" : "silicon-crucible",
-		"requirements": [
-			{ "item": "thorium", "amount": 220 },
-			{ "item": "silicon", "amount": 150 },
-			{ "item": "plastanium", "amount": 90},
-			{ "item": "graphite", "amount": 240 }
-		]
-	}
+	"category": "crafting",	
+	"research": "silicon-crucible"
 }
 
