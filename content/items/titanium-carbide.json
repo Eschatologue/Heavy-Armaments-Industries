@@ -5,8 +5,8 @@
 	"research": {
 		"parent" : "titanium",
 		"requirements":[
-			{ "item": "titanium", "amount": 1000 },
-			{ "item": "coal", "amount": 4000 }
+			{ "item": "titanium", "amount": 2000 },
+			{ "item": "coal", "amount": 8000 }
 		]
 	},
 	"hardness": 0
