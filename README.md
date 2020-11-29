@@ -1,4 +1,4 @@
-![icon](https://github.com/Eschatologue/Heavy-Armaments-Industries/blob/master/icon.png)
+![icon](https://github.com/Eschatologue/Heavy-Armaments-Industries/blob/master/HAI%20Banner%20Ex2.png)
 # Heavy Armaments Industries
 Merged from Heavy Armaments and Heavy Industries forming a mod that expands vanilla mindustry both arsenals and industrial aspect to offer more selection with more powerful and efficient turrets and factory
 
