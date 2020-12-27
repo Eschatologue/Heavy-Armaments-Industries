@@ -1,10 +1,10 @@
 {
   "type": "Wall",
-  "health": 1200,
+  "health": 1500,
   "size": 1,
   "requirements": [
-          {"item": "titanium-carbide", "amount": 6 },
-          {"item": "thorium", "amount": 2 }
+          {"item": "titanium-carbide", "amount": 8 },
+          {"item": "thorium", "amount": 3 }
     ],
   "category": "defense",
   "research": "thorium-wall"

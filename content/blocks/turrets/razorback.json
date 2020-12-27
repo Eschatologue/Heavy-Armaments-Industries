@@ -1,55 +1,53 @@
 {
 	"type": "ItemTurret",
 	"size": 3,
-	"health": 900,
+	"health": 1500,
 
 	"maxAmmo": 600,
 	"ammoPerShot" : 5,
-	"reloadTime": 0.3,
-
+	"reloadTime": 0.25,
 	"range": 200,
 
 	"targetAir" : false, 
 	"targetGround" : true, 
 
-	"rotatespeed": 8,
-	"inaccuracy": 7,
+	"rotatespeed": 5,
+	"inaccuracy": 5,
 	"shots" : 2,
 	"xRand" : 4,
 
 	"recoilAmount" : 2,
-	"restitution" : 0.8, 
+	"restitution" : 3, 
 
 	"shootSound" : "shoot",
 
 	"buildCostMultiplier" : 0.2,
 
 	"ammoTypes": {
-		"blast-compound": {
-			"type" : "MissileBulletType",
-			"damage": 35,
-			"splashDamageRadius" : 40,
-			"splashDamage" : 30,
-			"speed": 8.0,
-			"lifetime": 5,
-			"height": 10,
-			"width" : 5,
-			"ammoMultiplier": 5,
-			"homingPower": 0.5,
-			"hitEffect": "plasticExplosion",
-			"smokeEffect": "mineHuge"
+		"surge-alloy": {
+			"type" : "BasicBulletType",
+			"damage": 25,
+			"speed": 10.0,
+			"lifetime": 50,
+			"height": 25,
+			"width" : 10,
+			"ammoMultiplier": 16,
+			"lightning" : 2,
+            "lightningLength" : 8,
+			"hitEffect": "hitYellowLaser",
+			"smokeEffect": "hitBulletBig"
 			},
 		"titanium-carbide": { 
 			"type" : "BasicBulletType",
-			"damage": 45,
-			"height": 15,
-			"width" : 5,			
-			"speed": 10.0,
-			"lifetime": 5,
-			"ammoMultiplier": 5	,
+			"damage": 120,
+			"height": 25,
+			"width" : 10,			
+			"speed": 12.0,
+			"lifetime": 50,
+			"ammoMultiplier": 8,
 			"pierce": true,	
-			"hitEffect": "hitBulletBig",
-			"smokeEffect": "mineHuge"
+			"hitEffect": "railHit",
+			"smokeEffect": "hitBulletBig"
 			}	
 	},
 	"requirements": [

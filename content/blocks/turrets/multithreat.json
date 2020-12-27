@@ -23,11 +23,11 @@
 	"hasPower" : true,
 	"shootType" : {
 		"type" : "BasicBulletType",
-		"trailEffect" : "artilleryTrail",
 		"speed": 6.0,
 		"lifetime" : 40,
 		"damage": 8,
-		"bulletHeight" : 25,
+		"height" : 14,
+		"width" : 7,
 		"hitEffect": "hitLaser",
 		"pierce": true,
 		"frontColor": "bbdefb",

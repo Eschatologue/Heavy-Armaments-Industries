@@ -30,12 +30,14 @@
 	"hasPower" : true,
 	"shootType" : {
 		"type" : "BasicBulletType",
+		"damage": 70,	
+		"height" : 40,
+		"width" : 10,			
 		"speed": 3.0,
 		"lifetime" : 80,
-		"damage": 70,
+
 		"status" : "melting",
-		"height" : 40,
-		"width" : 10,
+
 		"hitEffect": "hitLancer",
 		"shootEffect": "blockExplosionSmoke",
 		"pierce": true,

@@ -4,7 +4,7 @@
 	"size": 1,
 	"health": 140,
 	"reloadTime": 50,
-	"range": 120,
+	"range": 90,
 	"maxAmmo": 12,
 	"inaccuracy": 8,
 	"shots" : 12,
@@ -30,7 +30,8 @@
 			"speed": 6.0,
 			"lifetime" : 19,
 			"damage": 5,
-			"bulletHeight" : 10,
+			"height" : 10,
+			"width" : 7,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"pierce": false,
@@ -42,5 +43,5 @@
 		{ "item": "copper", "amount": 20 }
 	],
 	"category": "turret",
-	"research": "trio"
+	"research": "quadra"
 }

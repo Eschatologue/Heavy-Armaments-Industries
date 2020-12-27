@@ -2,11 +2,11 @@
 	"type": "ItemTurret",
 
 	"size": 4,
-	"health": 650,
+	"health": 850,
 
 	"maxAmmo": 150,
 	"ammoPerShot" : 50,
-	"reloadTime": 350,
+	"reloadTime": 450,
 
 	"range": 700,
 	"lifetime": 5,
@@ -23,22 +23,21 @@
 
 	"shootSound" : "DeadeyeShoot",
 
-	"buildCostMultiplier" : 0.2,	
-
 	"ammoTypes":	{
 		"titanium-carbide": {
-			"type" : "LaserBulletType",
-			"damage": 9000,
-			"splashDamageRadius" : 40,
-			"splashDamage" : 8000,
-			"length" : 3000,
-			"width" : 30,
-			"drawSize": 800,
-			"knockback": 625,
+			"type" : "RailBulletType",
+			"damage": 9500,
+			"length" : 5000,
+			"width" : 15,
+			"ammoMultiplier": 3,
 			"pierce": true,
-			"hitEffect": "blockExplosion",
-			"smokeEffect": "blastExplosion",
-			"shootEffect": "lancerLaserShoot",
+			"collidesTiles" : false,
+			"hitTiles" : false,
+			"pierceEffect" : "railHit",
+			"updateEffect" : "railTrail",
+			"hitEffect" : "massiveExplosion",
+			"smokeEffect" : "shootBig2",
+			"pierceDamageFactor" : 0.8,
 			"fragBullets": 5,
 			"fragBullet": {
 				"type": "BasicBulletType",
@@ -62,5 +61,5 @@
 		{ "item": "metaglass", "amount": 1500 }
 	],
 	"category": "turret",
-	"research": "foreshadow"
+	"research": "excaliber"
 }

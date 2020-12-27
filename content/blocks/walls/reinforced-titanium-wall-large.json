@@ -1,11 +1,10 @@
 {
-  "name": "Large Reinforced Titanium Wall",
   "type": "Wall",
-  "health": 4800,
+  "health": 6000,
   "size": 2,
   "requirements": [
-          {"item": "titanium-carbide", "amount": 24 },
-          {"item": "thorium", "amount": 8 }
+          {"item": "titanium-carbide", "amount": 32 },
+          {"item": "thorium", "amount": 12 }
     ],
   "category": "defense",
   "research": "reinforced-titanium-wall"

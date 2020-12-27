@@ -2,7 +2,7 @@
 	"type": "ItemTurret",
 	"size": 2,
 	"health": 240,
-	"reloadTime": 30,
+	"reloadTime": 24,
 	"range": 200,
 	"maxAmmo": 48,
 	"lifetime": 2,
@@ -27,14 +27,30 @@
 	"ammoTypes": {
 		"lead": {
 			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
 			"speed": 8.0,
 			"damage": 6,
-			"bulletHeight" : 12,
+			"height" : 12,
+			"width" : 4,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
 			"pierce": false,
 			"smokeEffect": "hitBulletBig"
+		},
+		"blast-compound": {
+			"type": "BasicBulletType",
+			"speed": 7.0,
+			"damage": 9,
+			"lifetime" : 30,
+			"splashDamage" : 8,
+			"bulletHeight" : 12,
+			"hitEffect": "blastExplosion",
+			"shootEffect": "producesmoke",
+			"pierce": false,
+			"smokeEffect": "hitBulletBig",
+			"splashDamageRadius" : 32,
+			"frontColor": "FEB380",
+			"backColor": "EA8878",
+			"ammoMultiplier": 4
 		}
 	},
 	"requirements": [
