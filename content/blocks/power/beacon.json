@@ -12,6 +12,6 @@
         { "item": "silicon", "amount": 24 },
         { "item": "titanium", "amount": 12 }
 	],
-	"category": "power",
+	"category": "effect",
 	"research": "illuminator"
 }
