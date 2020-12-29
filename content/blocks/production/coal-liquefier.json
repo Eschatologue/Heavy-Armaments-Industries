@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "AttributeSmelter",
 	"health" : 120,
 	"size": 2,
 	"hasPower": true,
@@ -8,6 +8,10 @@
 	"craftTime": 60,
 	"itemCapacity": 10,
 	"buildCostMultiplier" : 0.6,
+	"attribute"	: "oil",
+	"baseEfficiency": 1.0,	
+	"boostScale": 0.25,
+	"maxHeatBoost": 1.0,
 	"updateEffect": "oily",	
 	"drawLiquidLight" : true,
 	"outputLiquid": {"liquid": "oil", "amount": 4},
