@@ -5,7 +5,7 @@
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
-	"craftTime": 55,
+	"craftTime": 60,
 	"itemCapacity": 48,
 	"buildCostMultiplier" : 0.6,
 	"updateEffect": "melting",	
