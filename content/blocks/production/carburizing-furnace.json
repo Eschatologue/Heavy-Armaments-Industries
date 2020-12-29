@@ -1,14 +1,12 @@
 {
 	"type": "GenericSmelter",
-	"name": "Carburizing Furnace",
-	"description": "Produces Titanium Carbide by diffusing coal into the surface of titanium",
 	"health" : 280,
 	"size": 3,
 	"flameColor": "FFC999",
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
-	"craftTime": 90,
+	"craftTime": 120,
 	"itemCapacity": 60,
 	"buildCostMultiplier" : 0.6,
 	"updateEffect": "shieldBreak",	
@@ -18,8 +16,8 @@
 		"power": 3,
 		"items": {
 			"items": [
-				{ "item": "coal", "amount": 10},
-				{ "item": "titanium", "amount": 25}
+				{ "item": "coal", "amount": 12},
+				{ "item": "titanium", "amount": 30}
 			]
 		}
 	},
