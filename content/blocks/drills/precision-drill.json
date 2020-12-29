@@ -6,6 +6,8 @@
     "warmupSpeed" : 0.05,
     "rotateSpeed" : 5,
     "liquidBoostIntensity" : 1,
+    "drawRim" : true,
+    "drawMineItem" : false,
 	"hasPower": true,
 	"hasLiquids": false,
     "hasItems": true,
