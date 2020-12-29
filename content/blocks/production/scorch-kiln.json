@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "AttributeSmelter",
 	"health" : 960,
 	"size": 3,
 	"hasPower": true,
@@ -8,6 +8,10 @@
 	"craftTime": 90,
 	"itemCapacity": 16,
 	"buildCostMultiplier" : 0.6,	
+	"attribute"	: "heat",
+	"baseEfficiency": 1.0,	
+	"boostScale": 0.1,
+	"maxHeatBoost": 1.5,
 	"updateEffect": "ballfire",
 	"craftEffect": "blastsmoke",
 	"outputItem": {"item": "metaglass", "amount": 8},
