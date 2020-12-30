@@ -1,4 +1,4 @@
-![icon](https://ibb.co/vqTfcvw)
+![image](https://ibb.co/vqTfcvw)
 # Heavy Armaments Industries
 Merged from Heavy Armaments and Heavy Industries forming a mod that expands vanilla mindustry both arsenals and industrial aspect to offer more selection with more powerful and efficient turrets and factory
 
