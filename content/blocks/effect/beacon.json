@@ -1,6 +1,5 @@
 {
     "type": "LightBlock",
-    "BuildVisibility" : "lightingOnly",
     "health" : 250,
 	"size": 2,
     "brightness": 0.8,
