@@ -2,7 +2,7 @@
 	"type": "ItemTurret",
 	"size": 3,
 	"health": 1500,
-	"reloadTime": 50,
+	"reloadTime": 60,
 	"range": 170,
 	"maxAmmo": 256,
 	"inaccuracy": 5,
@@ -14,8 +14,8 @@
 	"spread" : 0.5,
 
 	"recoil" : 16,
-	"restitution" : 0.6, 
-	"rotatespeed": 4,
+	"restitution" : 0.05, 
+	"rotateSpeed": 4,
 
 	"shootSound" : "shotgun",
 
@@ -25,14 +25,15 @@
 	"ammoPerShot" : 24,
 
 	"ammoTypes": {
-		"blast-compound": {
+		"pyratite": {
 			"type" : "BasicBulletType",
-			"status" : "burning",			
-			"damage": 12,	
+			"status" : "burning",	
+			"statusDuration": "1200",					
+			"damage": 25,	
 			"speed": 5,				
-			"splashDamage" : 10,
+			"splashDamage" : 20,
 			"splashDamageRadius" : 38,							
-			"statusDuration": "1200",
+			"knockback" : 3,
 			"height" : 25,
 			"width" : 10,
 			"pierce": false,
@@ -46,20 +47,21 @@
 				"type": "LiquidBulletType",
 				"liquid": "slag",
 				"status": "melting",
-				"lifetime": 120,
+				"pierce": true,
+				"lifetime": 80,
 				"speed": 1,
-				"damage" : 4
+				"damage" : 8
 			}
 		},
 		"cryogel": {
 			"type" : "BasicBulletType",
 			"status" : "freezing",
 			"statusDuration": "1200",
-			"damage": 15,
+			"damage": 25,
 			"speed" : 5,
-			"splashDamage" : 12,
+			"splashDamage" : 20,
 			"splashDamageRadius" : 38,
-			"knockback" : 15,
+			"knockback" : 3,
 			"height" : 30,
 			"width" : 10,
 			"pierce": false,
@@ -73,9 +75,10 @@
 				"type": "LiquidBulletType",
 				"liquid": "cryofluid",
 				"status" : "corroded",
-				"lifetime": 120,
+				"pierce": true,
+				"lifetime": 80,
 				"speed": 1,
-				"damage" : 4
+				"damage" : 8
 			}
 		}
 	},

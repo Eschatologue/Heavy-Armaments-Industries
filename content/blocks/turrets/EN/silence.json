@@ -1,0 +1,66 @@
+{
+	"type": "PowerTurret",
+	
+	"size": 2,
+	"health": 280,
+	"range": 380,
+	"reloadTime" : 120,
+	"inaccuracy": 3,
+	"shots" : 1,
+	
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 1,
+	"spread" : 2,
+	
+	"recoil" : 0,
+	"restitution" : 0, 
+	"rotateSpeed": 3,
+
+	"shootSound" : "laser",
+
+	"chargeTime" : 70,
+	"chargeMaxDelay" : 40,
+	"chargeEffects" : 10,
+	
+	"chargeEffect" : "hitYellowLaser",
+	"chargeBeginEffect" : "hitYellowLaser",
+
+    "powerUse" : 4,
+	"hasPower" : true,
+	"shootType" : {
+			"type" : "ArtilleryBulletType",
+			"status" : {
+				"name": "EMP",
+				"speedMultiplier": 0,
+				"damageMultiplier": 0,
+				"armorMultiplier": 0,
+				"effect": "hitFuse"
+			  },			
+			"damage": 8,	
+			"speed": 2.2,				
+			"splashDamage" : 8,
+			"splashDamageRadius" : 32,							
+			"statusDuration": 120,
+			"height" : 28,
+			"width" : 10,
+			"lifetime": 60,
+			"pierce": false,
+			"frontColor": "E8D174",
+			"backColor": "F3E979",
+			"hitEffect": "shieldWave",
+			"shootEffect": "mineHuge",
+			"despawnEffect" : "hitYellowLaser",
+			"smokeEffect": "hitFuse"
+		},
+
+		"requirements": [
+			{ "item": "thorium", "amount": 150 },
+			{ "item": "graphite", "amount": 150 },
+			{ "item": "silicon", "amount": 120},
+			{ "item": "surge-alloy", "amount": 50},
+			{ "item": "titanium", "amount": 350}
+		],
+		"category": "turret",
+		"research": "multithreat"
+	}

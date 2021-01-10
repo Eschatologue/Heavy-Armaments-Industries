@@ -16,7 +16,7 @@
 	
 	"recoil" : 3,
 	"restitution" : 0.5, 
-	"rotatespeed": 5,
+	"rotateSpeed": 5,
 	
 	"shootSound" : "shotgun",
 
@@ -30,7 +30,7 @@
 			"speed": 6.0,
 			"lifetime" : 19,
 			"damage": 5,
-			"height" : 10,
+			"height" : 12,
 			"width" : 7,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",

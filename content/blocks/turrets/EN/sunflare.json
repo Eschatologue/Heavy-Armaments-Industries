@@ -15,7 +15,7 @@
 	
 	"recoil" : 3,
 	"restitution" : 0.5, 
-	"rotatespeed": 4,
+	"rotateSpeed": 4,
 
 	"shootSound" : "laser",
 

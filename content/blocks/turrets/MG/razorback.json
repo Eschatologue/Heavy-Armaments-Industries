@@ -11,13 +11,13 @@
 	"targetAir" : false, 
 	"targetGround" : true, 
 
-	"rotatespeed": 5,
+	"rotateSpeed": 5,
 	"inaccuracy": 5,
 	"shots" : 2,
 	"xRand" : 4,
 
-	"recoilAmount" : 2,
-	"restitution" : 3, 
+	"recoilAmount" : 3,
+	"restitution" : 0.08, 
 
 	"shootSound" : "shoot",
 
@@ -29,30 +29,30 @@
 			"damage": 25,
 			"speed": 10.0,
 			"lifetime": 50,
-			"height": 25,
-			"width" : 10,
+			"height": 30,
+			"width" : 12,
 			"ammoMultiplier": 16,
-			"lightning" : 2,
+			"lightning" : 3,
             "lightningLength" : 8,
 			"hitEffect": "hitYellowLaser",
-			"smokeEffect": "hitBulletBig"
+			"shootEffect": "shootBig2"
 			},
 		"titanium-carbide": { 
 			"type" : "BasicBulletType",
-			"damage": 120,
-			"height": 25,
-			"width" : 10,			
-			"speed": 12.0,
+			"damage": 100,
+			"height": 30,
+			"width" : 12,			
+			"speed": 15,
 			"lifetime": 50,
 			"ammoMultiplier": 8,
 			"pierce": true,	
-			"hitEffect": "railHit",
-			"smokeEffect": "hitBulletBig"
+			"hitEffect": "hitBulletBig",
+			"shootEffect": "shootBig2"
 			}	
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 900 },
-		{ "item": "plastanium", "amount": 1000 },
+		{ "item": "titanium", "amount": 800 },
+		{ "item": "plastanium", "amount": 850 },
 		{ "item": "surge-alloy", "amount" : 250},
 		{ "item": "metaglass", "amount" : 550},
 		{ "item": "graphite", "amount": 900 }
