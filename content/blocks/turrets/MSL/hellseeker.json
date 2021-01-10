@@ -12,7 +12,7 @@
 	"targetAir" : true, 
 	"targetGround" : true,
 
-	"rotatespeed": 3,
+	"rotateSpeed": 3,
 	"inaccuracy": 5,
 
 	"recoilAmount" : 2,

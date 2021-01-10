@@ -4,8 +4,8 @@
 	"size": 4,
 	"health": 850,
 
-	"maxAmmo": 150,
-	"ammoPerShot" : 50,
+	"maxAmmo": 450,
+	"ammoPerShot" : 150,
 	"reloadTime": 450,
 
 	"range": 700,
@@ -18,8 +18,8 @@
 	"shootShake" : 12,
 	"inaccuracy": 0,
 
-	"restitution" : 0.1,
-	"rotatespeed": 0.6,
+	"restitution" : 0.01,
+	"rotateSpeed": 2,
 
 	"shootSound" : "DeadeyeShoot",
 
@@ -31,12 +31,11 @@
 			"width" : 15,
 			"ammoMultiplier": 3,
 			"pierce": true,
-			"collidesTiles" : false,
-			"hitTiles" : false,
+			"collidesTiles" : true,
 			"pierceEffect" : "railHit",
 			"updateEffect" : "railTrail",
 			"hitEffect" : "massiveExplosion",
-			"smokeEffect" : "shootBig2",
+			"smokeEffect" : "railShoot",
 			"pierceDamageFactor" : 0.8,
 			"fragBullets": 5,
 			"fragBullet": {

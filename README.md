@@ -7,3 +7,4 @@ Merged from Heavy Armaments and Heavy Industries forming a mod that expands vani
 - **Visual Studio Code** (Editing JSON)
 - **Piskel** (Making Sprites)
 
+

@@ -1,5 +1,5 @@
 {
-	"type": "AttributeSmelter",
+	"type" : "AttributeSmelter",
 	"health" : 960,
 	"size": 3,
 	"hasPower": true,
@@ -7,7 +7,7 @@
 	"hasItems": true,
 	"craftTime": 90,
 	"itemCapacity": 30,
-	"liquidCapacity" : 500,
+	"liquidCapacity" : 250,
 	"buildCostMultiplier" : 0.6,
 	"attribute"	: "oil",
 	"baseEfficiency": 1.0,	

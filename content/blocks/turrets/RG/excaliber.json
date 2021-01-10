@@ -5,16 +5,16 @@
 
 	"maxAmmo": 50,
 	"ammoPerShot" : 10,
-	"reloadTime": 200,
+	"reloadTime": 120,
 
 	"range": 460,
 
 	"targetAir" : true, 
 	"targetGround" : true, 
 
-	"rotatespeed": 8,
-	"recoilAmount" : 5,	
-	"restitution" : 0.5,
+	"rotateSpeed": 4,
+	"recoilAmount" : 7,	
+	"restitution" : 0.2,
 
 	"shootSound" : "DeadeyeShoot",
 
@@ -24,42 +24,41 @@
 		"surge-alloy": {
 			"type" : "RailBulletType",
 			"status" : "melting",
-			"damage": 1600,
+			"damage": 800,
 			"length" : 4000,
 			"width" : 15,
 			"ammoMultiplier": 3,
 			"pierce": true,
-			"collidesTiles" : false,
-			"hitTiles" : false,
+			"collidesTiles" : true,
 			"pierceEffect" : "railHit",
 			"updateEffect" : "railTrail",
 			"hitEffect" : "massiveExplosion",
 			"smokeEffect" : "shootBig2",
-			"pierceDamageFactor" : 0.8
+			"pierceDamageFactor" : 0.5
 		},
 		"titanium-carbide": {
 			"type" : "RailBulletType",
-			"damage": 2500,
+			"damage": 1250,
 			"length" : 4000,
 			"width" : 15,
 			"ammoMultiplier": 1,
 			"pierce": true,
-			"collidesTiles" : false,
-			"hitTiles" : false,
+			"collidesTiles" : true,
 			"pierceEffect" : "railHit",
 			"updateEffect" : "railTrail",
 			"hitEffect" : "massiveExplosion",
 			"smokeEffect" : "shootBig2",
-			"pierceDamageFactor" : 1
+			"pierceDamageFactor" : 0.5
 		}
 	},
 	"consumes" : {
 		"power": 3
 		},
 	"requirements": [
-		{ "item": "lead", "amount": 850 },
-		{ "item": "graphite", "amount": 1050 },
-		{ "item": "silicon", "amount": 750 },
+		{ "item": "plastanium", "amount": 450},
+		{ "item": "surge-alloy", "amount": 450},
+		{ "item": "metaglass", "amount": 900 },
+		{ "item": "silicon", "amount": 900 },
         { "item": "titanium", "amount": 850 }
 	],
 	"category": "turret",

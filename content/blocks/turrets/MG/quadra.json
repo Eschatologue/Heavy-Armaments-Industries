@@ -2,7 +2,7 @@
 	"type": "ItemTurret",
 	"size": 1,
 	"health": 280,
-	"reloadTime": 3,
+	"reloadTime": 3.2,
 	"xRand": 2,
 	"shot" : 1,
 	"maxAmmo": 100,
@@ -10,7 +10,7 @@
 	"shootSound" : "shoot",
 	"lifetime": 4,
 	"inaccuracy": 4,
-	"rotatespeed": 10,
+	"rotateSpeed": 10,
 	
 	"ammoTypes": {
 		"copper": {

@@ -1,5 +1,4 @@
 {
-	"type": "AttributeSmelter",
 	"health" : 140,
 	"size": 2,
 	"flameColor": "C0ECFF",
@@ -8,10 +7,7 @@
 	"hasItems": true,
 	"craftTime": 120,
 	"itemCapacity": 10,
-	"buildCostMultiplier" : 0.6,
-	"attribute"	: "water",
-	"baseEfficiency": 1.0,	
-	"boostScale": 0.25,
+	"liquidCapacity": 20,
 	"maxHeatBoost": 1.0,
 	"updateEffect": "wet",	
 	"craftEffect": "freezing",
