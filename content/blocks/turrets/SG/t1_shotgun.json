@@ -43,5 +43,5 @@
 		{ "item": "copper", "amount": 20 }
 	],
 	"category": "turret",
-	"research": "quadra"
+	"research": "t1_duo"
 }

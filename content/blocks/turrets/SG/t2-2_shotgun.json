@@ -20,7 +20,7 @@
 	"spread" : 1,
 
 	"recoilAmount" : 8,
-	"restitution" : 0.6, 
+	"restitution" : 0.08, 
 
 	"shootSound" : "shotgun",
 
@@ -64,5 +64,5 @@
 		{ "item": "graphite", "amount": 25}
 	],
 	"category": "turret",
-	"research": "trenchgrade"
+	"research": "t1_shotgun"
 }

@@ -3,7 +3,7 @@
 	"size": 3,
 	"health": 900,
 
-	"maxAmmo": 50,
+	"maxAmmo": 100,
 	"ammoPerShot" : 10,
 	"reloadTime": 120,
 
@@ -17,6 +17,7 @@
 	"restitution" : 0.2,
 
 	"shootSound" : "DeadeyeShoot",
+	"ammoUseEffect" : "casing3",
 
 	"buildCostMultiplier" : 0.5,
 
@@ -25,11 +26,13 @@
 			"type" : "RailBulletType",
 			"status" : "melting",
 			"damage": 800,
-			"length" : 4000,
+			"length" : 3500,
 			"width" : 15,
 			"ammoMultiplier": 3,
 			"pierce": true,
 			"collidesTiles" : true,
+			"lightning" : 8,
+			"lightningLength" : 15,
 			"pierceEffect" : "railHit",
 			"updateEffect" : "railTrail",
 			"hitEffect" : "massiveExplosion",
@@ -38,7 +41,7 @@
 		},
 		"titanium-carbide": {
 			"type" : "RailBulletType",
-			"damage": 1250,
+			"damage": 1550,
 			"length" : 4000,
 			"width" : 15,
 			"ammoMultiplier": 1,

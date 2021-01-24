@@ -7,46 +7,39 @@
 	"maxAmmo": 450,
 	"ammoPerShot" : 150,
 	"reloadTime": 450,
-
 	"range": 700,
-	"lifetime": 5,
 
-	"targetAir" : false, 
+	"targetAir" : true, 
 	"targetGround" : true, 
 
-	"recoilAmount" : 15,
-	"shootShake" : 12,
+	"recoilAmount" : 7,
+	"shootShake" : 18,
+	"hitShake" : 10,
 	"inaccuracy": 0,
 
 	"restitution" : 0.01,
 	"rotateSpeed": 2,
 
 	"shootSound" : "DeadeyeShoot",
+	"ammoUseEffect" : "casing4",
 
 	"ammoTypes":	{
 		"titanium-carbide": {
 			"type" : "RailBulletType",
-			"damage": 9500,
-			"length" : 5000,
-			"width" : 15,
+			"damage": 9000,
+			"length" : 6000,
+			"width" : 25,
 			"ammoMultiplier": 3,
 			"pierce": true,
 			"collidesTiles" : true,
 			"pierceEffect" : "railHit",
 			"updateEffect" : "railTrail",
 			"hitEffect" : "massiveExplosion",
-			"smokeEffect" : "railShoot",
-			"pierceDamageFactor" : 0.8,
-			"fragBullets": 5,
-			"fragBullet": {
-				"type": "BasicBulletType",
-				"status" : "melting",
-				"lifetime": 120,
-				"speed": 0.5,
-				"damage" : 1500,
-				"frontColor": "bbdefb",
-				"backColor": "90caf9"
-			}
+			"shootEffect" : "railShoot",
+			"smokeEffect" : "hitFuse",
+			"pierceDamageFactor" : 0.5,
+			"lightning" : 15,
+			"lightningLength" : 16
 		}
 	},
 	"consumes" : {
@@ -60,5 +53,5 @@
 		{ "item": "metaglass", "amount": 1500 }
 	],
 	"category": "turret",
-	"research": "excaliber"
+	"research": "t3_railgun"
 }

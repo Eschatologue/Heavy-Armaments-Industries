@@ -3,21 +3,22 @@
 	"size": 3,
 	"health": 1500,
 	"reloadTime": 60,
-	"range": 170,
+	"range": 180,
 	"maxAmmo": 256,
-	"inaccuracy": 5,
-	"shots" : 48,
+	"inaccuracy": 16,
+	"shots" : 42,
 
 	"targetAir" : false, 
 	"targetGround" : true,
 	"shootCone" : 0.01,
 	"spread" : 0.5,
 
-	"recoil" : 16,
+	"recoilAmount" : 8,
+	"shootShake" : 6,
 	"restitution" : 0.05, 
 	"rotateSpeed": 4,
 
-	"shootSound" : "shotgun",
+	"shootSound" : "shootBig",
 
 	"buildCostMultiplier" : 0.4,
 
@@ -28,19 +29,20 @@
 		"pyratite": {
 			"type" : "BasicBulletType",
 			"status" : "burning",	
-			"statusDuration": "1200",					
+			"statusDuration": 1200,					
 			"damage": 25,	
 			"speed": 5,				
+			"lifetime": 40,
 			"splashDamage" : 20,
 			"splashDamageRadius" : 38,							
 			"knockback" : 3,
-			"height" : 25,
+			"height" : 35,
 			"width" : 10,
 			"pierce": false,
 			"frontColor": "FEB380",
 			"backColor": "EA8878",
 			"hitEffect": "blastsmoke",
-			"shootEffect": "shootBig2",
+			"shootEffect": "instShoot",
 			"smokeEffect": "hitBulletBig",
 			"fragBullets": 4,
 			"fragBullet": {
@@ -48,27 +50,30 @@
 				"liquid": "slag",
 				"status": "melting",
 				"pierce": true,
-				"lifetime": 80,
+				"lifetime": 40,
 				"speed": 1,
-				"damage" : 8
+				"damage" : 10,
+				"puddleSize": 20,
+				"orbSize": 5
 			}
 		},
 		"cryogel": {
 			"type" : "BasicBulletType",
 			"status" : "freezing",
-			"statusDuration": "1200",
+			"statusDuration": 1200,
 			"damage": 25,
 			"speed" : 5,
+			"lifetime": 40,
 			"splashDamage" : 20,
 			"splashDamageRadius" : 38,
-			"knockback" : 3,
-			"height" : 30,
+			"knockback" : 2,
+			"height" : 35,
 			"width" : 10,
 			"pierce": false,
 			"frontColor":"C0ECFF" ,
 			"backColor": "87CEEB",
 			"hitEffect": "hitLancer",
-			"shootEffect": "producesmoke",
+			"shootEffect": "instShoot",
 			"smokeEffect": "hitBulletBig",
 			"fragBullets": 4,
 			"fragBullet": {
@@ -76,10 +81,46 @@
 				"liquid": "cryofluid",
 				"status" : "corroded",
 				"pierce": true,
-				"lifetime": 80,
+				"lifetime": 40,
 				"speed": 1,
-				"damage" : 8
+				"damage" : 10,
+				"puddleSize": 20,
+				"orbSize": 5
 			}
+		},
+		"graphite": {
+			"type" : "BasicBulletType",
+			"damage": 35,
+			"speed" : 5,			
+			"lifetime": 40,
+			"splashDamage" : 20,
+			"splashDamageRadius" : 38,
+			"knockback" : 6,
+			"height" : 35,
+			"width" : 10,
+			"pierce": false,
+			"hitEffect": "hitFuse",
+			"shootEffect": "instShoot",
+			"smokeEffect": "hitBulletBig"
+		},
+		"surge-alloy": {
+			"type" : "BasicBulletType",
+			"damage": 25,
+			"speed" : 5,
+			"lifetime": 40,
+			"splashDamage" : 20,
+			"splashDamageRadius" : 38,
+			"knockback" : 2,
+			"height" : 35,
+			"width" : 10,
+			"pierce": false,
+			"lightning" : 4,
+			"lightningLength" : 10,
+			"frontColor": "E8D174",
+			"backColor": "F3E979",
+			"hitEffect": "hitYellowLaser",
+			"shootEffect": "instShoot",
+			"smokeEffect": "hitBulletBig"
 		}
 	},
 	"requirements": [
@@ -90,5 +131,5 @@
 		{ "item": "titanium", "amount": 225}
 	],
 	"category": "turret",
-	"research": "brasshaven"
+	"research": "t2-2_shotgun"
 }

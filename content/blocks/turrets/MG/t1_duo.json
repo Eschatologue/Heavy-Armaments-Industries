@@ -2,15 +2,15 @@
 	"type": "ItemTurret",
 	"size": 1,
 	"health": 280,
-	"reloadTime": 3.2,
-	"xRand": 2,
-	"shot" : 1,
+	"reloadTime": 3.5,
+	"xRand" : 2,
 	"maxAmmo": 100,
 	"range": 150,
 	"shootSound" : "shoot",
 	"lifetime": 4,
 	"inaccuracy": 4,
 	"rotateSpeed": 10,
+	"ammoUseEffect" : "casing1",
 	
 	"ammoTypes": {
 		"copper": {
@@ -19,7 +19,7 @@
 			"height": 12,
 			"width" : 7,			
 			"speed": 5.0,
-			"lifetime": 120,
+			"lifetime": 50,
 			"ammoMultiplier": 2	,
 			"smokeEffect": "shootSmallSmoke"
 		},
@@ -29,7 +29,7 @@
 			"height": 12,
 			"width" : 7,			
 			"speed": 5.0,
-			"lifetime": 120,
+			"lifetime": 50,
 			"ammoMultiplier": 4,
 			"reloadMultiplier": 0.6,	
 			"smokeEffect": "shootSmallSmoke"
@@ -41,7 +41,7 @@
 			"height": 12,
 			"width" : 7,			
 			"speed": 5.0,
-			"lifetime": 120,
+			"lifetime": 50,
 			"ammoMultiplier": 2	,	
 			"frontColor": "FEB380",
 			"backColor": "EA8878",
@@ -55,7 +55,7 @@
 			"speed": 5.0,
 			"homingPower" : 0.04,
 			"reloadMultiplier": 1.5,
-			"lifetime": 120,
+			"lifetime": 60,
 			"ammoMultiplier": 5	,
 			"smokeEffect": "shootSmallSmoke"
 		},
@@ -65,7 +65,7 @@
 			"height": 12,
 			"width" : 7,			
 			"speed": 5.0,
-			"lifetime": 120,
+			"lifetime": 60,
 			"pierce": true,
 			"ammoMultiplier": 2	,
 			"reloadMultiplier": 1.2,
