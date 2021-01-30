@@ -8,8 +8,9 @@ Merged from Heavy Armaments and Heavy Industries forming a mod that expands vani
 [![Steam Workshop favourites](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2089324405%2Fsubscriptions-text&style=for-the-badge)](https://steamcommunity.com/sharedfiles/filedetails/?id=2089324405)
 
 ## Software Used
-- **Inkscape** (For logo)
-- **Visual Studio Code** (Editing JSON)
-- **Piskel** (Making Sprites)
+- **Inkscape** 
+- **Visual Studio Code** 
+- **Piskel**
+- **Aseprite**
 
 
