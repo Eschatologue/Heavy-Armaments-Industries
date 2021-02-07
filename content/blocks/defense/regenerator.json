@@ -3,12 +3,11 @@
 	"health": 250,
 	"size": 2,
 	"range": 150,
-	"reload": 9,
-	"phase": "#720874",
+	"reload": 18,
 	"phaseBoost" : 2,
 	"color": "#17C50B",
 	"buildCostMultiplier" : 0.8,
-	"healPercent": 0.5,
+	"healPercent": 0.8,
 	"consumes": {
 		"power": 2,
 		"items": {
