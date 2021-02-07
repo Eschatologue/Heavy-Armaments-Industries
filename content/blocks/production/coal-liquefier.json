@@ -22,10 +22,10 @@
 				{ "item": "coal", "amount": 4}
 			]
 		},
-			"liquid": {
-				"liquid": "water",
-				"amount": 0.4
-			}
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.4
+		}
 	},
 	"requirements": [
 		{ "item": "titanium", "amount": 60 },

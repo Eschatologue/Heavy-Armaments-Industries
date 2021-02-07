@@ -12,9 +12,8 @@
 		"power": 20,
 		"items": {
 			"items": [ 
-				{ "amount": 15, "item": "phase-fabric" } 
-						]
-		}
+				{ "item": "phase-fabric","amount": 15 } 
+			]}
 	},
 	"requirements": [
 		{ "item": "phase-fabric", "amount": 600 },
