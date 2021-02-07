@@ -1,0 +1,93 @@
+{
+  "type": "flying",
+  "health": 500,    
+  "maxVelocity": 3,
+  "accel" : 0.05,
+  "drag" : 0.03,
+  "speed": 2.2,
+  "flying": true,
+  "lowAltitude": true,
+  "rotateShooting": true,
+  "visualElevation": 0.25,
+  "rotateSpeed": 3.5,
+  "maxRange" : 80,
+  "hitSize": 20,
+  "engineSize": 0,
+  "armor": 5,
+  "commandLimit": 3,
+  "weapons": [
+    {
+      "name": "copterMSL-weapon",
+      "rotate" : false,
+      "mirror": true,
+      "maxRange" : 180,
+      "inaccuracy": 8,
+      "x": 4,
+      "y": 0,
+      "shootY" : -1,
+      "shootCone": 90,
+      "reload": 30,
+      "shots" : 1,
+      "shootSound": "missile",
+      "ejectEffect" : "casing2Double",
+      "recoil" : 2.5,
+      "bullet": {
+        "type" : "MissileBulletType",
+        "damage": 35,
+        "splashDamage" : 30,		        
+        "splashDamageRadius" : 20,
+        "height" : 16,
+        "width" : 8,
+        "speed": 4,
+        "lifetime": 70,
+        "status" : "burning",
+        "statusDuration": 360,
+        "pierce": false,
+        "homingPower": 0.5,
+        "homingRange": 80,
+        "hitShake" : 6,
+        "frontColor": "FEB380",
+        "backColor": "EA8878",
+        "hitEffect": "plasticExplosion",
+        "shootEffect": "shootBig2",
+        "smokeEffect": "hitBulletBig",
+        "weaveScale" : 8,
+        "weaveMag" : 3
+        }
+      },
+    {
+      "name": "copterMG-weapon",
+      "rotate" : false,
+      "mirror": true,
+      "inaccuracy": 3, 
+      "range" : 120,
+      "x": 5.4,
+      "y": 7,
+      "shootCone": 5,
+      "reload": 5,
+      "shootSound": "shoot",
+      "ejectEffect" : "casing2",
+      "bullet": {
+        "type" : "BasicBulletType",
+        "damage": 15,
+        "height": 18,
+        "width" : 5,			
+        "speed": 7.5,
+        "lifetime": 40,
+        "smokeEffect": "shootSmallSmoke",
+        "shootEffect": "shootSmall",
+        "hitEffect": "hitFuse"
+        }
+      }
+    ],
+  "research": {
+    "parent": "zenith",
+    "requirements": [
+      { "item": "plastanium", "amount": 7000 },
+      { "item": "silicon", "amount": 7500 },
+      { "item": "metaglass", "amount": 7000 },
+      { "item": "titanium", "amount": 8000 }
+    ]
+  }
+}
+  
