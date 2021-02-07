@@ -1,4 +1,4 @@
-
+//doesnt work
 fromArray = [content("heavy-armaments-t3_copter"),content("heavy-armaments-t4_copter"),]
 toArray = [content("heavy-armaments-t4_copter"),content("heavy-armaments-t5_copter"),]
 
