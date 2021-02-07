@@ -7,7 +7,6 @@
 	"maxAmmo": 100,
 	"range": 150,
 	"shootSound" : "shoot",
-	"lifetime": 4,
 	"inaccuracy": 4,
 	"rotateSpeed": 10,
 	"ammoUseEffect" : "casing1",
