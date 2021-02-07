@@ -1,0 +1,36 @@
+{
+  "type": "naval",
+  "hitSize" : 20,
+  "speed": 1,
+  "rotateSpeed": 0.5,
+  "rotateShooting": false,
+  "trailX": 4.5,
+  "trailY": -5.75,
+  "health": 600,
+  "armor": 5,
+  "weapons": [{
+    "name": "nvl-railgun",
+    "rotate" : true,
+    "mirror": false,
+    "range" : 240,
+    "x": 0,
+    "y": -4,
+    "shootCone": 5,
+    "shootY": 10,
+    "reload": 120,
+    "shootSound": "railgun",
+    "recoil" : 3,	
+    "bullet": {
+      "type": "RailBulletType",
+      "damage": 1200,
+      "buildingDamageMultiplier": 0.5,
+      "length": 600,
+      "shootEffect" : "producesmoke",
+      "pierceEffect" : "railHit",
+      "updateEffect" : "railTrail",
+      "hitEffect" : "massiveExplosion",
+      "smokeEffect" : "shootBig2"
+      }
+    }
+  ]
+}
