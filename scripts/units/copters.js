@@ -1,4 +1,4 @@
-//Percival
+//Berdivere
 const t3_copter = extend(UnitType, "t3_copter", {
 	draw(unit){
 		this.super$draw(unit);
