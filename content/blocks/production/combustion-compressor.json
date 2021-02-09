@@ -1,5 +1,4 @@
 {
-	"type" : "GenericCrafter",
 	"health" : 960,
 	"size": 3,
 	"hasPower": true,
