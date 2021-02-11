@@ -4,7 +4,7 @@
     "size" : 5,
     "constructTime": 1620,
     "upgrades" : [
-        ["horizon","t3_copter"]
+        ["horizon","t3A_copter"]
     ],
     "consumes": {
 		"power": 4,
