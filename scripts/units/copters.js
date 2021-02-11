@@ -1,14 +1,14 @@
 //Berdivere
-const t3_copter = extend(UnitType, "t3_copter", {
+const t3A_copter = extend(UnitType, "t3A_copter", {
 	draw(unit){
 		this.super$draw(unit);
 		Draw.rect(
-			"heavy-armaments-t3_copter-rotor", 		
+			"heavy-armaments-t3A_copter-rotor", 		
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0), 
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0), 
 			Time.time * -14);
 		Draw.rect(
-			"heavy-armaments-t3_copter-rotor-outline", 		
+			"heavy-armaments-t3A_copter-rotor-outline", 		
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0), 
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0), 
 			Time.time * -14);
@@ -16,17 +16,17 @@ const t3_copter = extend(UnitType, "t3_copter", {
 });
 
 //Galahad
-const t4_copter = extend(UnitType, "t4_copter", {
+const t4A_copter = extend(UnitType, "t4A_copter", {
 	draw(unit){
 		this.super$draw(unit);
 		Draw.rect(
-			"heavy-armaments-t4_copter-rotor", 
+			"heavy-armaments-t4A_copter-rotor", 
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 5), 
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 5), 
 			Time.time * -13
 		);
 		Draw.rect(
-			"heavy-armaments-t4_copter-rotor-outline", 		
+			"heavy-armaments-t4A_copter-rotor-outline", 		
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 5), 
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 5), 
 			Time.time * -13);
@@ -34,29 +34,29 @@ const t4_copter = extend(UnitType, "t4_copter", {
 });
 
 //Lancelot
-const t5_copter = extend(UnitType, "t5_copter", {
+const t5A_copter = extend(UnitType, "t5A_copter", {
 	draw(unit){
 		this.super$draw(unit);
 		Draw.rect(
-			"heavy-armaments-t5_copter-rotor", 
+			"heavy-armaments-t5A_copter-rotor", 
 			unit.x + Angles.trnsx(unit.rotation - 90, 5, 0), 
 			unit.y + Angles.trnsy(unit.rotation - 90, 5, 0), 
 			Time.time * -13
 		);
 		Draw.rect(
-			"heavy-armaments-t5_copter-rotor", 
+			"heavy-armaments-t5A_copter-rotor", 
 			unit.x + Angles.trnsx(unit.rotation - 90, -5, 0), 
 			unit.y + Angles.trnsy(unit.rotation - 90, -5, 0), 
 			Time.time * -13
 		);
 		Draw.rect(
-			"heavy-armaments-t5_copter-rotor-outline", 		
+			"heavy-armaments-t5A_copter-rotor-outline", 		
 			unit.x + Angles.trnsx(unit.rotation - 90, 5, 0), 
 			unit.y + Angles.trnsy(unit.rotation - 90, 5, 0), 
 			Time.time * -13
 		);
 		Draw.rect(
-			"heavy-armaments-t5_copter-rotor-outline", 		
+			"heavy-armaments-t5A_copter-rotor-outline", 		
 			unit.x + Angles.trnsx(unit.rotation - 90, -5, 0), 
 			unit.y + Angles.trnsy(unit.rotation - 90, -5, 0), 
 			Time.time * -13
@@ -67,8 +67,8 @@ const t5_copter = extend(UnitType, "t5_copter", {
 //Need to figure out how to make this modular
 
 //constructor
-t3_copter.constructor = () => extend(UnitEntity, {});
-t4_copter.constructor = () => extend(UnitEntity, {});
-t5_copter.constructor = () => extend(UnitEntity, {});
+t3A_copter.constructor = () => extend(UnitEntity, {});
+t4A_copter.constructor = () => extend(UnitEntity, {});
+t5A_copter.constructor = () => extend(UnitEntity, {});
 
 
