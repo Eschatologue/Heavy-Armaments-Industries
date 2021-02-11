@@ -1,2 +1,2 @@
-//require("blocks/production")
+require("blocks/production")
 require("units/copters")
