@@ -117,7 +117,7 @@
       }
     ],
   "research": {
-    "parent": "t3_copter",
+    "parent": "t3A_copter",
     "requirements": [
       { "item": "plastanium", "amount": 14000 },
       { "item": "silicon", "amount": 13500 },
