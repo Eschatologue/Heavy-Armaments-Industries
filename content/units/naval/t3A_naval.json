@@ -1,15 +1,15 @@
 {
   "type": "naval",
   "health": 600,
-  "armor": 5,
-  "hitSize" : 20,
+  "armor": 3,
+  "hitSize" : 18,
   "speed": 1.3,
   "rotateSpeed": 1.8,
   "rotateShooting": false,
   "trailX": 7,
   "trailY": -9,
   "trailScl" : 2,
-  "trailLength": 50,
+  "trailLength": 40,
 
   "weapons": [{
     "name": "navalMSL1-weapon",
@@ -24,7 +24,6 @@
     "xRand" : 2,
     "shootSound": "missile",
     "recoil" : 1,	
-
     "bullet": {
       "type" : "MissileBulletType",	
       "damage": 15,
@@ -33,20 +32,24 @@
       "height" : 18,
       "width" : 9,
       "speed": 4,
-      "lifetime": 70,		
-      "statusDuration": 360,
+      "lifetime": 90,	
       "pierce": false,
       "homingPower": 0.5,
       "homingRange": 80,
       "frontColor": "8aa3f4",
       "backColor": "6974c4",
-      "trailColor" : "gray",
+      "trailColor" : "989aa4",
       "hitEffect": "shootLiquid",
       "shootEffect": "shootBig2",
       "smokeEffect": "steam",
       "weaveScale" : 5,
       "weaveMag" : 2,
-
+      "statusDuration": 360,
+      "status": {
+        "name" : "Riptide",
+        "armorMultiplier": 0.5,
+        "effect": "hitLiquid"
+       },
       "fragBullets": 8,
       "fragBullet": {
 				"type": "LiquidBulletType",
@@ -56,15 +59,42 @@
 				"speed": 1,
 				"damage" : 10,
 				"puddleSize": 20,
-				"orbSize": 5,
-
-        "status": {
-          "name" : "Riptide",
-          "armorMultiplier": 0.5,
-          "effect": "wet"
-         }
-			  }
+				"orbSize": 5
+			    }
+        }
+      },
+    {
+      "name": "navalMG-weapon",
+      "rotate" : true,
+      "mirror": true,
+      "inaccuracy": 3, 
+      "range" : 90,
+      "x": 5.4,
+      "y": 7,
+      "shootCone": 5,
+      "reload": 5,
+      "shootSound": "shoot",
+      "ejectEffect" : "casing2",
+      "bullet": {
+        "type" : "BasicBulletType",
+        "damage": 15,
+        "height": 18,
+        "width" : 5,			
+        "speed": 7.5,
+        "lifetime": 40,
+        "smokeEffect": "shootSmallSmoke",
+        "shootEffect": "shootSmall",
+        "hitEffect": "hitFuse"
+        }
       }
-    }
-  ]
+  ],
+  "research": {
+    "parent": "minke",
+    "requirements": [
+      { "item": "graphite", "amount": 8000 },
+      { "item": "silicon", "amount": 5500 },
+      { "item": "metaglass", "amount": 5000 },
+      { "item": "titanium", "amount": 7000 }
+    ]
+  }
 }
