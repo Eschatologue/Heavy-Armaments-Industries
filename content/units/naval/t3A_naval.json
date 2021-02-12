@@ -3,50 +3,68 @@
   "health": 600,
   "armor": 5,
   "hitSize" : 20,
-  "speed": 1,
-  "rotateSpeed": 1.5,
+  "speed": 1.3,
+  "rotateSpeed": 1.8,
   "rotateShooting": false,
   "trailX": 7,
   "trailY": -9,
-  "trailScl" : 1.5,
+  "trailScl" : 2,
+  "trailLength": 50,
+
   "weapons": [{
     "name": "navalMSL1-weapon",
     "rotate" : true,
-    "rotateSpeed" : 1,
+    "rotateSpeed" : 4,
     "mirror": true,
     "range" : 240,
-    "x": 8,
+    "x": 7,
     "y": -6,
     "shootCone": 5,
-    "shootY": 10,
     "reload": 15,
     "xRand" : 2,
     "shootSound": "missile",
     "recoil" : 1,	
+
     "bullet": {
-      "type" : "MissileBulletType",
-      "damage": 25,
-      "splashDamage" : 20,		        
+      "type" : "MissileBulletType",	
+      "damage": 15,
+      "splashDamage" : 10,		        
       "splashDamageRadius" : 20,
       "height" : 18,
       "width" : 9,
-      "speed": 3.5,
-      "lifetime": 70,
-      "status" : "burning",
+      "speed": 4,
+      "lifetime": 70,		
       "statusDuration": 360,
       "pierce": false,
       "homingPower": 0.5,
       "homingRange": 80,
-      "trailScl" : 2,
       "frontColor": "8aa3f4",
       "backColor": "6974c4",
-      "trailColor" : "5757c1",
-      "hitEffect": "explosion",
+      "trailColor" : "gray",
+      "hitEffect": "shootLiquid",
       "shootEffect": "shootBig2",
-      "smokeEffect": "hitBulletBig",
-      "weaveScale" : 7,
-      "weaveMag" : 3
-        }
+      "smokeEffect": "steam",
+      "weaveScale" : 5,
+      "weaveMag" : 2,
+
+      "fragBullets": 8,
+      "fragBullet": {
+				"type": "LiquidBulletType",
+				"liquid": "water",
+				"pierce": true,
+				"lifetime": 40,
+				"speed": 1,
+				"damage" : 10,
+				"puddleSize": 20,
+				"orbSize": 5,
+
+        "status": {
+          "name" : "Riptide",
+          "armorMultiplier": 0.5,
+          "effect": "wet"
+         }
+			  }
+      }
     }
   ]
 }
