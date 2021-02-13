@@ -9,7 +9,7 @@
     "rotateShooting": true,
     "faceTarget": true,
     "visualElevation": 0.25,
-    "rotateSpeed": 3.5,
+    "rotateSpeed": 3.8,
     "maxRange": 60,
     "hitSize": 20,
     "engineSize": 0,
@@ -17,7 +17,7 @@
     "commandLimit": 3,
     "weapons": [
         {
-            "name": "copterMSL-weapon",
+            "name": "copterMSL",
             "rotate": false,
             "mirror": true,
             "maxRange": 180,
@@ -56,9 +56,10 @@
             }
         },
         {
-            "name": "copterMG-weapon",
+            "name": "copterMGs",
             "rotate": false,
             "mirror": true,
+            "top" : false,
             "inaccuracy": 3,
             "range": 90,
             "x": 5,
