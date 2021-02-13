@@ -1,13 +1,19 @@
 {
-	"type": "resource",
-	"cost": 0.5,
-	"color": "87ceeb",
-	"research": {
-		"parent" : "blast-compound",
-		"requirements":[
-			{ "item": "titanium", "amount": 550 },
-			{ "item": "sand", "amount": 1500 }
-		]
-	},
-	"hardness": 0
+    "type": "resource",
+    "cost": 0.5,
+    "color": "87ceeb",
+    "research": {
+        "parent": "blast-compound",
+        "requirements": [
+            {
+                "item": "titanium",
+                "amount": 550
+            },
+            {
+                "item": "sand",
+                "amount": 1500
+            }
+        ]
+    },
+    "hardness": 0
 }

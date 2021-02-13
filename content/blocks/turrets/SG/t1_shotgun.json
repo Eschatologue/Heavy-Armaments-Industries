@@ -1,47 +1,47 @@
 {
-	"type": "ItemTurret",
-
-	"size": 1,
-	"health": 140,
-	"reloadTime": 50,
-	"range": 90,
-	"maxAmmo": 12,
-	"inaccuracy": 8,
-	"shots" : 12,
-	
-	"targetAir" : false, 
-	"targetGround" : true,
-	"shootCone" : 0.09,
-	"spread" : 1,
-	
-	"recoil" : 3,
-	"restitution" : 0.5, 
-	"rotateSpeed": 5,
-	
-	"shootSound" : "shotgun",
-
-	"xRand" : 1,
-	"ammoPerShot" : 4,
-
-	"ammoTypes": {
-		"lead": {
-			"type" : "BasicBulletType",
-			"trailEffect" : "artilleryTrail",
-			"speed": 6.0,
-			"lifetime" : 19,
-			"damage": 5,
-			"height" : 12,
-			"width" : 7,
-			"hitEffect": "blastExplosion",
-			"shootEffect": "producesmoke",
-			"pierce": false,
-			"smokeEffect": "hitBulletBig"
-		}
-	},
-	"requirements": [
-		{ "item": "lead", "amount": 45 },
-		{ "item": "copper", "amount": 20 }
-	],
-	"category": "turret",
-	"research": "t1_duo"
+    "type": "ItemTurret",
+    "size": 1,
+    "health": 140,
+    "reloadTime": 50,
+    "range": 90,
+    "maxAmmo": 12,
+    "inaccuracy": 8,
+    "shots": 12,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 0.09,
+    "spread": 1,
+    "recoil": 3,
+    "restitution": 0.5,
+    "rotateSpeed": 5,
+    "shootSound": "shotgun",
+    "xRand": 1,
+    "ammoPerShot": 4,
+    "ammoTypes": {
+        "lead": {
+            "type": "BasicBulletType",
+            "trailEffect": "artilleryTrail",
+            "speed": 6,
+            "lifetime": 19,
+            "damage": 5,
+            "height": 12,
+            "width": 7,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "producesmoke",
+            "pierce": false,
+            "smokeEffect": "hitBulletBig"
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 45
+        },
+        {
+            "item": "copper",
+            "amount": 20
+        }
+    ],
+    "category": "turret",
+    "research": "t1_duo"
 }

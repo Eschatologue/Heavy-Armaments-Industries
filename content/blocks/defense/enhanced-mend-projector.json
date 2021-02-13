@@ -1,27 +1,42 @@
 {
-	"type": "MendProjector",
-	"health": 1000,
-	"size": 3,
-	"itemCapacity": 50,
-	"range": 150,
-	"reload": 100,
-	"color": "#17C50B",
-	"buildCostMultiplier" : 0.5,
-	"healPercent": 75,
-	"consumes": {
-		"power": 20,
-		"items": {
-			"items": [ 
-				{ "item": "phase-fabric","amount": 15 } 
-			]}
-	},
-	"requirements": [
-		{ "item": "phase-fabric", "amount": 600 },
-		{ "item": "silicon", "amount": 1200 },
-		{ "item" :"plastanium", "amount": 900},
-		{ "item": "titanium", "amount": 1500 }
-	],
-	"category": "effect",
-	"research": "mend-projector"
-
+    "type": "MendProjector",
+    "health": 1000,
+    "size": 3,
+    "itemCapacity": 50,
+    "range": 150,
+    "reload": 100,
+    "color": "#17C50B",
+    "buildCostMultiplier": 0.5,
+    "healPercent": 75,
+    "consumes": {
+        "power": 20,
+        "items": {
+            "items": [
+                {
+                    "item": "phase-fabric",
+                    "amount": 15
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "phase-fabric",
+            "amount": 600
+        },
+        {
+            "item": "silicon",
+            "amount": 1200
+        },
+        {
+            "item": "plastanium",
+            "amount": 900
+        },
+        {
+            "item": "titanium",
+            "amount": 1500
+        }
+    ],
+    "category": "effect",
+    "research": "mend-projector"
 }

@@ -1,70 +1,68 @@
 {
-	"type": "ItemTurret",
-	"size": 1,
-	"health": 45,
-
-	"maxAmmo": 15,
-	"ammoPerShot" : 5,
-	"reloadTime": 160,
-
-	"range": 450,
-
-	"targetAir" : true, 
-	"targetGround" : true,
-
-	"rotateSpeed": 3,
-	"inaccuracy": 5,
-
-	"recoilAmount" : 2,
-	"restitution" : 0.8, 
-
-	"shootSound" : "missile",
-
-	"ammoTypes": {
-		"silicon": {
-			"type" : "MissileBulletType",
-			"damage": 30,
-			"splashDamageRadius" : 16,
-			"splashDamage" : 25,
-			"speed": 3.5,
-			"lifetime": 150,
-			"height" : 12,
-			"width" : 7,
-			"pierce": false,			
-			"homingPower": 1,
-			"homingRange": 48,	
-			"frontColor": "B0BAC0",
-			"backColor": "6E7080",
-			"hitEffect": "plasticExplosion",
-			"shootEffect": "producesmoke",
-			"smokeEffect": "hitBulletBig"
-			},
-		"pyratite":{
-			"type" : "MissileBulletType",
-			"damage": 25,
-			"splashDamageRadius" : 16,
-			"splashDamage" : 20,			
-			"height" : 12,
-			"width" : 7,
-			"speed": 3.5,
-			"lifetime": 150,
-			"status" : "burning",
-			"statusDuration": 420,
-			"pierce": false,
-			"homingPower": 0.5,
-			"homingRange": 64,			
-			"frontColor": "FEB380",
-			"backColor": "EA8878",
-			"hitEffect": "plasticExplosion",
-			"shootEffect": "producesmoke",
-			"smokeEffect": "hitBulletBig"
-			}
-		},
-		
-	"requirements": [
-		{ "item": "graphite", "amount": 35 },
-		{ "item": "lead", "amount": 15 }
-	],
-	"category": "turret",
-	"research": "hail"
+    "type": "ItemTurret",
+    "size": 1,
+    "health": 45,
+    "maxAmmo": 15,
+    "ammoPerShot": 5,
+    "reloadTime": 160,
+    "range": 450,
+    "targetAir": true,
+    "targetGround": true,
+    "rotateSpeed": 3,
+    "inaccuracy": 5,
+    "recoilAmount": 2,
+    "restitution": 0.8,
+    "shootSound": "missile",
+    "ammoTypes": {
+        "silicon": {
+            "type": "MissileBulletType",
+            "damage": 30,
+            "splashDamageRadius": 16,
+            "splashDamage": 25,
+            "speed": 3.5,
+            "lifetime": 150,
+            "height": 12,
+            "width": 7,
+            "pierce": false,
+            "homingPower": 1,
+            "homingRange": 48,
+            "frontColor": "B0BAC0",
+            "backColor": "6E7080",
+            "hitEffect": "plasticExplosion",
+            "shootEffect": "producesmoke",
+            "smokeEffect": "hitBulletBig"
+        },
+        "pyratite": {
+            "type": "MissileBulletType",
+            "damage": 25,
+            "splashDamageRadius": 16,
+            "splashDamage": 20,
+            "height": 12,
+            "width": 7,
+            "speed": 3.5,
+            "lifetime": 150,
+            "status": "burning",
+            "statusDuration": 420,
+            "pierce": false,
+            "homingPower": 0.5,
+            "homingRange": 64,
+            "frontColor": "FEB380",
+            "backColor": "EA8878",
+            "hitEffect": "plasticExplosion",
+            "shootEffect": "producesmoke",
+            "smokeEffect": "hitBulletBig"
+        }
+    },
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 35
+        },
+        {
+            "item": "lead",
+            "amount": 15
+        }
+    ],
+    "category": "turret",
+    "research": "hail"
 }

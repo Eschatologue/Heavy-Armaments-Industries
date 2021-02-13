@@ -1,31 +1,53 @@
 {
-    "type" : "Reconstructor",
-    "health" : 950,
-    "size" : 5,
+    "type": "Reconstructor",
+    "health": 950,
+    "size": 5,
     "constructTime": 1620,
-    "upgrades" : [
+    "upgrades": [
         ["horizon","t3A_copter"],
         ["minke","t3A_naval"]
     ],
     "consumes": {
-		"power": 4,
-		"items": {
-			"items": [ 
-                {"item": "titanium","amount": 80 },
-                {"item": "silicon","amount": 120 },
-                {"item": "plastanium","amount": 40 }
-			]},
+        "power": 4,
+        "items": {
+            "items": [
+                {
+                    "item": "titanium",
+                    "amount": 80
+                },
+                {
+                    "item": "silicon",
+                    "amount": 120
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 40
+                }
+            ]
+        },
         "liquid": {
             "liquid": "oil",
             "amount": 0.5
-            }
+        }
     },
     "requirements": [
-        {"item": "lead","amount": 500 },
-        {"item": "titanium","amount": 500 },
-        {"item": "thorium","amount": 550 },
-        {"item": "plastanium","amount": 450 }
-	],
-	"category": "units",
-	"research": "additive-reconstructor"
+        {
+            "item": "lead",
+            "amount": 500
+        },
+        {
+            "item": "titanium",
+            "amount": 500
+        },
+        {
+            "item": "thorium",
+            "amount": 550
+        },
+        {
+            "item": "plastanium",
+            "amount": 450
+        }
+    ],
+    "category": "units",
+    "research": "additive-reconstructor"
 }

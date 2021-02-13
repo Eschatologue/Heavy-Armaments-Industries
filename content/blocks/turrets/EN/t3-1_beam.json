@@ -1,61 +1,73 @@
 {
-	"type": "PowerTurret",
-	
-	"size": 3,
-	"health": 500,
-	"range": 480,
-	"reloadTime" : 120,
-	"inaccuracy": 3,
-	"shots" : 1,
-	
-	"targetAir" : false, 
-	"targetGround" : true,
-	"shootCone" : 1,
-	"spread" : 2,
-	
-	"recoil" : 9,
-	"restitution" : 0.05, 
-	"rotateSpeed": 3,
-
-	"shootSound" : "laser",
-
-    "powerUse" : 4,
-	"hasPower" : true,
-	"shootType" : {
-			"type" : "ArtilleryBulletType",
-			"status" : {
-				"name": "EMP",
-				"speedMultiplier": 0,
-				"damageMultiplier": 0,
-				"reloadMultiplier": 0,
-				"effect": "hitFuse"
-			  },			
-			"damage": 100,	
-			"speed": 3,				
-			"splashDamage" : 90,
-			"splashDamageRadius" : 64,							
-			"statusDuration": 120,
-			"height" : 35,
-			"width" : 15,
-			"lifetime": 90,
-			"lightning" : 8,
-			"lightningLength" : 15,
-			"frontColor": "E8D174",
-			"backColor": "F3E979",
-			"hitEffect" : "shieldWave",
-			"shootEffect": "instShoot",
-			"despawnEffect" : "shieldWave",
-			"smokeEffect": "hitFuse"
-		},
-
-		"requirements": [
-			{ "item": "thorium", "amount": 200 },
-			{ "item": "graphite", "amount": 250 },
-			{ "item": "silicon", "amount": 150},
-			{ "item": "plastanium", "amount": 150},
-			{ "item": "metaglass", "amount": 150},
-			{ "item": "titanium", "amount": 350}
-		],
-		"category": "turret",
-		"research": "t2_beam"
-	}
+    "type": "PowerTurret",
+    "size": 3,
+    "health": 500,
+    "range": 480,
+    "reloadTime": 120,
+    "inaccuracy": 3,
+    "shots": 1,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 1,
+    "spread": 2,
+    "recoil": 9,
+    "restitution": 0.05,
+    "rotateSpeed": 3,
+    "shootSound": "laser",
+    "powerUse": 4,
+    "hasPower": true,
+    "shootType": {
+        "type": "ArtilleryBulletType",
+        "status": {
+            "name": "EMP",
+            "speedMultiplier": 0,
+            "damageMultiplier": 0,
+            "reloadMultiplier": 0,
+            "effect": "hitFuse"
+        },
+        "damage": 100,
+        "speed": 3,
+        "splashDamage": 90,
+        "splashDamageRadius": 64,
+        "statusDuration": 120,
+        "height": 35,
+        "width": 15,
+        "lifetime": 90,
+        "lightning": 8,
+        "lightningLength": 15,
+        "frontColor": "E8D174",
+        "backColor": "F3E979",
+        "hitEffect": "shieldWave",
+        "shootEffect": "instShoot",
+        "despawnEffect": "shieldWave",
+        "smokeEffect": "hitFuse"
+    },
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 200
+        },
+        {
+            "item": "graphite",
+            "amount": 250
+        },
+        {
+            "item": "silicon",
+            "amount": 150
+        },
+        {
+            "item": "plastanium",
+            "amount": 150
+        },
+        {
+            "item": "metaglass",
+            "amount": 150
+        },
+        {
+            "item": "titanium",
+            "amount": 350
+        }
+    ],
+    "category": "turret",
+    "research": "t2_beam"
+}

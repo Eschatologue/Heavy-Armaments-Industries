@@ -1,45 +1,52 @@
 {
-	"type": "PowerTurret",
-	"size": 2,
-	"health": 180,
-	"reloadTime": 5,
-	"range": 160,
-	"inaccuracy": 8,
-	"shots" : 1,
-	
-	"targetAir" : true, 
-	"targetGround" : true,
-	"shootCone" : 2,
-	"spread" : 4,
-	
-	"recoilAmount" : 1.5,
-	"restitution" : 0.04, 
-	"rotateSpeed": 8,
-	
-	"shootSound" : "lasershoot",
-
-    "powerUse" : 3,
-	"hasPower" : true,
-	"shootType" : {
-		"type" : "BasicBulletType",
-		"speed": 6.0,
-		"lifetime" : 40,
-		"damage": 12,
-		"height" : 20,
-		"width" : 8,
-		"hitEffect": "hitLaser",
-		"despawnEffect" : "hitLaser",
-		"pierce": true,
-		"frontColor": "bbdefb",
-		"backColor": "90caf9"
-	},
-
-	"requirements": [
-		{ "item": "copper", "amount": 70},
-		{ "item": "lead", "amount": 60},
-		{ "item": "graphite", "amount": 40},
-		{ "item": "silicon", "amount": 40}
-	],
-	"category": "turret",
-	"research": "arc"
+    "type": "PowerTurret",
+    "size": 2,
+    "health": 180,
+    "reloadTime": 5,
+    "range": 160,
+    "inaccuracy": 8,
+    "shots": 1,
+    "targetAir": true,
+    "targetGround": true,
+    "shootCone": 2,
+    "spread": 4,
+    "recoilAmount": 1.5,
+    "restitution": 0.04,
+    "rotateSpeed": 8,
+    "shootSound": "lasershoot",
+    "powerUse": 3,
+    "hasPower": true,
+    "shootType": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "lifetime": 40,
+        "damage": 12,
+        "height": 20,
+        "width": 8,
+        "hitEffect": "hitLaser",
+        "despawnEffect": "hitLaser",
+        "pierce": true,
+        "frontColor": "bbdefb",
+        "backColor": "90caf9"
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 70
+        },
+        {
+            "item": "lead",
+            "amount": 60
+        },
+        {
+            "item": "graphite",
+            "amount": 40
+        },
+        {
+            "item": "silicon",
+            "amount": 40
+        }
+    ],
+    "category": "turret",
+    "research": "arc"
 }

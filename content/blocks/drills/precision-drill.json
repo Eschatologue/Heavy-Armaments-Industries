@@ -3,20 +3,26 @@
     "size": 1,
     "tier": 3,
     "drillTime": 30,
-    "warmupSpeed" : 0.05,
-    "rotateSpeed" : 5,
-    "liquidBoostIntensity" : 1,
-    "drawRim" : true,
-    "drawMineItem" : false,
-	"hasPower": true,
-	"hasLiquids": false,
+    "warmupSpeed": 0.05,
+    "rotateSpeed": 5,
+    "liquidBoostIntensity": 1,
+    "drawRim": true,
+    "drawMineItem": false,
+    "hasPower": true,
+    "hasLiquids": false,
     "hasItems": true,
     "itemCapacity": 10,
-	"updateEffect": "smeltsmoke",
-	"requirements": [
-        { "item": "thorium", "amount": 8},
-        { "item": "plastanium", "amount" : 4}
-	],
-	"category": "production",
-	"research": "stationary-excavator"
+    "updateEffect": "smeltsmoke",
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 8
+        },
+        {
+            "item": "plastanium",
+            "amount": 4
+        }
+    ],
+    "category": "production",
+    "research": "stationary-excavator"
 }

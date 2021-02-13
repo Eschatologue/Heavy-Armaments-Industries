@@ -1,57 +1,65 @@
 {
-	"type": "ItemTurret",
-
-	"size": 4,
-	"health": 850,
-
-	"maxAmmo": 450,
-	"ammoPerShot" : 150,
-	"reloadTime": 450,
-	"range": 700,
-
-	"targetAir" : true, 
-	"targetGround" : true, 
-
-	"recoilAmount" : 7,
-	"shootShake" : 18,
-	"hitShake" : 10,
-	"inaccuracy": 0,
-
-	"restitution" : 0.01,
-	"rotateSpeed": 2,
-
-	"shootSound" : "DeadeyeShoot",
-	"ammoUseEffect" : "casing4",
-
-	"ammoTypes":	{
-		"titanium-carbide": {
-			"type" : "RailBulletType",
-			"damage": 9000,
-			"length" : 6000,
-			"width" : 25,
-			"ammoMultiplier": 3,
-			"pierce": true,
-			"collidesTiles" : true,
-			"pierceEffect" : "railHit",
-			"updateEffect" : "railTrail",
-			"hitEffect" : "massiveExplosion",
-			"shootEffect" : "railShoot",
-			"smokeEffect" : "hitFuse",
-			"pierceDamageFactor" : 0.5,
-			"lightning" : 15,
-			"lightningLength" : 16
-		}
-	},
-	"consumes" : {
-			"power": 8
-			},
-	"requirements": [
-		{ "item": "thorium", "amount": 2000 },
-		{ "item": "titanium-carbide", "amount": 1500 },
-		{ "item": "silicon", "amount": 1500 },
-		{ "item": "surge-alloy", "amount": 1200 },
-		{ "item": "metaglass", "amount": 1500 }
-	],
-	"category": "turret",
-	"research": "t3_railgun"
+    "type": "ItemTurret",
+    "size": 4,
+    "health": 850,
+    "maxAmmo": 450,
+    "ammoPerShot": 150,
+    "reloadTime": 450,
+    "range": 700,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 7,
+    "shootShake": 18,
+    "hitShake": 10,
+    "inaccuracy": 0,
+    "restitution": 0.01,
+    "rotateSpeed": 2,
+    "shootSound": "DeadeyeShoot",
+    "ammoUseEffect": "casing4",
+    "ammoTypes": {
+        "titanium-carbide": {
+            "type": "RailBulletType",
+            "damage": 9000,
+            "length": 6000,
+            "width": 25,
+            "ammoMultiplier": 3,
+            "pierce": true,
+            "collidesTiles": true,
+            "pierceEffect": "railHit",
+            "updateEffect": "railTrail",
+            "hitEffect": "massiveExplosion",
+            "shootEffect": "railShoot",
+            "smokeEffect": "hitFuse",
+            "pierceDamageFactor": 0.5,
+            "lightning": 15,
+            "lightningLength": 16
+        }
+    },
+    "consumes": {
+        "power": 8
+    },
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 2000
+        },
+        {
+            "item": "titanium-carbide",
+            "amount": 1500
+        },
+        {
+            "item": "silicon",
+            "amount": 1500
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 1200
+        },
+        {
+            "item": "metaglass",
+            "amount": 1500
+        }
+    ],
+    "category": "turret",
+    "research": "t3_railgun"
 }

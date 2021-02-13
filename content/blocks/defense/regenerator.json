@@ -1,28 +1,39 @@
 {
-	"type": "MendProjector",
-	"health": 250,
-	"size": 2,
-	"range": 150,
-	"reload": 18,
-	"phaseBoost" : 2,
-	"color": "#17C50B",
-	"buildCostMultiplier" : 0.8,
-	"healPercent": 0.8,
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [ 
-				{ "amount": 1, "item": "thorium" } 
-						],
-			"optional": true
-		}
-	},
-	"requirements": [
-		{ "item": "lead", "amount": 200 },
-		{ "item": "silicon", "amount": 120 },
-		{ "item": "titanium", "amount": 120 }
-	],
-	"category": "effect",
-	"research": "mend-projector"
-
+    "type": "MendProjector",
+    "health": 250,
+    "size": 2,
+    "range": 150,
+    "reload": 18,
+    "phaseBoost": 2,
+    "color": "#17C50B",
+    "buildCostMultiplier": 0.8,
+    "healPercent": 0.8,
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+                {
+                    "amount": 1,
+                    "item": "thorium"
+                }
+            ],
+            "optional": true
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 200
+        },
+        {
+            "item": "silicon",
+            "amount": 120
+        },
+        {
+            "item": "titanium",
+            "amount": 120
+        }
+    ],
+    "category": "effect",
+    "research": "mend-projector"
 }

@@ -1,18 +1,27 @@
 {
     "type": "LightBlock",
-    "BuildVisibility" : "lightingOnly",
-    "health" : 250,
-	"size": 2,
+    "BuildVisibility": "lightingOnly",
+    "health": 250,
+    "size": 2,
     "brightness": 0.7,
-    "radius": 480 ,  
-    "consumes" : {
+    "radius": 480,
+    "consumes": {
         "power": 0.08
-        },
+    },
     "requirements": [
-		{ "item": "graphite", "amount": 48 },
-        { "item": "silicon", "amount": 24 },
-        { "item": "titanium", "amount": 12 }
-	],
-	"category": "effect",
-	"research": "illuminator"
+        {
+            "item": "graphite",
+            "amount": 48
+        },
+        {
+            "item": "silicon",
+            "amount": 24
+        },
+        {
+            "item": "titanium",
+            "amount": 12
+        }
+    ],
+    "category": "effect",
+    "research": "illuminator"
 }

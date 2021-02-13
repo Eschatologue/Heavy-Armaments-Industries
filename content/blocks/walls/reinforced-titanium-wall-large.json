@@ -1,11 +1,17 @@
 {
-  "type": "Wall",
-  "health": 6000,
-  "size": 2,
-  "requirements": [
-          {"item": "titanium-carbide", "amount": 32 },
-          {"item": "thorium", "amount": 12 }
+    "type": "Wall",
+    "health": 6000,
+    "size": 2,
+    "requirements": [
+        {
+            "item": "titanium-carbide",
+            "amount": 32
+        },
+        {
+            "item": "thorium",
+            "amount": 12
+        }
     ],
-  "category": "defense",
-  "research": "reinforced-titanium-wall"
+    "category": "defense",
+    "research": "reinforced-titanium-wall"
 }
