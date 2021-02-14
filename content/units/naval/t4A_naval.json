@@ -1,0 +1,179 @@
+{
+    "type": "naval",
+    "health": 5000,
+    "armor": 3,
+    "hitSize": 30,
+    "speed": 0.9,
+    "accel": 0.3,
+    "rotateSpeed": 1.7,
+    "rotateShooting": false,
+    "trailX": 15,
+    "trailY": -6,
+    "trailScl": 3,
+    "trailLength": 45,
+    "commandLimit": 4,
+    "weapons": [
+        {
+            "name": "navalMGs",
+            "rotate": true,
+            "mirror": true,
+            "inaccuracy": 5,
+            "range": 90,
+            "x": 6,
+            "y": 7,
+            "shootCone": 8,
+            "reload": 3,
+            "shootSound": "shoot",
+            "ejectEffect": "casing2",
+            "bullet": {
+                "type": "BasicBulletType",
+                "damage": 18,
+                "height": 18,
+                "width": 5,
+                "speed": 7.5,
+                "lifetime": 40,
+                "shootEffect": "shootSmall",
+                "hitEffect": "hitFuse",
+                "smokeEffect": "shootSmallSmoke"
+            }
+        },
+        {
+            "name": "navalART1",
+            "rotate": true,
+            "rotateSpeed": 3,
+            "mirror": true,
+            "alternate": true,
+            "x": 11,
+            "y": -4,
+            "shootCone": 5,
+            "reload": 40,
+            "shootSound": "shootBig",
+            "recoil": 1,
+            "bullet": {
+                "type": "ArtilleryBulletType",
+                "damage": 90,
+                "splashDamage": 70,
+                "splashDamageRadius": 48,
+                "knockback": 2,
+                "height": 21,
+                "width": 10,
+                "speed": 3,
+                "lifetime": 150,
+                "statusDuration": 120,
+                "status": "melting",
+                "trailChance": 0.8,
+                "hitEffect": "massiveExplosion",
+                "shootEffect": "shootBig2",
+                "hitShake": 4,
+                "smokeEffect": "steam"
+            }
+        },
+        {
+            "name": "navalMSL2",
+            "rotate": true,
+            "rotateSpeed": 4,
+            "mirror": true,
+            "alternate": true,
+            "x": 6,
+            "y": -15,
+            "shootCone": 5,
+            "reload": 35,
+            "xRand": 2,
+            "shootSound": "spark",
+            "recoil": 1,
+            "bullet": {
+                "type": "MissileBulletType",
+                "damage": 30,
+                "splashDamage": 25,
+                "splashDamageRadius": 32,
+                "height": 20,
+                "width": 10,
+                "speed": 4,
+                "lifetime": 120,
+                "pierce": false,
+                "homingPower": 0.5,
+                "homingRange": 80,
+                "weaveScale": 5,
+                "weaveMag": 3,
+                "permanent": true,
+                "status": {
+                    "name": "Riptide2",
+                    "armorMultiplier": 0.5,
+                    "healthMultiplier": 0.95,
+                    "effect": "hitLiquid"
+                },
+                "fragBullets": 1,
+                "fragCone": 0.0001,
+                "hitSound": "shotgun",
+                "fragBullet": {
+                    "type": "ShrapnelBulletType",
+                    "serrations": 1,
+                    "splashDamageRadius": 8,
+                    "length": 32,
+                    "width": 10,
+                    "fromColor": "8aa3f4",
+                    "toColor": "6974c4",
+                    "damage": 50
+                },
+                "frontColor": "8aa3f4",
+                "backColor": "6974c4",
+                "trailColor": "989aa4",
+                "trailChance": 0.8,
+                "hitEffect": "hitLancer",
+                "shootEffect": "shootBig2",
+                "smokeEffect": "steam"
+            }
+        },
+        {
+            "name": "navalRG1",
+            "rotate": true,
+            "rotateSpeed": 0.5,
+            "mirror": false,
+            "x": 0,
+            "y": -4,
+            "shootY": 20,
+            "shootCone": 0.1,
+            "reload": 100,
+            "shootSound": "shootBig",
+            "recoil": 8,
+            "ejectEffect": "casing4",
+            "bullet": {
+                "type": "RailBulletType",
+                "damage": 500,
+                "knockback": 2,
+                "length": 500,
+                "width": 15,
+                "statusDuration": 120,
+                "status": "melting",
+                "trailChance": 0.8,
+                "hitEffect": "massiveExplosion",
+                "pierceEffect": "railHit",
+                "updateEffect": "railTrail",
+                "shootEffect": "railShoot",
+                "hitShake": 4,
+                "smokeEffect": "shootBig2"
+            }
+        }
+    ],
+    "research": {
+        "parent": "t3A_naval",
+        "requirements": [
+            {
+                "item": "graphite",
+                "amount": 8000
+            },
+            {
+                "item": "silicon",
+                "amount": 5500
+            },
+            {
+                "item": "metaglass",
+                "amount": 5000
+            },
+            {
+                "item": "titanium",
+                "amount": 7000
+            }
+        ]
+    }
+}
