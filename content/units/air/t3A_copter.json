@@ -17,7 +17,7 @@
     "commandLimit": 3,
     "weapons": [
         {
-            "name": "copterMSL",
+            "name": "copterMSL1",
             "rotate": false,
             "mirror": true,
             "maxRange": 180,
