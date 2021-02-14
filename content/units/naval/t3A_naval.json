@@ -1,10 +1,10 @@
 {
     "type": "naval",
-    "health": 600,
-    "maxRange": 60,
+    "health": 500,
     "armor": 3,
     "hitSize": 18,
     "speed": 1.3,
+    "accel": 0.3,
     "rotateSpeed": 2,
     "rotateShooting": false,
     "trailX": 7,
@@ -21,14 +21,13 @@
             "x": 7,
             "y": -6,
             "shootCone": 5,
-            "reload": 25,
-            "xRand": 2,
+            "reload": 30,
             "shootSound": "spark",
             "recoil": 1,
             "bullet": {
                 "type": "MissileBulletType",
-                "damage": 30,
-                "splashDamage": 25,
+                "damage": 35,
+                "splashDamage": 30,
                 "splashDamageRadius": 24,
                 "height": 18,
                 "width": 9,
@@ -37,7 +36,7 @@
                 "pierce": false,
                 "homingPower": 0.5,
                 "homingRange": 80,
-                "weaveScale": 3,
+                "weaveScale": 4,
                 "weaveMag": 1.5,
                 "permanent": true,
                 "status": {
@@ -69,7 +68,7 @@
             }
         },
         {
-            "name": "navalMG",
+            "name": "navalMGs",
             "rotate": true,
             "mirror": true,
             "inaccuracy": 3,
