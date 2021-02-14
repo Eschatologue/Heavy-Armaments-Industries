@@ -1,53 +1,61 @@
 {
     "type": "Reconstructor",
-    "health": 950,
-    "size": 5,
-    "constructTime": 1620,
+    "health": 1900,
+    "size": 7,
+    "constructTime": 2100,
     "upgrades": [
-        ["horizon","t3A_copter"],
-        ["minke","t3A_naval"]
+        ["t3A_copter","t4A_copter"],
+        ["t3A_naval","t4A_naval"]
     ],
     "consumes": {
-        "power": 4,
+        "power": 7,
         "items": {
             "items": [
                 {
                     "item": "silicon",
-                    "amount": 80
+                    "amount": 500
+                },
+                {
+                    "item": "metaglass",
+                    "amount": 350
                 },
                 {
                     "item": "titanium",
-                    "amount": 120
+                    "amount": 650
                 },
                 {
                     "item": "plastanium",
-                    "amount": 40
+                    "amount": 550
                 }
             ]
         },
         "liquid": {
             "liquid": "oil",
-            "amount": 0.5
+            "amount": 1
         }
     },
     "requirements": [
         {
             "item": "lead",
-            "amount": 500
+            "amount": 1500
         },
         {
             "item": "titanium",
-            "amount": 500
+            "amount": 2500
         },
         {
             "item": "thorium",
-            "amount": 550
+            "amount": 650
         },
         {
             "item": "plastanium",
             "amount": 450
+        },
+        {
+            "item": "titanium-carbide",
+            "amount": 800
         }
     ],
     "category": "units",
-    "research": "additive-reconstructor"
+    "research": "multiplicative-petroleum-reconstructor"
 }
