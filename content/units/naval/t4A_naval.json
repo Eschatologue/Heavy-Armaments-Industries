@@ -48,6 +48,7 @@
             "shootCone": 5,
             "reload": 40,
             "shootSound": "shootBig",
+            "inaccuracy": 20,
             "recoil": 1,
             "bullet": {
                 "type": "ArtilleryBulletType",
@@ -160,19 +161,23 @@
         "requirements": [
             {
                 "item": "graphite",
-                "amount": 8000
+                "amount": 12000
             },
             {
                 "item": "silicon",
-                "amount": 5500
+                "amount": 11000
             },
             {
                 "item": "metaglass",
-                "amount": 5000
+                "amount": 10000
             },
             {
                 "item": "titanium",
-                "amount": 7000
+                "amount": 14000
+            },
+            {
+                "item": "thorium",
+                "amount": 10000
             }
         ]
     }
