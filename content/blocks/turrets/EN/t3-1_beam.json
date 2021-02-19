@@ -24,7 +24,7 @@
             "reloadMultiplier": 0,
             "effect": "hitFuse"
         },
-        "damage": 25,
+        "damage": 10,
         "speed": 3,
         "splashDamage": 90,
         "splashDamageRadius": 64,
@@ -33,7 +33,7 @@
         "width": 15,
         "lifetime": 90,
         "lightning": 8,
-        "lightningLength": 15,
+        "lightningLength": 12,
         "frontColor": "E8D174",
         "backColor": "F3E979",
         "hitSound": "spark",
