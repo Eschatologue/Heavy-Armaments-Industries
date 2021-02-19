@@ -56,7 +56,7 @@
             "type": "BasicBulletType",
             "speed": 9,
             "lifetime": 30,
-            "damage": 20,
+            "damage": 45,
             "height": 20,
             "width": 6,
             "hitEffect": "hitBulletBig",
