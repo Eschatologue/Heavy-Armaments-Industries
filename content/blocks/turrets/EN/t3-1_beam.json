@@ -24,7 +24,7 @@
             "reloadMultiplier": 0,
             "effect": "hitFuse"
         },
-        "damage": 10,
+        "damage": 15,
         "speed": 3,
         "splashDamage": 90,
         "splashDamageRadius": 64,

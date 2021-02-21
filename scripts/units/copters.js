@@ -6,12 +6,12 @@ const t3A_copter = extend(UnitType, "t3A_copter", {
 			"heavy-armaments-t3A_copter-rotor",
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0),
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0),
-			Time.time * -14);
+			Time.time * -15);
 		Draw.rect(
 			"heavy-armaments-t3A_copter-rotor-outline",
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0),
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0),
-			Time.time * -14);
+			Time.time * -15);
 	}
 });
 
@@ -23,13 +23,13 @@ const t4A_copter = extend(UnitType, "t4A_copter", {
 			"heavy-armaments-t4A_copter-rotor",
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 5),
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 5),
-			Time.time * -13
+			Time.time * -15
 		);
 		Draw.rect(
 			"heavy-armaments-t4A_copter-rotor-outline",
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 5),
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 5),
-			Time.time * -13);
+			Time.time * -15);
 	}
 });
 
@@ -38,28 +38,28 @@ const t5A_copter = extend(UnitType, "t5A_copter", {
 	draw(unit) {
 		this.super$draw(unit);
 		Draw.rect(
-			"heavy-armaments-t5A_copter-rotor",
-			unit.x + Angles.trnsx(unit.rotation - 90, 5, 0),
-			unit.y + Angles.trnsy(unit.rotation - 90, 5, 0),
-			Time.time * -13
+			"heavy-armaments-t5A_copter-rotor-1-1",
+			unit.x + Angles.trnsx(unit.rotation - 90, 4, 5),
+			unit.y + Angles.trnsy(unit.rotation - 90, 4, 5),
+			Time.time * 18
 		);
 		Draw.rect(
-			"heavy-armaments-t5A_copter-rotor",
-			unit.x + Angles.trnsx(unit.rotation - 90, -5, 0),
-			unit.y + Angles.trnsy(unit.rotation - 90, -5, 0),
-			Time.time * -13
+			"heavy-armaments-t5A_copter-rotor-1-2",
+			unit.x + Angles.trnsx(unit.rotation - 90, 4, 5),
+			unit.y + Angles.trnsy(unit.rotation - 90, 4, 5),
+			Time.time * 18
 		);
 		Draw.rect(
-			"heavy-armaments-t5A_copter-rotor-outline",
-			unit.x + Angles.trnsx(unit.rotation - 90, 5, 0),
-			unit.y + Angles.trnsy(unit.rotation - 90, 5, 0),
-			Time.time * -13
+			"heavy-armaments-t5A_copter-rotor-2-1",
+			unit.x + Angles.trnsx(unit.rotation - 90, -4, 5),
+			unit.y + Angles.trnsy(unit.rotation - 90, -4, 5),
+			Time.time * -18
 		);
 		Draw.rect(
-			"heavy-armaments-t5A_copter-rotor-outline",
-			unit.x + Angles.trnsx(unit.rotation - 90, -5, 0),
-			unit.y + Angles.trnsy(unit.rotation - 90, -5, 0),
-			Time.time * -13
+			"heavy-armaments-t5A_copter-rotor-2-2",
+			unit.x + Angles.trnsx(unit.rotation - 90, -4, 5),
+			unit.y + Angles.trnsy(unit.rotation - 90, -4, 5),
+			Time.time * -18
 		);
 	}
 });

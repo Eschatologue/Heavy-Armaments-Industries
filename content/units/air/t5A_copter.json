@@ -21,7 +21,7 @@
             "rotate": false,
             "mirror": true,
             "inaccuracy": 8,
-            "x": 5,
+            "x": 14,
             "y": 1,
             "shootCone": 90,
             "reload": 35,
@@ -81,7 +81,7 @@
         }
     ],
     "research": {
-        "parent": "t3A_copter",
+        "parent": "t4A_copter",
         "requirements": [
             {
                 "item": "plastanium",
