@@ -131,7 +131,7 @@
             "rotateSpeed": 0.5,
             "mirror": false,
             "x": 0,
-            "y": -4,
+            "y": -8,
             "shootY": 20,
             "shootCone": 0.1,
             "reload": 100,
@@ -180,5 +180,20 @@
                 "amount": 10000
             }
         ]
-    }
+    },
+    "abilities": [
+        {
+            "type": "mindustry.entities.abilities.StatusFieldAbility",
+            "range" : 36,
+            "reload" : 180,
+            "duration" : 50,
+            "effect": {
+                "name": "overclock",
+                "speedMultiplier": 1.3,
+                "damageMultiplier": 1.4,
+                "reloadMultiplier": 1.2,
+                "effect": "overdriven"
+            }
+        }
+    ]
 }
