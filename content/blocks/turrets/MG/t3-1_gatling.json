@@ -4,7 +4,7 @@
     "health": 1500,
     "maxAmmo": 600,
     "ammoPerShot": 5,
-    "reloadTime": 0.25,
+    "reloadTime": 0.35,
     "range": 250,
     "targetAir": false,
     "targetGround": true,
@@ -20,7 +20,7 @@
     "ammoTypes": {
         "surge-alloy": {
             "type": "BasicBulletType",
-            "damage": 25,
+            "damage": 20,
             "speed": 10,
             "lifetime": 30,
             "height": 30,
@@ -39,6 +39,12 @@
             "height": 30,
             "width": 10,
             "speed": 12,
+            "status": {
+                "name": "piercedgl",
+                "armorMultiplier": 0.4,
+                "healthMultiplier": 0.95,
+                "effect": "hitFuse"
+            },
             "lifetime": 30,
             "ammoMultiplier": 8,
             "collidesAir": false,
