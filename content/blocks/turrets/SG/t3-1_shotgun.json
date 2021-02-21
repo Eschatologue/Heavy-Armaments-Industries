@@ -54,11 +54,18 @@
         },
         "titanium-carbide": {
             "type": "BasicBulletType",
-            "speed": 9,
-            "lifetime": 30,
-            "damage": 45,
+            "speed": 10,
+            "damage": 45,            
+            "lifetime": 35,
             "height": 20,
             "width": 6,
+            "status": {
+                "name": "piercedtmp",
+                "armorMultiplier": 0.5,
+                "healthMultiplier": 0.95,
+                "effect": "hitFuse"
+            },
+            "permanent" : true,
             "hitEffect": "hitBulletBig",
             "shootEffect": "producesmoke",
             "pierce": true,
