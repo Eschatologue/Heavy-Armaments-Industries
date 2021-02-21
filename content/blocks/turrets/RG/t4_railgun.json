@@ -19,7 +19,7 @@
     "ammoTypes": {
         "titanium-carbide": {
             "type": "RailBulletType",
-            "damage": 9000,
+            "damage": 10000,
             "length": 6000,
             "width": 25,
             "ammoMultiplier": 3,
@@ -30,9 +30,7 @@
             "hitEffect": "massiveExplosion",
             "shootEffect": "railShoot",
             "smokeEffect": "hitFuse",
-            "pierceDamageFactor": 0.5,
-            "lightning": 15,
-            "lightningLength": 16
+            "pierceDamageFactor": 0.5
         }
     },
     "consumes": {
