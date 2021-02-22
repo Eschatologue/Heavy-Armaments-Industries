@@ -23,7 +23,7 @@
             "maxRange": 180,
             "inaccuracy": 8,
             "x": 5,
-            "y": 0,
+            "y": -2,
             "shootY": -1,
             "shootCone": 90,
             "reload": 30,
