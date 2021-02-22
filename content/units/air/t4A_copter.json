@@ -84,6 +84,7 @@
             "rotate": false,
             "mirror": true,
             "alternate": true,
+            "targetAir": true,
             "x": 12,
             "y": -3,
             "shootCone": 5,
