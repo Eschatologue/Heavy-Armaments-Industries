@@ -14,7 +14,7 @@
     "commandLimit": 4,
     "weapons": [
         {
-            "name": "navalMGs",
+            "name": "blueMGs",
             "rotate": true,
             "mirror": true,
             "inaccuracy": 5,
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "navalART1",
+            "name": "blueART1",
             "rotate": true,
             "rotateSpeed": 3,
             "mirror": true,
@@ -48,7 +48,7 @@
             "shootCone": 5,
             "reload": 40,
             "shootSound": "shootBig",
-            "inaccuracy": 20,
+            "inaccuracy": 5,
             "recoil": 1,
             "bullet": {
                 "type": "ArtilleryBulletType",
@@ -70,7 +70,7 @@
             }
         },
         {
-            "name": "navalMSL2",
+            "name": "blueMSL2",
             "rotate": true,
             "rotateSpeed": 4,
             "mirror": true,
@@ -126,7 +126,7 @@
             }
         },
         {
-            "name": "navalRG1",
+            "name": "blueRG1",
             "rotate": true,
             "rotateSpeed": 0.5,
             "mirror": false,
