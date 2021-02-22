@@ -15,7 +15,7 @@
     "commandLimit": 6,
     "weapons": [
         {
-            "name": "navalMGs",
+            "name": "blueMGs",
             "rotate": true,
             "mirror": true,
             "inaccuracy": 8,
@@ -40,7 +40,7 @@
             }
         },
         {
-            "name": "navalMGm",
+            "name": "blueMGm",
             "rotate": true,
             "mirror": true,
             "inaccuracy": 6,
@@ -64,13 +64,13 @@
             }
         },
         {
-            "name": "navalART2",
+            "name": "blueART2",
             "rotate": true,
             "rotateSpeed": 3,
             "mirror": true,
             "alternate": true,
             "x": 16,
-            "y": 6,
+            "y": 8,
             "shootCone": 5,
             "reload": 30,
             "shots": 3,
@@ -98,7 +98,7 @@
             }
         },
         {
-            "name": "navalMSL3",
+            "name": "blueMSL3",
             "rotate": true,
             "rotateSpeed": 2,
             "mirror": true,
@@ -156,7 +156,7 @@
             }
         },
         {
-            "name": "navalRG2",
+            "name": "blueRG2",
             "rotate": true,
             "rotateSpeed": 0.5,
             "mirror": false,
