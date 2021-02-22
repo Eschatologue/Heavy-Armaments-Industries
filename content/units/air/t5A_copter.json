@@ -17,7 +17,7 @@
     "commandLimit": 3,
     "weapons": [
         {
-            "name": "copterMSL2",
+            "name": "blueMSL2",
             "rotate": false,
             "mirror": true,
             "inaccuracy": 8,
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "copterMGm",
+            "name": "blueMGm",
             "rotate": false,
             "mirror": true,
             "top" : false,
