@@ -14,7 +14,7 @@
     "commandLimit": 4,
     "weapons": [
         {
-            "name": "navalMSL1",
+            "name": "blueMSL1",
             "rotate": true,
             "rotateSpeed": 4,
             "mirror": true,
@@ -68,7 +68,7 @@
             }
         },
         {
-            "name": "navalMGs",
+            "name": "blueMGs",
             "rotate": true,
             "mirror": true,
             "inaccuracy": 3,
