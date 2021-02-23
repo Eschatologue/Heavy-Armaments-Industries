@@ -1,7 +1,7 @@
 [![HAI-Banner-Ex2.png](https://i.postimg.cc/K8Bhqb5x/HAI-Banner-Ex2.png)](https://postimg.cc/nXFWr65P)
 
-[![GitHub](https://img.shields.io/github/license/Eschatologue/Heavy-Armaments-Industries?color=success&label=License&logo=github&style=flat)](https://github.com/Eschatologue/Heavy-Armaments-Industries/blob/master/LICENSE)
-[![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/RCCVQFW)
+[![GitHub](https://img.shields.io/github/license/Eschatologue/Heavy-Armaments-Industries?color=success&label=License&logo=github&style=flat-square)](https://github.com/Eschatologue/Heavy-Armaments-Industries/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/704355237246402721.svg?color=7289da&label=de_server&logo=discord&style=flat-square)](https://discord.gg/RCCVQFW)
 [![Stars](https://img.shields.io/github/stars/Eschatologue/Heavy-Armaments-Industries?label=Star%20this%20Mod%21&style=social)](https://github.com/Eschatologue/Heavy-Armaments-Industries/blob/master)
 
 # Heavy Armaments Industries
