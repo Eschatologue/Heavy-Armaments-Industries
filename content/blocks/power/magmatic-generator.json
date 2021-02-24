@@ -5,6 +5,7 @@
     "hasPower": true,
     "hasLiquids": false,
     "hasItems": false,
+    "placeableLiquid": false,
     "buildCostMultiplier": 0.6,
     "powerProduction": 3,
     "attribute": "heat",

@@ -1,22 +1,19 @@
 {
-    "type": "AttributeSmelter",
-    "health": 120,
-    "size": 2,
+    "type": "GenericCrafter",
+    "health": 240,
+    "size": 3,
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 60,
-    "itemCapacity": 10,
-    "buildCostMultiplier": 0.6,
+    "craftTime": 45,
+    "itemCapacity": 30,
+    "liquidCapacity" : 30,
     "attribute": "oil",
-    "baseEfficiency": 1,
-    "boostScale": 0.25,
-    "maxHeatBoost": 1,
     "updateEffect": "oily",
     "drawLiquidLight": true,
     "outputLiquid": {
         "liquid": "oil",
-        "amount": 4
+        "amount": 1
     },
     "consumes": {
         "power": 1.2,
@@ -24,29 +21,34 @@
             "items": [
                 {
                     "item": "coal",
-                    "amount": 4
+                    "amount": 8
                 }
             ]
         },
         "liquid": {
             "liquid": "water",
-            "amount": 0.4
+            "amount": 1
         }
     },
     "requirements": [
         {
+            "item": "graphite",
+            "amount": 120
+        },
+        {
             "item": "titanium",
-            "amount": 60
+            "amount": 120
         },
         {
             "item": "metaglass",
-            "amount": 65
+            "amount": 150
         },
         {
             "item": "plastanium",
-            "amount": 30
+            "amount": 140
         }
     ],
+    "drawer": "drawMixer",
     "category": "crafting",
-    "research": "multi-press"
+    "research": "oil-extractor"
 }
