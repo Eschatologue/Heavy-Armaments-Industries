@@ -2,13 +2,11 @@
     "type": "GenericSmelter",
     "health": 280,
     "size": 3,
-    "flameColor": "FFC999",
     "hasPower": true,
     "hasLiquids": false,
     "hasItems": true,
     "craftTime": 120,
     "itemCapacity": 60,
-    "buildCostMultiplier": 0.6,
     "updateEffect": "shieldBreak",
     "craftEffect": "plasticExplosion",
     "outputItem": {
@@ -33,23 +31,23 @@
     "requirements": [
         {
             "item": "titanium",
-            "amount": 120
+            "amount": 150
         },
         {
             "item": "thorium",
-            "amount": 80
+            "amount": 100
         },
         {
             "item": "metaglass",
-            "amount": 80
+            "amount": 100
         },
         {
             "item": "silicon",
-            "amount": 90
+            "amount": 100
         },
         {
             "item": "graphite",
-            "amount": 85
+            "amount": 100
         }
     ],
     "category": "crafting",
