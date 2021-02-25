@@ -2,7 +2,7 @@
     "type": "flying",
     "health": 500,
     "accel": 0.06,
-    "drag": 0.03,
+    "drag": 0.01,
     "speed": 2.2,
     "flying": true,
     "lowAltitude": true,
@@ -17,7 +17,7 @@
     "commandLimit": 3,
     "weapons": [
         {
-            "name": "blueMSL1",
+            "name": "blueMSL0",
             "rotate": false,
             "mirror": true,
             "maxRange": 180,
@@ -27,7 +27,7 @@
             "shootY": -1,
             "shootCone": 90,
             "reload": 30,
-            "shots": 1,
+            "shots": 2,
             "shootSound": "missile",
             "ejectEffect": "casing2Double",
             "recoil": 2.5,

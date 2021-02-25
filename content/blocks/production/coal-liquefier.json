@@ -8,7 +8,6 @@
     "craftTime": 45,
     "itemCapacity": 30,
     "liquidCapacity" : 30,
-    "attribute": "oil",
     "updateEffect": "oily",
     "drawLiquidLight": true,
     "outputLiquid": {

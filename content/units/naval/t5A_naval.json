@@ -53,7 +53,7 @@
             "ejectEffect": "casing3",
             "bullet": {
                 "type": "BasicBulletType",
-                "damage": 25,
+                "damage": 20,
                 "height": 35,
                 "width": 10,
                 "speed": 7.5,
