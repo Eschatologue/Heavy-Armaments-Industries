@@ -72,7 +72,7 @@
                 "hitEffect": "explosion",
                 "shootEffect": "shootBig2",
                 "smokeEffect": "hitBulletBig",
-                "weaveScale": 7,
+                "weaveScale": 3,
                 "weaveMag": 3
             }
         },
@@ -98,7 +98,7 @@
                 "splashDamage": 40,
                 "splashDamageRadius": 48,
                 "knockback": 2,
-                "lenght": 450,
+                "length": 300,
                 "width": 20,
                 "fromColor": "8aa3f4",
                 "toColor": "6974c4",
