@@ -23,7 +23,7 @@
             "mirror": true,
             "maxRange": 180,
             "inaccuracy": 8,
-            "x": 5,
+            "x": 3,
             "y": -2,
             "shootY": -1,
             "shootCone": 90,

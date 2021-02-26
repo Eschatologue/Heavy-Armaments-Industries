@@ -21,14 +21,14 @@ const t4A_copter = extend(UnitType, "t4A_copter", {
 		this.super$draw(unit);
 		Draw.rect(
 			"heavy-armaments-t4A_copter-rotor",
-			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0),
-			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0),
+			unit.x + Angles.trnsx(unit.rotation - 90, 0, 2),
+			unit.y + Angles.trnsy(unit.rotation - 90, 0, 2),
 			Time.time * -15
 		);
 		Draw.rect(
 			"heavy-armaments-t4A_copter-rotor-outline",
-			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0),
-			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0),
+			unit.x + Angles.trnsx(unit.rotation - 90, 0, 2),
+			unit.y + Angles.trnsy(unit.rotation - 90, 0, 2),
 			Time.time * -15);
 	}
 });
