@@ -48,7 +48,7 @@
                 "backColor": "e8d174",
                 "trailColor": "989aa4",
                 "trailChance": 0.7,
-                "hitEffect": "explosion",
+                "hitEffect": "generatespark",
                 "shootEffect": "shootBig2",
                 "smokeEffect": "hitBulletBig",
                 "weaveScale": 4,
