@@ -1,39 +1,56 @@
 {
-	"type" : "AttributeSmelter",
-	"health" : 960,
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"craftTime": 90,
-	"itemCapacity": 30,
-	"liquidCapacity" : 250,
-	"buildCostMultiplier" : 0.6,
-	"attribute"	: "oil",
-	"baseEfficiency": 1.0,	
-	"boostScale": 0.15,
-	"maxHeatBoost": 1.0,	
-	"craftEffect": "formsmoke",
-	"updateEffect" : "plasticburn",
-	"outputItem": {"item": "plastanium", "amount": 8},
-	"consumes": {
-		"power": 6.5,
-		"items": {
-			"items": [
-				{ "item": "titanium", "amount": 8},
-				{ "item": "pyratite", "amount": 2}
-			]
-		},
-		"liquid": 
-			{"liquid": "oil", "amount": 1}
-	},
-	"requirements": [
-			{ "item": "silicon", "amount": 90 },
-			{ "item": "titanium", "amount": 150 },
-			{ "item": "plastanium", "amount": 65},
-			{ "item": "metaglass", "amount": 100 }
-	],
-	"category": "crafting",	
-	"research": "plastanium-compressor"
+    "health": 960,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier": 0.6,
+    "craftEffect": "formsmoke",
+    "updateEffect": "plasticburn",
+    "outputItem": {
+        "item": "plastanium",
+        "amount": 8
+    },
+    "consumes": {
+        "power": 6.5,
+        "items": {
+            "items": [
+                {
+                    "item": "titanium",
+                    "amount": 8
+                },
+                {
+                    "item": "pyratite",
+                    "amount": 2
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "oil",
+            "amount": 1
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 90
+        },
+        {
+            "item": "titanium",
+            "amount": 150
+        },
+        {
+            "item": "plastanium",
+            "amount": 65
+        },
+        {
+            "item": "metaglass",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "plastanium-compressor"
 }
-

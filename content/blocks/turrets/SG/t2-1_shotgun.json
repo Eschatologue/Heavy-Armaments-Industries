@@ -1,63 +1,66 @@
 {
-	"type": "ItemTurret",
-	"size": 2,
-	"health": 240,
-	"reloadTime": 24,
-	"range": 200,
-	"maxAmmo": 48,
-	"lifetime": 2,
-	"inaccuracy": 5,
-	"shots" : 8,
-	
-	"targetAir" : false, 
-	"targetGround" : true,
-	"shootCone" : 0.08,
-	"spread" : 1,
-
-	"recoilAmount" : 5,
-	"restitution" : 0.06, 
-	"rotateSpeed": 4,
-
-	"shootSound" : "shotgun",
-
-
-	"xRand" : 1,
-	"ammoPerShot" : 4,
-
-	"ammoTypes": {
-		"lead": {
-			"type" : "BasicBulletType",
-			"speed": 8.0,
-			"damage": 6,
-			"height" : 12,
-			"width" : 4,
-			"hitEffect": "blastExplosion",
-			"shootEffect": "producesmoke",
-			"pierce": false,
-			"smokeEffect": "hitBulletBig"
-		},
-		"blast-compound": {
-			"type": "BasicBulletType",
-			"speed": 7.0,
-			"damage": 9,
-			"lifetime" : 30,
-			"splashDamage" : 8,
-			"bulletHeight" : 12,
-			"hitEffect": "blastExplosion",
-			"shootEffect": "producesmoke",
-			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"splashDamageRadius" : 32,
-			"frontColor": "FEB380",
-			"backColor": "EA8878",
-			"ammoMultiplier": 4
-		}
-	},
-	"requirements": [
-		{ "item": "lead", "amount": 65 },
-		{ "item": "copper", "amount": 50 },
-		{ "item": "graphite", "amount": 40}
-	],
-	"category": "turret",
-	"research": "t1_shotgun"
+    "type": "ItemTurret",
+    "size": 2,
+    "health": 240,
+    "reloadTime": 24,
+    "range": 200,
+    "maxAmmo": 48,
+    "lifetime": 2,
+    "inaccuracy": 5,
+    "shots": 8,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 0.08,
+    "spread": 1,
+    "recoilAmount": 5,
+    "restitution": 0.06,
+    "rotateSpeed": 4,
+    "shootSound": "shotgun",
+    "xRand": 1,
+    "ammoPerShot": 4,
+    "ammoTypes": {
+        "lead": {
+            "type": "BasicBulletType",
+            "speed": 8,
+            "damage": 6,
+            "height": 12,
+            "width": 4,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "producesmoke",
+            "pierce": false,
+            "smokeEffect": "hitBulletBig"
+        },
+        "blast-compound": {
+            "type": "BasicBulletType",
+            "speed": 7,
+            "damage": 9,
+            "lifetime": 30,
+            "splashDamage": 8,
+            "bulletHeight": 12,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "producesmoke",
+            "pierce": false,
+            "smokeEffect": "hitBulletBig",
+            "splashDamageRadius": 32,
+            "frontColor": "FEB380",
+            "backColor": "EA8878",
+            "ammoMultiplier": 4
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 65
+        },
+        {
+            "item": "copper",
+            "amount": 50
+        },
+        {
+            "item": "graphite",
+            "amount": 40
+        }
+    ],
+    "category": "turret",
+    "research": "t1_shotgun"
 }

@@ -3,28 +3,37 @@
     "size": 2,
     "tier": 0,
     "drillTime": 48,
-    "liquidBoostIntensity" : 1,
-    "warmupSpeed" : 0.003,
-    "rotateSpeed" : 8,
-    "consumes" : {
-        "power" : 1.5,
-        "liquid" : {
-            "liquid" : "water",
-            "amount" : 0.5
+    "liquidBoostIntensity": 1,
+    "warmupSpeed": 0.003,
+    "rotateSpeed": 8,
+    "consumes": {
+        "power": 1.5,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.5
         }
     },
-    "drawRim" : true,
-	"hasPower": true,
-	"hasLiquids": true,
+    "drawRim": true,
+    "hasPower": true,
+    "hasLiquids": true,
     "hasItems": true,
     "itemCapacity": 64,
-	"updateEffect": "smeltsmoke",
-	"requirements": [
-        { "item": "lead", "amount": 70 },
-        { "item": "titanium", "amount": 45},
-        { "item": "metaglass", "amount" : 60}
-	],
-	"category": "production",
-	"research": "laser-drill",
-	"idleSound": "respawning"
+    "updateEffect": "smeltsmoke",
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 70
+        },
+        {
+            "item": "titanium",
+            "amount": 45
+        },
+        {
+            "item": "metaglass",
+            "amount": 60
+        }
+    ],
+    "category": "production",
+    "research": "laser-drill",
+    "idleSound": "respawning"
 }

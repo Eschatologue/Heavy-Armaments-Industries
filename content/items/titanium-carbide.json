@@ -1,13 +1,19 @@
 {
-	"type": "material",
-	"cost": 2.5,
-	"color": "7575C8",
-	"research": {
-		"parent" : "titanium",
-		"requirements":[
-			{ "item": "titanium", "amount": 2000 },
-			{ "item": "coal", "amount": 8000 }
-		]
-	},
-	"hardness": 10
+    "type": "material",
+    "cost": 2.5,
+    "color": "7575C8",
+    "research": {
+        "parent": "titanium",
+        "requirements": [
+            {
+                "item": "titanium",
+                "amount": 2000
+            },
+            {
+                "item": "coal",
+                "amount": 8000
+            }
+        ]
+    },
+    "hardness": 10
 }

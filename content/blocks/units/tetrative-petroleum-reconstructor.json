@@ -1,0 +1,69 @@
+{
+    "type": "Reconstructor",
+    "health": 1800,
+    "size": 9,
+    "constructTime": 3600,
+    "upgrades": [
+        ["t4A_copter","t5A_copter"],
+        ["t4A_naval","t5A_naval"]
+    ],
+    "consumes": {
+        "power": 9,
+        "items": {
+            "items": [
+                {
+                    "item": "silicon",
+                    "amount": 600
+                },
+                {
+                    "item": "metaglass",
+                    "amount": 400
+                },
+                {
+                    "item": "titanium",
+                    "amount": 750
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 600
+                },
+                {
+                    "item": "titanium-carbide",
+                    "amount": 500
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "oil",
+            "amount": 1
+        }
+    },
+    "requirements": [
+        {
+            "item": "titanium",
+            "amount": 4000
+        },
+        {
+            "item": "thorium",
+            "amount": 3000
+        },
+        {
+            "item": "silicon",
+            "amount": 1500
+        },
+        {
+            "item": "metaglass",
+            "amount": 1500
+        },
+        {
+            "item": "plastanium",
+            "amount": 600
+        },
+        {
+            "item": "titanium-carbide",
+            "amount": 1200
+        }
+    ],
+    "category": "units",
+    "research": "exponential-petroleum-reconstructor"
+}

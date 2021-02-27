@@ -1,70 +1,84 @@
 {
-	"type": "ItemTurret",
-	"size": 3,
-	"health": 1500,
-
-	"maxAmmo": 600,
-	"ammoPerShot" : 5,
-	"reloadTime": 0.25,
-	"range": 250,
-
-	"targetAir" : false, 
-	"targetGround" : true, 
-
-	"rotateSpeed": 5,
-	"inaccuracy": 8,
-	"shots" : 2,
-	"xRand" : 4,
-
-	"recoilAmount" : 3,
-	"restitution" : 0.08, 
-
-	"shootSound" : "shootBig",
-	"ammoUseEffect" : "casing2",
-
-	"buildCostMultiplier" : 0.2,
-
-	"ammoTypes": {
-		"surge-alloy": {
-			"type" : "BasicBulletType",
-			"damage": 25,
-			"speed": 10.0,
-			"lifetime": 30,
-			"height": 30,
-			"width" : 12,
-			"ammoMultiplier": 16,
-			"lightning" : 3,
-			"lightningLength" : 8,
-			"collidesAir" : false,
-			"hitEffect": "hitYellowLaser",
-			"smokeEffect" : "shootBigSmoke",
-			"shootEffect": "producesmoke"
-			},
-		"titanium-carbide": { 
-			"type" : "BasicBulletType",
-			"damage": 90,
-			"height": 30,
-			"width" : 10,			
-			"speed": 12,
-			"lifetime": 30,
-			"ammoMultiplier": 8,
-			"collidesAir" : false,
-			"pierce": true,	
-			"hitEffect": "hitBulletBig",
-			"smokeEffect" : "shootBigSmoke",
-			"shootEffect": "producesmoke"
-			}	
-	},
-	"consumes" : {
-		"power": 3
-		},
-	"requirements": [
-		{ "item": "titanium", "amount": 700 },
-		{ "item": "plastanium", "amount": 750 },
-		{ "item": "surge-alloy", "amount" : 250},
-		{ "item": "metaglass", "amount" : 550},
-		{ "item": "graphite", "amount": 800 }
-	],
-	"category": "turret",
-	"research": "cyclone"
+    "type": "ItemTurret",
+    "size": 3,
+    "health": 1500,
+    "maxAmmo": 600,
+    "ammoPerShot": 5,
+    "reloadTime": 0.35,
+    "range": 250,
+    "targetAir": false,
+    "targetGround": true,
+    "rotateSpeed": 5,
+    "inaccuracy": 8,
+    "shots": 2,
+    "xRand": 4,
+    "recoilAmount": 3,
+    "restitution": 0.08,
+    "shootSound": "shootBig",
+    "ammoUseEffect": "casing2",
+    "buildCostMultiplier": 0.2,
+    "ammoTypes": {
+        "surge-alloy": {
+            "type": "BasicBulletType",
+            "damage": 20,
+            "speed": 10,
+            "lifetime": 30,
+            "height": 30,
+            "width": 12,
+            "ammoMultiplier": 16,
+            "lightning": 3,
+            "lightningLength": 8,
+            "collidesAir": false,
+            "hitEffect": "hitYellowLaser",
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "titanium-carbide": {
+            "type": "BasicBulletType",
+            "damage": 180,
+            "height": 30,
+            "width": 10,
+            "speed": 12,
+            "status": {
+                "name": "piercedgl",
+                "armorMultiplier": 0.4,
+                "healthMultiplier": 0.95,
+                "effect": "hitFuse"
+            },
+            "lifetime": 30,
+            "ammoMultiplier": 8,
+            "collidesAir": false,
+            "pierce": true,
+            "hitEffect": "hitBulletBig",
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        }
+    },
+    "consumes": {
+        "power": 3
+    },
+    "requirements": [
+        {
+            "item": "titanium",
+            "amount": 700
+        },
+        {
+            "item": "plastanium",
+            "amount": 750
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 250
+        },
+        {
+            "item": "metaglass",
+            "amount": 550
+        },
+        {
+            "item": "graphite",
+            "amount": 800
+        }
+    ],
+    "category": "turret",
+    "research": "cyclone"
 }

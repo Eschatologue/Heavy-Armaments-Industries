@@ -1,0 +1,61 @@
+{
+    "type": "Reconstructor",
+    "health": 1900,
+    "size": 7,
+    "constructTime": 2100,
+    "upgrades": [
+        ["t3A_copter","t4A_copter"],
+        ["t3A_naval","t4A_naval"]
+    ],
+    "consumes": {
+        "power": 7,
+        "items": {
+            "items": [
+                {
+                    "item": "silicon",
+                    "amount": 500
+                },
+                {
+                    "item": "metaglass",
+                    "amount": 350
+                },
+                {
+                    "item": "titanium",
+                    "amount": 650
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 550
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "oil",
+            "amount": 1
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 1500
+        },
+        {
+            "item": "titanium",
+            "amount": 2500
+        },
+        {
+            "item": "thorium",
+            "amount": 650
+        },
+        {
+            "item": "plastanium",
+            "amount": 450
+        },
+        {
+            "item": "titanium-carbide",
+            "amount": 800
+        }
+    ],
+    "category": "units",
+    "research": "multiplicative-petroleum-reconstructor"
+}

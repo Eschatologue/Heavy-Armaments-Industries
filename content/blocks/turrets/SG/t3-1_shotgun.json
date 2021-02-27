@@ -1,114 +1,130 @@
 {
-	"type": "ItemTurret",
-	"size": 3,
-	"health": 1200,
-	"reloadTime": 4,
-	"range": 220,
-	"maxAmmo": 96,
-	"inaccuracy": 5,
-	"shots" : 5,
-
-	"targetAir" : true, 
-	"targetGround" : true,
-	"shootCone" : 1.2,
-	"spread" : 1,
-
-	"recoil" : 2,
-	"restitution" : 0.04, 
-	"rotateSpeed": 4,
-
-	"shootSound" : "HAIshot2",
-	"ammoUseEffect" : "casing4",
-
-	"buildCostMultiplier" : 0.4,
-
-	"xRand" : 3,
-	"ammoPerShot" : 6,
-
-	"ammoTypes": {
-		"graphite": {
-			"type" : "BasicBulletType",
-			"speed": 8.0,
-			"lifetime" : 25,
-			"damage": 15,
-			"height" : 14,
-			"width" : 6,
-			"reloadMultiplier": 0.8,
-			"hitEffect": "mineHuge",
-			"shootEffect": "producesmoke",
-			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"knockback" : 8,
-			"ammoMultiplier": 4
-		},
-		"blast-compound": {
-			"type": "BasicBulletType",
-			"speed": 7.0,
-			"damage": 10,
-			"lifetime" : 30,
-			"splashDamage" : 8,
-			"height" : 14,
-			"width": 6,
-			"hitEffect": "blastExplosion",
-			"shootEffect": "producesmoke",
-			"pierce": false,
-			"smokeEffect": "hitBulletBig",
-			"splashDamageRadius" : 32,
-			"frontColor": "FEB380",
-			"backColor": "EA8878",
-			"ammoMultiplier": 8
-		},
-		"titanium-carbide": {
-			"type": "BasicBulletType",
-			"speed": 9.0,
-			"lifetime" : 30,
-			"damage": 20,
-			"height" : 20,
-			"width": 6,
-			"hitEffect": "hitBulletBig", 
-			"shootEffect": "producesmoke",
-			"pierce": true,
-			"smokeEffect": "generatespark",
-			"ammoMultiplier": 4
-		},
-		"pyratite": {
-			"type" : "BasicBulletType",
-			"status" : "burning",	
-			"statusDuration": 120,	
-			"explodeRange" : 64,				
-			"damage": 10,	
-			"speed": 5,				
-			"splashDamage" : 5,
-			"splashDamageRadius" : 16,							
-			"height" : 20,
-			"width" : 6,
-			"pierce": false,
-			"frontColor": "FEB380",
-			"backColor": "EA8878",
-			"hitEffect": "blastsmoke",
-			"shootEffect": "producesmoke",
-			"fragBullets": 3,
-			"fragBullet": {
-				"type": "LiquidBulletType",
-				"liquid": "slag",
-				"status": "melting",
-				"pierce": true,
-				"lifetime": 10,
-				"speed": 2,
-				"damage" : 2,
-				"puddleSize": 3,
-				"orbSize": 3
-			},
-			"ammoMultiplier": 5
-		}
-	},
-	"requirements": [
-		{ "item": "metaglass", "amount": 265 },
-		{ "item": "silicon", "amount": 250 },
-		{ "item": "surge-alloy", "amount": 80 },
-		{ "item": "graphite", "amount": 240},
-		{ "item": "titanium", "amount": 225}
-	],
-	"category": "turret",
-	"research": "t2-1_shotgun"
+    "type": "ItemTurret",
+    "size": 3,
+    "health": 1200,
+    "reloadTime": 4,
+    "range": 220,
+    "maxAmmo": 96,
+    "inaccuracy": 5,
+    "shots": 5,
+    "targetAir": true,
+    "targetGround": true,
+    "shootCone": 1.2,
+    "spread": 1,
+    "recoil": 2,
+    "restitution": 0.04,
+    "rotateSpeed": 4,
+    "shootSound": "HAIshot2",
+    "ammoUseEffect": "casing4",
+    "buildCostMultiplier": 0.4,
+    "xRand": 3,
+    "ammoPerShot": 6,
+    "ammoTypes": {
+        "graphite": {
+            "type": "BasicBulletType",
+            "speed": 8,
+            "lifetime": 25,
+            "damage": 15,
+            "height": 14,
+            "width": 6,
+            "reloadMultiplier": 0.8,
+            "hitEffect": "mineHuge",
+            "shootEffect": "producesmoke",
+            "pierce": false,
+            "smokeEffect": "hitBulletBig",
+            "knockback": 8,
+            "ammoMultiplier": 4
+        },
+        "blast-compound": {
+            "type": "BasicBulletType",
+            "speed": 7,
+            "damage": 10,
+            "lifetime": 30,
+            "splashDamage": 8,
+            "height": 14,
+            "width": 6,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "producesmoke",
+            "pierce": false,
+            "smokeEffect": "hitBulletBig",
+            "splashDamageRadius": 32,
+            "frontColor": "FEB380",
+            "backColor": "EA8878",
+            "ammoMultiplier": 8
+        },
+        "titanium-carbide": {
+            "type": "BasicBulletType",
+            "speed": 10,
+            "damage": 45,            
+            "lifetime": 35,
+            "height": 20,
+            "width": 6,
+            "status": {
+                "name": "piercedtmp",
+                "armorMultiplier": 0.5,
+                "healthMultiplier": 0.95,
+                "effect": "hitFuse"
+            },
+            "permanent" : true,
+            "hitEffect": "hitBulletBig",
+            "shootEffect": "producesmoke",
+            "pierce": true,
+            "smokeEffect": "generatespark",
+            "ammoMultiplier": 4
+        },
+        "pyratite": {
+            "type": "BasicBulletType",
+            "status": "burning",
+            "statusDuration": 120,
+            "explodeRange": 64,
+            "damage": 10,
+            "speed": 5,
+            "splashDamage": 5,
+            "splashDamageRadius": 16,
+            "height": 20,
+            "width": 6,
+            "pierce": false,
+            "frontColor": "FEB380",
+            "backColor": "EA8878",
+            "hitEffect": "blastsmoke",
+            "shootEffect": "producesmoke",
+            "fragBullets": 3,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "slag",
+                "status": "melting",
+                "pierce": true,
+                "lifetime": 10,
+                "speed": 2,
+                "damage": 2,
+                "puddleSize": 3,
+                "orbSize": 3
+            },
+            "ammoMultiplier": 5
+        }
+    },
+    "requirements": [
+        {
+            "item": "metaglass",
+            "amount": 265
+        },
+        {
+            "item": "silicon",
+            "amount": 250
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 80
+        },
+        {
+            "item": "graphite",
+            "amount": 240
+        },
+        {
+            "item": "titanium",
+            "amount": 225
+        }
+    ],
+    "category": "turret",
+    "research": "t2-1_shotgun"
 }

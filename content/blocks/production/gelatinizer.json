@@ -1,35 +1,47 @@
 {
-	"health" : 140,
-	"size": 2,
-	"flameColor": "C0ECFF",
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"craftTime": 120,
-	"itemCapacity": 10,
-	"liquidCapacity": 20,
-	"maxHeatBoost": 1.0,
-	"updateEffect": "wet",	
-	"craftEffect": "freezing",
-	"outputItem": {"item": "cryogel", "amount": 1},
-	"consumes": {
-		"power": 0.5,
-		"items": {
-			"items": [
-				{ "item": "sand", "amount": 2}
-			]
-		},
-			"liquid": {
-				"liquid": "cryofluid",
-				"amount": 0.2
-			}
-	},
-	"requirements": [
-		{ "item": "thorium", "amount": 20 },
-		{ "item": "lead", "amount": 30 },
-		{ "item": "graphite", "amount": 25}
-	],
-	"category": "crafting",
-	"research": "blast-mixer"
+    "health": 140,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 120,
+    "itemCapacity": 10,
+    "liquidCapacity": 20,
+    "updateEffect": "wet",
+    "craftEffect": "freezing",
+    "outputItem": {
+        "item": "cryogel",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 0.5,
+        "items": {
+            "items": [
+                {
+                    "item": "sand",
+                    "amount": 2
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "cryofluid",
+            "amount": 0.2
+        }
+    },
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 20
+        },
+        {
+            "item": "lead",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 25
+        }
+    ],
+    "category": "crafting",
+    "research": "blast-mixer"
 }
-
