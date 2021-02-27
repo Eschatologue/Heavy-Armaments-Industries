@@ -27,7 +27,7 @@
             "y": -2,
             "shootY": -1,
             "shootCone": 90,
-            "reload": 25,
+            "reload": 10,
             "shots": 2,
             "shootSound": "missile",
             "ejectEffect": "casing2Double",
@@ -53,7 +53,19 @@
                 "shootEffect": "shootBig2",
                 "smokeEffect": "hitBulletBig",
                 "weaveScale": 8,
-                "weaveMag": 3
+                "weaveMag": 3,
+                "fragBullets": 1,
+                "fragCone": 0.0001,
+                "fragBullet": {
+                    "type": "ShrapnelBulletType",
+                    "serrations": 1,
+                    "splashDamageRadius": 16,
+                    "length": 25,
+                    "width": 8,
+                    "fromColor": "FEB380",
+                    "toColor": "EA8878",
+                    "damage": 25
+                }
             }
         },
         {
