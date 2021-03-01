@@ -30,7 +30,7 @@
         },
         "liquid": {
             "liquid": "oil",
-            "amount": 1
+            "amount": 0.3
         }
     },
     "requirements": [
