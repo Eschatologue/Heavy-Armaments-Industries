@@ -9,6 +9,7 @@
     "buildCostMultiplier": 0.6,
     "powerProduction": 3,
     "attribute": "heat",
+    "floating": true,
     "generateEffect": "melting",
     "requirements": [
         {
