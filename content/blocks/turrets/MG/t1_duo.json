@@ -2,12 +2,12 @@
     "type": "ItemTurret",
     "size": 1,
     "health": 280,
-    "reloadTime": 3.5,
+    "reloadTime": 4,
     "xRand": 2,
     "maxAmmo": 100,
     "range": 150,
     "shootSound": "shoot",
-    "inaccuracy": 4,
+    "inaccuracy": 5,
     "rotateSpeed": 10,
     "ammoUseEffect": "casing1",
     "ammoTypes": {
@@ -81,7 +81,7 @@
         },
         {
             "item": "graphite",
-            "amount": 5
+            "amount": 10
         }
     ],
     "category": "turret",
