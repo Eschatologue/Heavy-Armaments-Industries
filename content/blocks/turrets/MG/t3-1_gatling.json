@@ -1,22 +1,21 @@
 {
     "type": "ItemTurret",
     "size": 3,
-    "health": 1500,
-    "maxAmmo": 600,
-    "ammoPerShot": 5,
-    "reloadTime": 0.35,
+    "health": 800,
+    "maxAmmo": 200,
+    "reloadTime": 25,
+    "burstSpacing" : 7.2,
     "range": 250,
     "targetAir": false,
     "targetGround": true,
     "rotateSpeed": 5,
     "inaccuracy": 8,
-    "shots": 2,
+    "shots": 25,
     "xRand": 4,
     "recoilAmount": 3,
     "restitution": 0.08,
     "shootSound": "shootBig",
     "ammoUseEffect": "casing2",
-    "buildCostMultiplier": 0.2,
     "ammoTypes": {
         "surge-alloy": {
             "type": "BasicBulletType",
@@ -41,6 +40,7 @@
             "speed": 12,
             "status": {
                 "name": "piercedgl",
+                "localizedName": "armor piercing",
                 "armorMultiplier": 0.4,
                 "healthMultiplier": 0.95,
                 "effect": "hitFuse"
@@ -60,15 +60,15 @@
     "requirements": [
         {
             "item": "titanium",
-            "amount": 700
+            "amount": 450
         },
         {
             "item": "plastanium",
-            "amount": 750
+            "amount": 500
         },
         {
             "item": "surge-alloy",
-            "amount": 250
+            "amount": 50
         },
         {
             "item": "metaglass",
@@ -76,7 +76,7 @@
         },
         {
             "item": "graphite",
-            "amount": 800
+            "amount": 450
         }
     ],
     "category": "turret",

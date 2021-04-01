@@ -2,7 +2,7 @@
     "type": "ItemTurret",
     "size": 2,
     "health": 240,
-    "reloadTime": 24,
+    "reloadTime": 20,
     "range": 200,
     "maxAmmo": 48,
     "lifetime": 2,

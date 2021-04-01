@@ -6,7 +6,7 @@
     "range": 90,
     "maxAmmo": 12,
     "inaccuracy": 8,
-    "shots": 12,
+    "shots": 8,
     "targetAir": false,
     "targetGround": true,
     "shootCone": 0.09,
@@ -20,10 +20,10 @@
     "ammoTypes": {
         "lead": {
             "type": "BasicBulletType",
-            "trailEffect": "artilleryTrail",
-            "speed": 6,
+            "damage": 8,
+            "speed": 5,
+            "drag" : 0.01,
             "lifetime": 19,
-            "damage": 5,
             "height": 12,
             "width": 7,
             "hitEffect": "blastExplosion",

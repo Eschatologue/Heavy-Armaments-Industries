@@ -1,0 +1,83 @@
+{
+    "type": "ItemTurret",
+    "size": 3,
+    "health": 360,
+    "range": 500,
+    "reloadTime": 280,
+    "inaccuracy": 2,
+    "targetAir": true,
+    "targetGround": true,
+    "shootCone": 45,
+    "spread": 8,
+    "recoilAmount": 5,
+    "shootShake": 4,
+    "restitution": 0.05,
+    "shootSound": "artillery",
+    "hasPower": true,
+    "ammoPerShot": 10,
+    "ammoTypes": {
+        "pyratite": {
+            "type": "FlakBulletType",
+            "explodeRange" : 60,
+            "status": "burning",
+            "collidesGround" : true,
+            "damage": 0,
+            "speed": 4,
+            "lifetime": 120,
+            "splashDamage": 20,
+            "splashDamageRadius": 38,
+            "knockback": 3,
+            "height": 35,
+            "width": 10,
+            "trailChance" : 0.8,
+            "frontColor": "FEB380",
+            "backColor": "EA8878",
+            "hitEffect": "plasticExplosion",
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke2",
+            "fragBullets": 6,
+            "fragBullet": {
+                "type": "FlakBulletType",
+                "explodeRange" : 15,
+                "collidesGround" : true,
+                "collidesAir" : false,
+                "damage": 0,
+                "splashDamage": 200,
+                "splashDamageRadius": 120,
+                "sprite" : "heavy-armaments-HAImine1",
+                "status": "burning",
+                "makeFire" : true,
+                "frontColor": "FEB380",
+                "backColor": "EA8878",
+                "spin": 0.2,
+                "height": 10,
+                "width": 10,
+                "lifetime": 2500,
+                "shrinkX": 0.2,
+                "shrinkY": 0.2,
+                "speed": 3,
+                "drag" : 0.04
+            }
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 200
+        },
+        {
+            "item": "graphite",
+            "amount": 350
+        },
+        {
+            "item": "silicon",
+            "amount": 60
+        },
+        {
+            "item": "titanium",
+            "amount": 30
+        }
+    ],
+    "category": "turret",
+    "research": "ripple"
+}
