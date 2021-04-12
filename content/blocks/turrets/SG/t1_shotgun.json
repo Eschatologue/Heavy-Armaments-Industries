@@ -22,7 +22,7 @@
             "type": "BasicBulletType",
             "damage": 8,
             "speed": 5,
-            "drag" : 0.01,
+            "drag" : 0.05,
             "lifetime": 19,
             "height": 12,
             "width": 7,

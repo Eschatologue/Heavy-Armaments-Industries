@@ -10,7 +10,7 @@
     "targetGround": true,
     "rotateSpeed": 5,
     "inaccuracy": 8,
-    "shots": 25,
+    "shots": 20,
     "xRand": 4,
     "recoilAmount": 3,
     "restitution": 0.08,
@@ -19,7 +19,7 @@
     "ammoTypes": {
         "surge-alloy": {
             "type": "BasicBulletType",
-            "damage": 20,
+            "damage": 5,
             "speed": 10,
             "lifetime": 30,
             "height": 30,
@@ -34,7 +34,7 @@
         },
         "titanium-carbide": {
             "type": "BasicBulletType",
-            "damage": 180,
+            "damage": 70,
             "height": 30,
             "width": 10,
             "speed": 12,
