@@ -1,33 +1,33 @@
 {
     "type": "ItemTurret",
     "size": 1,
-    "health": 280,
+    "health": 325,
     "reloadTime": 6,
-    "xRand": 2,
-    "maxAmmo": 100,
-    "range": 150,
+    "xRand": 3,
+    "maxAmmo": 85,
+    "range": 140,
     "shootSound": "shoot",
     "inaccuracy": 6,
-    "rotateSpeed": 10,
+    "rotateSpeed": 8,
     "ammoUseEffect": "casing1",
     "ammoTypes": {
         "copper": {
             "type": "BasicBulletType",
-            "damage": 12,
+            "damage": 10,
             "height": 12,
             "width": 7,
-            "speed": 5,
-            "lifetime": 50,
-            "ammoMultiplier": 2,
+            "speed": 4,
+            "lifetime": 35,
+            "ammoMultiplier": 3,
             "smokeEffect": "shootSmallSmoke"
         },
         "graphite": {
             "type": "BasicBulletType",
-            "damage": 24,
-            "height": 12,
-            "width": 7,
-            "speed": 5,
-            "lifetime": 50,
+            "damage": 21,
+            "height": 13,
+            "width": 11,
+            "speed": 3.5,
+            "lifetime": 45,
             "ammoMultiplier": 4,
             "reloadMultiplier": 0.6,
             "smokeEffect": "shootSmallSmoke"
@@ -35,37 +35,40 @@
         "pyratite": {
             "type": "BasicBulletType",
             "status": "burning",
+            "statusDuration": 450,
             "damage": 15,
             "height": 12,
             "width": 7,
             "speed": 5,
-            "lifetime": 50,
-            "ammoMultiplier": 2,
+            "lifetime": 35,
+            "ammoMultiplier": 3,
             "frontColor": "FEB380",
             "backColor": "EA8878",
             "smokeEffect": "shootSmallSmoke"
         },
         "silicon": {
             "type": "MissileBulletType",
-            "damage": 15,
+            "damage": 12,
             "height": 12,
             "width": 7,
-            "speed": 5,
+            "speed": 6,
             "homingPower": 0.04,
-            "reloadMultiplier": 1.5,
-            "lifetime": 60,
+            "reloadMultiplier": 1.35,
+            "lifetime": 24.25,
+            "hitSound": "none",
+            "inaccuracy": 2,
             "ammoMultiplier": 5,
             "smokeEffect": "shootSmallSmoke"
         },
         "titanium": {
             "type": "BasicBulletType",
-            "damage": 18,
-            "height": 12,
-            "width": 7,
-            "speed": 5,
-            "lifetime": 60,
+            "damage": 14,
+            "height": 16,
+            "width": 9,
+            "speed": 4,
+            "lifetime": 37.5,
             "pierce": true,
-            "ammoMultiplier": 2,
+            "ammoMultiplier": 3,
             "reloadMultiplier": 1.2,
             "smokeEffect": "shootSmallSmoke"
         }
@@ -73,15 +76,15 @@
     "requirements": [
         {
             "item": "copper",
-            "amount": 35
+            "amount": 45
         },
         {
             "item": "lead",
-            "amount": 15
+            "amount": 25
         },
         {
             "item": "graphite",
-            "amount": 10
+            "amount": 25
         }
     ],
     "category": "turret",

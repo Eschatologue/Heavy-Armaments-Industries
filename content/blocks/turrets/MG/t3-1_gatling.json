@@ -3,14 +3,14 @@
     "size": 3,
     "health": 800,
     "maxAmmo": 200,
-    "reloadTime": 25,
-    "burstSpacing" : 7.2,
-    "range": 250,
+    "reloadTime": 45,
+    "burstSpacing" : 10.2,
+    "range": 235,
     "targetAir": false,
     "targetGround": true,
-    "rotateSpeed": 5,
-    "inaccuracy": 8,
-    "shots": 20,
+    "rotateSpeed": 6,
+    "inaccuracy": 10,
+    "shots": 16,
     "xRand": 4,
     "recoilAmount": 3,
     "restitution": 0.08,
@@ -19,13 +19,13 @@
     "ammoTypes": {
         "surge-alloy": {
             "type": "BasicBulletType",
-            "damage": 5,
+            "damage": 7,
             "speed": 10,
-            "lifetime": 30,
+            "lifetime": 23.5,
             "height": 30,
             "width": 12,
             "ammoMultiplier": 16,
-            "lightning": 3,
+            "lightning": 2,
             "lightningLength": 8,
             "collidesAir": false,
             "hitEffect": "hitYellowLaser",
@@ -34,18 +34,17 @@
         },
         "titanium-carbide": {
             "type": "BasicBulletType",
-            "damage": 70,
+            "damage": 65,
             "height": 30,
             "width": 10,
+            "lifetime": 23,
             "speed": 12,
             "status": {
                 "name": "piercedgl",
-                "localizedName": "armor piercing",
-                "armorMultiplier": 0.4,
+                "localizedName": "Armor piercing",
                 "healthMultiplier": 0.95,
                 "effect": "hitFuse"
             },
-            "lifetime": 30,
             "ammoMultiplier": 8,
             "collidesAir": false,
             "pierce": true,
@@ -55,7 +54,7 @@
         }
     },
     "consumes": {
-        "power": 3
+        "power": 3.2
     },
     "requirements": [
         {
@@ -64,7 +63,7 @@
         },
         {
             "item": "plastanium",
-            "amount": 500
+            "amount": 450
         },
         {
             "item": "surge-alloy",

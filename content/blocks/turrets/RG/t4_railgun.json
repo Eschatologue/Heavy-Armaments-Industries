@@ -10,7 +10,6 @@
     "targetGround": true,
     "recoilAmount": 7,
     "shootShake": 18,
-    "hitShake": 10,
     "inaccuracy": 0,
     "restitution": 0.01,
     "rotateSpeed": 2,
@@ -20,8 +19,7 @@
         "titanium-carbide": {
             "type": "RailBulletType",
             "damage": 10000,
-            "length": 6000,
-            "width": 25,
+            "length": 820,
             "ammoMultiplier": 3,
             "pierce": true,
             "collidesTiles": true,

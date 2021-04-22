@@ -1,11 +1,10 @@
 {
     "type": "ItemTurret",
     "size": 2,
-    "health": 240,
-    "reloadTime": 20,
-    "range": 200,
+    "health": 340,
+    "reloadTime": 35,
+    "range": 120,
     "maxAmmo": 48,
-    "lifetime": 2,
     "inaccuracy": 5,
     "shots": 8,
     "targetAir": false,
@@ -22,26 +21,29 @@
         "lead": {
             "type": "BasicBulletType",
             "speed": 8,
-            "damage": 6,
-            "height": 12,
-            "width": 4,
+            "damage": 9,
+            "lifetime": 15,
+            "height": 13,
+            "width": 3,
             "hitEffect": "blastExplosion",
             "shootEffect": "producesmoke",
-            "pierce": false,
+            "pierce": true,
+            "pierceCap": 2,
             "smokeEffect": "hitBulletBig"
         },
         "blast-compound": {
             "type": "BasicBulletType",
-            "speed": 7,
-            "damage": 9,
-            "lifetime": 30,
-            "splashDamage": 8,
-            "bulletHeight": 12,
+            "speed": 6.5,
+            "damage": 3,
+            "knockback": 0.2,
+            "lifetime": 18.5,
+            "splashDamage": 15,
+            "height": 12,
             "hitEffect": "blastExplosion",
             "shootEffect": "producesmoke",
             "pierce": false,
             "smokeEffect": "hitBulletBig",
-            "splashDamageRadius": 32,
+            "splashDamageRadius": 34,
             "frontColor": "FEB380",
             "backColor": "EA8878",
             "ammoMultiplier": 4
@@ -58,7 +60,7 @@
         },
         {
             "item": "graphite",
-            "amount": 40
+            "amount": 50
         }
     ],
     "category": "turret",

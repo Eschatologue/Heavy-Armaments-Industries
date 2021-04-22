@@ -2,12 +2,12 @@
     "type": "MendProjector",
     "health": 250,
     "size": 2,
-    "range": 150,
+    "range": 165,
     "reload": 18,
     "phaseBoost": 2,
-    "color": "#17C50B",
+    "baseColor": "#17C50B",
     "buildCostMultiplier": 0.8,
-    "healPercent": 0.8,
+    "healPercent": 0.6,
     "consumes": {
         "power": 2,
         "items": {
@@ -23,7 +23,7 @@
     "requirements": [
         {
             "item": "lead",
-            "amount": 200
+            "amount": 175
         },
         {
             "item": "silicon",
