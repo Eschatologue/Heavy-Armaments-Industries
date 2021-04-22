@@ -100,12 +100,16 @@
     },
     "requirements": [
         {
+            "item": "lead",
+            "amount": 65
+        }
+        {
             "item": "graphite",
-            "amount": 35
+            "amount": 40
         },
         {
-            "item": "lead",
-            "amount": 15
+            "item": "titanium",
+            "amount": 25
         }
     ],
     "category": "turret",
