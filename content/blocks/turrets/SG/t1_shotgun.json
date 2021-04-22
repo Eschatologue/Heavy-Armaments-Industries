@@ -2,28 +2,28 @@
     "type": "ItemTurret",
     "size": 1,
     "health": 140,
-    "reloadTime": 50,
-    "range": 90,
+    "reloadTime": 75,
+    "recoilAmount": 3,
+    "range": 80,
     "maxAmmo": 12,
-    "inaccuracy": 8,
-    "shots": 12,
+    "inaccuracy": 9,
+    "shots": 5,
     "targetAir": false,
     "targetGround": true,
     "shootCone": 0.09,
-    "spread": 1,
-    "recoil": 3,
+    "spread": 2,
     "restitution": 0.5,
     "rotateSpeed": 5,
     "shootSound": "shotgun",
-    "xRand": 1,
+    "xRand": 2,
     "ammoPerShot": 4,
     "ammoTypes": {
         "lead": {
             "type": "BasicBulletType",
-            "trailEffect": "artilleryTrail",
-            "speed": 6,
-            "lifetime": 19,
-            "damage": 5,
+            "damage": 6,
+            "speed": 5,
+            "drag" : 0.05,
+            "lifetime": 27,
             "height": 12,
             "width": 7,
             "hitEffect": "blastExplosion",
@@ -35,11 +35,11 @@
     "requirements": [
         {
             "item": "lead",
-            "amount": 45
+            "amount": 55
         },
         {
             "item": "copper",
-            "amount": 20
+            "amount": 25
         }
     ],
     "category": "turret",

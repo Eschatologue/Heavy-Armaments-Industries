@@ -2,23 +2,22 @@
     "type": "ItemTurret",
     "size": 3,
     "health": 1200,
-    "reloadTime": 4,
+    "reloadTime": 4.5,
     "range": 220,
     "maxAmmo": 96,
     "inaccuracy": 5,
-    "shots": 5,
+    "shots": 4,
     "targetAir": true,
     "targetGround": true,
     "shootCone": 1.2,
     "spread": 1,
-    "recoil": 2,
     "restitution": 0.04,
     "rotateSpeed": 4,
     "shootSound": "HAIshot2",
     "ammoUseEffect": "casing4",
     "buildCostMultiplier": 0.4,
     "xRand": 3,
-    "ammoPerShot": 6,
+    "ammoPerShot": 4,
     "ammoTypes": {
         "graphite": {
             "type": "BasicBulletType",
@@ -32,7 +31,7 @@
             "shootEffect": "producesmoke",
             "pierce": false,
             "smokeEffect": "hitBulletBig",
-            "knockback": 8,
+            "knockback": 1,
             "ammoMultiplier": 4
         },
         "blast-compound": {
@@ -47,6 +46,7 @@
             "shootEffect": "producesmoke",
             "pierce": false,
             "smokeEffect": "hitBulletBig",
+            "knockback": 2,
             "splashDamageRadius": 32,
             "frontColor": "FEB380",
             "backColor": "EA8878",
@@ -56,16 +56,15 @@
             "type": "BasicBulletType",
             "speed": 10,
             "damage": 45,            
-            "lifetime": 35,
+            "lifetime": 32.5,
             "height": 20,
             "width": 6,
             "status": {
                 "name": "piercedtmp",
-                "armorMultiplier": 0.5,
                 "healthMultiplier": 0.95,
-                "effect": "hitFuse"
+                "effect": "hitFuse",
+                "permanent" : true,
             },
-            "permanent" : true,
             "hitEffect": "hitBulletBig",
             "shootEffect": "producesmoke",
             "pierce": true,
@@ -76,7 +75,6 @@
             "type": "BasicBulletType",
             "status": "burning",
             "statusDuration": 120,
-            "explodeRange": 64,
             "damage": 10,
             "speed": 5,
             "splashDamage": 5,
@@ -100,21 +98,21 @@
                 "puddleSize": 3,
                 "orbSize": 3
             },
-            "ammoMultiplier": 5
+            "ammoMultiplier": 8
         }
     },
     "requirements": [
         {
             "item": "metaglass",
-            "amount": 265
+            "amount": 225
         },
         {
             "item": "silicon",
-            "amount": 250
+            "amount": 225
         },
         {
             "item": "surge-alloy",
-            "amount": 80
+            "amount": 60
         },
         {
             "item": "graphite",

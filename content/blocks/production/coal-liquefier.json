@@ -5,14 +5,14 @@
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 60,
+    "craftTime": 50,
     "itemCapacity": 30,
     "liquidCapacity" : 120,
     "updateEffect": "oily",
     "drawLiquidLight": true,
     "outputLiquid": {
         "liquid": "oil",
-        "amount": 30
+        "amount": 35
     },
     "consumes": {
         "power": 1.2,
@@ -26,7 +26,7 @@
         },
         "liquid": {
             "liquid": "water",
-            "amount": 0.8
+            "amount": 0.85
         }
     },
     "requirements": [
@@ -36,7 +36,7 @@
         },
         {
             "item": "titanium",
-            "amount": 120
+            "amount": 135
         },
         {
             "item": "metaglass",
@@ -44,7 +44,7 @@
         },
         {
             "item": "plastanium",
-            "amount": 140
+            "amount": 85
         }
     ],
     "drawer": "drawMixer",

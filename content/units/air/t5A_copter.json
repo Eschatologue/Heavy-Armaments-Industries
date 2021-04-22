@@ -92,7 +92,7 @@
             "reload": 4.5,
             "shootSound": "boom",
             "ejectEffect": "casing3",
-            "shootShake": 2,
+            "shake": 2,
             "bullet": {
                 "type": "BasicBulletType",
                 "damage": 25,
@@ -110,8 +110,6 @@
             "rotate": true,
             "mirror": true,
             "alternate": true,
-            "targetAir": true,
-            "collidesAir": true,
             "x": 13,
             "y": 1,
             "shootCone": 5,
@@ -123,6 +121,7 @@
             "recoil": 1,
             "bullet": {
                 "type": "ShrapnelBulletType",
+                "collidesAir": true,
                 "damage": 240,
                 "splashDamage": 40,
                 "splashDamageRadius": 48,

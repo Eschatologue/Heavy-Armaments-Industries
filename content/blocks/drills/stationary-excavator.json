@@ -2,12 +2,12 @@
     "type": "Drill",
     "size": 2,
     "tier": 0,
-    "drillTime": 48,
+    "drillTime": 44,
     "liquidBoostIntensity": 1,
     "warmupSpeed": 0.003,
-    "rotateSpeed": 8,
+    "rotateSpeed": 9,
     "consumes": {
-        "power": 1.5,
+        "power": 1.20,
         "liquid": {
             "liquid": "water",
             "amount": 0.5
@@ -34,6 +34,5 @@
         }
     ],
     "category": "production",
-    "research": "laser-drill",
-    "idleSound": "respawning"
+    "research": "laser-drill"
 }

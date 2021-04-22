@@ -4,7 +4,7 @@
     "size": 1,
     "range": 48,
     "reload": 66,
-    "speedBoost": 1.25,
+    "speedBoost": 1.225,
     "buildCostMultiplier": 0.8,
     "phaseRangeBoost": 60,
     "speedBoostPhase": 0.5,
@@ -27,11 +27,11 @@
         },
         {
             "item": "silicon",
-            "amount": 25
+            "amount": 20
         },
         {
             "item": "titanium",
-            "amount": 50
+            "amount": 35
         }
     ],
     "category": "effect",

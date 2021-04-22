@@ -20,6 +20,8 @@
         "type": "BasicBulletType",
         "speed": 6,
         "lifetime": 40,
+        "homingPower": 0.05,
+        "status": "shocked",
         "damage": 12,
         "height": 20,
         "width": 8,

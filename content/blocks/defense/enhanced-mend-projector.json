@@ -1,13 +1,13 @@
 {
     "type": "MendProjector",
-    "health": 1000,
+    "health": 600,
     "size": 3,
     "itemCapacity": 50,
     "range": 150,
-    "reload": 100,
-    "color": "#17C50B",
+    "reload": 120,
+    "baseColor": "#17C50B",
     "buildCostMultiplier": 0.5,
-    "healPercent": 75,
+    "healPercent": 55,
     "consumes": {
         "power": 20,
         "items": {
@@ -19,6 +19,7 @@
             ]
         }
     },
+    //requiremenst'; {"}";,' no idea how to balance this one anyrmeo, but I tried
     "requirements": [
         {
             "item": "phase-fabric",
@@ -34,7 +35,7 @@
         },
         {
             "item": "titanium",
-            "amount": 1500
+            "amount": 1350
         }
     ],
     "category": "effect",
