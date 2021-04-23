@@ -1,4 +1,4 @@
-[![HAI-Banner-Ex2.png](https://i.postimg.cc/K8Bhqb5x/HAI-Banner-Ex2.png)](https://postimg.cc/nXFWr65P)
+[![HAI-Banner-Ex2.png](https://i.postimg.cc/zvVSMChX/HAI-Banner-Ex2.png)](https://postimg.cc/CnpqnfJW)
 
 [![GitHub](https://img.shields.io/github/license/Eschatologue/Heavy-Armaments-Industries?color=success&label=License&logo=github&style=flat-square)](https://github.com/Eschatologue/Heavy-Armaments-Industries/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/704355237246402721.svg?color=7289da&label=de_server&logo=discord&style=flat-square)](https://discord.gg/RCCVQFW)
