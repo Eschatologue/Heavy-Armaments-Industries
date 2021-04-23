@@ -1,4 +1,4 @@
-[![HAI-Banner-Ex2.png](https://i.postimg.cc/K8Bhqb5x/HAI-Banner-Ex2.png)](https://postimg.cc/nXFWr65P)
+[![HAI-Banner-Ex2.png](https://i.postimg.cc/nc9655q7/HAI-Banner-Ex2.png)](https://postimg.cc/TpG75t7Y)
 
 [![GitHub](https://img.shields.io/github/license/Eschatologue/Heavy-Armaments-Industries?color=success&label=License&logo=github&style=flat-square)](https://github.com/Eschatologue/Heavy-Armaments-Industries/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/704355237246402721.svg?color=7289da&label=de_server&logo=discord&style=flat-square)](https://discord.gg/RCCVQFW)
@@ -15,8 +15,6 @@ Merged from Heavy Armaments and Heavy Industries forming a mod that expands vani
 ## Download :
 [![Download](https://img.shields.io/github/v/release/Eschatologue/Heavy-Armaments-Industries?color=blue&include_prereleases&label=Latest%20version&logo=github&logoColor=white&style=for-the-badge)](https://github.com/Eschatologue/Heavy-Armaments-Industries/releases)
 [![Steam Workshop favourites](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2089324405%2Fsubscriptions-text&style=for-the-badge)](https://steamcommunity.com/sharedfiles/filedetails/?id=2089324405)
-
-You can play upcoming content at the [`testing`](https://github.com/Eschatologue/Heavy-Armaments-Industries/tree/testing) branch, although keep in mind that some stuff may or may not work
 
 ---
 
