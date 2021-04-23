@@ -16,8 +16,6 @@ Merged from Heavy Armaments and Heavy Industries forming a mod that expands vani
 [![Download](https://img.shields.io/github/v/release/Eschatologue/Heavy-Armaments-Industries?color=blue&include_prereleases&label=Latest%20version&logo=github&logoColor=white&style=for-the-badge)](https://github.com/Eschatologue/Heavy-Armaments-Industries/releases)
 [![Steam Workshop favourites](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2089324405%2Fsubscriptions-text&style=for-the-badge)](https://steamcommunity.com/sharedfiles/filedetails/?id=2089324405)
 
-You can play upcoming content at the [`testing`](https://github.com/Eschatologue/Heavy-Armaments-Industries/tree/testing) branch, although keep in mind that some stuff may or may not work
-
 ---
 
 ## Troubleshooting & Issues
