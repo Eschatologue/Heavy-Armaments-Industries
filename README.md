@@ -33,6 +33,9 @@ Merged from Heavy Armaments and Heavy Industries forming a mod that expands vani
 - **Aseprite** : Making Sprites
 
 ---
+## Translator
+-  [Prosta4okua](https://github.com/Prosta4okua) [Prosta4ok_ua #6336]
+---
 For any further questions, you contact me at Discord (Geschiedenis #4783)
 
 Thank you very much for playing this mod.
