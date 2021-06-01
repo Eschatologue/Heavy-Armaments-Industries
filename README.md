@@ -34,8 +34,8 @@ Merged from Heavy Armaments and Heavy Industries forming a mod that expands vani
 
 ---
 ## Translator
--  [Prosta4okua](https://github.com/Prosta4okua) [Prosta4ok_ua #6336]
--  [NickName73](https://github.com/NickName73)
+-  [UA] [Prosta4okua](https://github.com/Prosta4okua) [Prosta4ok_ua #6336]
+-  [RU] [NickName73](https://github.com/NickName73)
 ---
 For any further questions, you contact me at Discord (Geschiedenis #4783)
 
