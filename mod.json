@@ -4,5 +4,6 @@
   "author": "[#386dff[]]Eschatologue[[]]",
   "description": "This mod is now discontinued. All future content and adjustments will be pushed to Eschatologue/Unlimited-Armament-Works",
   "minGameVersion": "125.1",
+  "hideBrowser": true,
   "version": "2.6"
 }
